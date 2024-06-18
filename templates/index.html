@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horaires UQAM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* Light grey background */
+        }
+        .top-bar {
+            background-color: #007bff; /* Bootstrap primary blue */
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            margin-top: 10px;
+        }
+        .calendar {
+            flex: 3; /* Larger flex value for a wider calendar section */
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .form-section {
+            flex: 1; /* Smaller flex value for a narrower form section */
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-left: 20px; /* Space between the calendar and form */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dee2e6; /* Light grey border */
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #e9ecef; /* Light grey header */
+        }
+        .class-info {
+            cursor: help; /* Changes the cursor to indicate that these can be interacted with */
+            background-color: #eef; /* Light blue background to distinguish these cells */
+        }
+        .sigle-container span.badge {
+            margin-right: 5px;
+            display: inline-block;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <strong>ZicoCorp: Horaires UQAM 1.0</strong>
+    </div>
+    <div class="container">
+        <div class="calendar">
+            <h2>Calendrier</h2>
+            <div class="nav-buttons mb-3">
+                <button id="prevSchedule" class="btn btn-secondary">&larr; Précedent</button>
+                <span id="scheduleIndex">1/1</span>
+                <button id="nextSchedule" class="btn btn-secondary">Suivant &rarr;</button>
+            </div>
+            <table id="calendarTable" class="table">
+                <thead>
+                    <tr>
+                        <th>Heure</th>
+                        <th>Lundi</th>
+                        <th>Mardi</th>
+                        <th>Mercredi</th>
+                        <th>Jeudi</th>
+                        <th>Vendredi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Calendar rows will be inserted dynamically -->
+                </tbody>
+            </table>
+        </div>
+        <div class="form-section">
+            <h2>Cours</h2>
+            <form id="scheduleForm" action="/schedule" method="post">
+                <div class="mb-3">
+                    <label for="sigles" class="form-label">Sigles (séparés par virgule):</label>
+                    <input type="text" id="sigles" name="sigles" class="form-control" placeholder="INF1120,AOT1110">
+                </div>
+                <div class="mb-3 d-none">
+                    <label for="min_length" class="form-label">Nombre de cours minimum sur l'horaire:</label>
+                    <input type="number" id="min_length" name="min_length" class="form-control" min=0>
+                </div>
+                <fieldset class="mb-3">
+                    <legend>Session:</legend>
+                    <div class="form-check">
+                        <input type="radio" id="winter2024" name="season" value="winter2024" class="form-check-input">
+                        <label for="winter2024" class="form-check-label">Hiver 2024</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" id="summer" name="season" value="summer" class="form-check-input">
+                        <label for="summer" class="form-check-label">Été 2024</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" id="fall" name="season" value="fall" class="form-check-input" checked>
+                        <label for="fall" class="form-check-label">Autonme 2024</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" id="winter" name="season" value="winter" class="form-check-input">
+                        <label for="winter" class="form-check-label">Hiver 2025</label>
+                    </div>
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Génerer</button>
+            </form>
+            <div class="sigle-container mt-3"></div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const calendarTableBody = document.querySelector('#calendarTable tbody');
+    const rows = 28; // 28 half-hour increments from 8:00 AM to 10:00 PM
+    const columns = 6;
+
+    let currentHour = 8; // Start at 8:00 AM
+    for (let i = 0; i < rows; i++) {
+        const row = document.createElement('tr');
+        for (let j = 0; j < columns; j++) {
+            const cell = document.createElement('td');
+            if (j === 0) { // First column: Time column
+                let time = `${currentHour}:${i % 2 === 0 ? '00' : '30'}`;
+                cell.textContent = time;
+                if (i % 2 === 1) { // Increment the hour every two iterations (every full hour)
+                    currentHour++;
+                }
+            }
+            row.appendChild(cell);
+        }
+        calendarTableBody.appendChild(row);
+    }
+});
+
+document.getElementById('scheduleForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    fetch('/schedule', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data && data.schedules) {
+            window.schedules = data.schedules;
+            window.currentScheduleIndex = 0;
+            updateScheduleDisplay(); // New function to update the display
+            fetchAndDisplaySchedule(window.currentScheduleIndex);
+        } else {
+            console.error('No schedules returned:', data);
+        }
+    })
+    .catch(error => {
+        console.error('Error fetching schedules:', error);
+    });
+});
+
+document.getElementById('prevSchedule').addEventListener('click', function() {
+    if (window.currentScheduleIndex > 0) {
+        window.currentScheduleIndex--;
+        updateScheduleDisplay(); // Update the display on click
+        fetchAndDisplaySchedule(window.currentScheduleIndex);
+    }
+});
+
+document.getElementById('nextSchedule').addEventListener('click', function() {
+    if (window.currentScheduleIndex < window.schedules.length - 1) {
+        window.currentScheduleIndex++;
+        updateScheduleDisplay(); // Update the display on click
+        fetchAndDisplaySchedule(window.currentScheduleIndex);
+    }
+});
+
+// Function to update the schedule display text
+function updateScheduleDisplay() {
+    document.getElementById('scheduleIndex').textContent = `${window.currentScheduleIndex + 1}/${window.schedules.length}`;
+}
+
+function fetchAndDisplaySchedule(index) {
+    document.querySelector('#calendarTable tbody').innerHTML = '';
+    const schedule = window.schedules[index];
+    Promise.all(schedule.map(className => fetch(`/class_details?class_name=${className}`)
+        .then(res => res.json())
+        .then(res => res.class_details)))  // Ensure each fetch transforms the response to JSON and extracts class details
+    .then(classDetailsArray => {
+        displaySchedule(classDetailsArray.flat());
+    })
+    .catch(error => {
+        console.error('Error fetching class details:', error);
+    });
+}
+
+function displaySchedule(classes) {
+    const calendarTableBody = document.querySelector('#calendarTable tbody');
+    calendarTableBody.innerHTML = '';
+
+    // Create time slots from 8:00 to 22:00, in half-hour increments
+    const startHour = 8;
+    const endHour = 22;
+    let rowCounter = 0; // To track rows for half-hour increments
+    for (let hour = startHour; hour < endHour; hour++) {
+        for (let half = 0; half < 2; half++) { // Two iterations per hour: 0 for the hour, 1 for the half hour
+            const row = document.createElement('tr');
+            for (let day = 0; day < 6; day++) {
+                const cell = document.createElement('td');
+                if (day === 0) { // First column for the time label
+                    const minutes = half === 0 ? "00" : "30";
+                    cell.textContent = `${hour}:${minutes}`;// - ${half === 0 ? hour : hour + 1}:${half === 0 ? "30" : "00"}`;
+                }
+                row.appendChild(cell);
+            }
+            calendarTableBody.appendChild(row);
+        }
+        rowCounter++;
+    }
+
+    // Fill in class details and add tooltips
+    classes.forEach(classDetail => {
+        const dayIndex = {
+            'Lundi': 1,
+            'Mardi': 2,
+            'Mercredi': 3,
+            'Jeudi': 4,
+            'Vendredi': 5
+        }[classDetail.day];
+
+        const className = classDetail.name.split('-')[0];
+        const startTime = parseInt(classDetail.start_time.split('h')[0]);
+        const endTime = parseInt(classDetail.end_time.split('h')[0]);
+        const startMinute = parseInt(classDetail.start_time.split('h')[1] || "00");
+        const endMinute = parseInt(classDetail.end_time.split('h')[1] || "00");
+
+        // Determine the start and end rows based on time
+        let startRow = (startTime - startHour) * 2;
+        if (startMinute >= 30) startRow++;
+        let endRow = (endTime - startHour) * 2;
+        if (endMinute > 0) endRow++;
+
+        for (let row = startRow; row < endRow; row++) {
+            if (calendarTableBody.children[row]) {
+                const cell = calendarTableBody.children[row].children[dayIndex];
+                cell.textContent = `${className} - Groupe ${classDetail.group}`;
+                cell.title = `Cours: ${className}\nEnseignant: ${classDetail.teacher}\nJour: ${classDetail.day}\nHeure: ${classDetail.start_time} - ${classDetail.end_time}\nGroupe: ${classDetail.group}\nLocal: ${classDetail.location}\nType: ${classDetail.type}\nDates: ${classDetail.dates}`;
+                cell.classList.add('class-info');
+            }
+        }
+    });
+}
+
+    </script>
+// <script>
+// document.addEventListener('DOMContentLoaded', function() {
+//     const sigleInput = document.getElementById('sigles');
+//     const sigleContainer = document.querySelector('.sigle-container');
+//     const form = document.getElementById('scheduleForm');
+
+//     form.addEventListener('submit', function(event) {
+//         event.preventDefault(); // Prevent the normal form submission
+//         const sigles = sigleInput.value.split(',').map(s => s.trim()).filter(s => s);
+//         sigleContainer.innerHTML = ''; // Clear previous sigles
+//         sigles.forEach(sigle => createSigleBubble(sigle)); // Create a bubble for each sigle
+//         sigleInput.value = ''; // Clear input after submission
+//         submitForm(sigles); // Send the sigles to the server
+//     });
+
+//     function createSigleBubble(sigle) {
+//         const bubble = document.createElement('span');
+//         bubble.id = `sigle-${sigle}`;
+//         bubble.textContent = sigle;
+//         bubble.className = 'badge bg-secondary';
+//         const closeBtn = document.createElement('button');
+//         closeBtn.textContent = 'X';
+//         closeBtn.className = 'btn-close';
+//         closeBtn.onclick = function() {
+//             bubble.remove(); // Remove the bubble
+//             resubmitForm(); // Resubmit form with remaining sigles
+//         };
+//         bubble.appendChild(closeBtn);
+//         sigleContainer.appendChild(bubble);
+//     }
+
+//     function resubmitForm() {
+//         const remainingSigles = Array.from(sigleContainer.children).map(bubble => bubble.textContent.replace('X', '').trim());
+//         sigleInput.value = remainingSigles.join(','); // Set the input to remaining sigles
+//         submitForm(remainingSigles); // Submit these to the server
+//     }
+
+//     function submitForm(sigles) {
+//         const formData = new FormData();
+//         formData.append('sigles', sigles.join(',')); // Send the current sigles as a single string
+//         fetch('/schedule', { // Adjust this URL to your actual form handler endpoint
+//             method: 'POST',
+//             body: formData
+//         })
+//         .then(response => response.json())
+//         .then(data => {
+//             // Handle the response here, maybe update the UI based on returned data
+//         })
+//         .catch(error => console.error('Error submitting form:', error));
+//     }
+// });
+// </script>
+
+
+</body>
+</html>
