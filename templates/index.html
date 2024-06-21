@@ -183,7 +183,7 @@
     <div class="blur-mask" id="blurMask">
         <div class="spinner"></div>
     </div>
-    <script>
+<script>
   document.addEventListener('DOMContentLoaded', function() {
     const calendarTableBody = document.querySelector('#calendarTable tbody');
     const blurMask = document.getElementById('blurMask');
@@ -277,6 +277,7 @@
             removeButton.textContent = 'X';
             removeButton.className = 'remove-btn';
             removeButton.onclick = function() {
+                blurMask.classList.add('active'); // Show the blur mask
                 classes.splice(index, 1); // Remove class from array
                 displayClassList(classes); // Update display
                 siglesInput.value = classes.join(','); // Update the input field with remaining classes
@@ -290,6 +291,7 @@
                 })
                 .then(response => response.json())
                 .then(data => {
+                    blurMask.classList.remove('active'); // Hide the blur mask
                     if (data && data.schedules) {
                         window.schedules = data.schedules;
                         window.currentScheduleIndex = 0;
@@ -300,6 +302,7 @@
                     }
                 })
                 .catch(error => {
+                    blurMask.classList.remove('active'); // Hide the blur mask
                     console.error('Error fetching schedules:', error);
                 });
             };
