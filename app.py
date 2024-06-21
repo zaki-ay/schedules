@@ -3,6 +3,8 @@ import csv
 
 app = Flask(__name__)
 
+BASE_USER = "zicozico"
+
 class Task:
     def __init__(self, name, day_times):
         self.name = name
@@ -31,7 +33,7 @@ def _convert_to_minutes(time_str):
 
 def read_tasks_from_file(season):
     #file_path = f'{season}.csv'
-    file_path = '/home/zicozico/sched/data_uqam.csv'
+    file_path = f'/home/{BASE_USER}/sched/data_uqam.csv'
     tasks = {}
     with open(file_path, 'r') as file:
         reader = csv.DictReader(file)
@@ -82,10 +84,10 @@ def create_schedule():
         season = request.form['season']
         min_length = len(sigles) #int(request.form['min_length']) #len(sigles)
         #file_path = f'{season}.csv'
-        #file_path = '/home/zicozico/sched/data_uqam.csv'
+        #file_path = f'/home/{BASE_USER}/sched/data_uqam.csv'
 
         tasks = read_tasks_from_file(season)
-        tasks = [task for task in tasks if any(sigle in task.name for sigle in sigles)]
+        tasks = [task for task in tasks if any(sigle.upper() in task.name for sigle in sigles)]        
         possible_schedules = find_possible_schedules(tasks)
 
         ret_schedules = []
@@ -105,7 +107,7 @@ def get_class_details():
 
     #season = class_name.split('-')[1].lower()
     #file_path = f'{season}.csv'
-    file_path = '/home/zicozico/sched/data_uqam.csv'
+    file_path = f'/home/{BASE_USER}/sched/data_uqam.csv'
 
     class_details = []
 
