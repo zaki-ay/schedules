@@ -1,30 +1,105 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* Light grey background */
+        }
+        .top-bar {
+            background-color: #007bff; /* Bootstrap primary blue */
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            margin-top: 10px;
+        }
+        .calendar {
+            flex: 3; /* Larger flex value for a wider calendar section */
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .form-section {
+            flex: 1; /* Smaller flex value for a narrower form section */
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-left: 20px; /* Space between the calendar and form */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dee2e6; /* Light grey border */
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #e9ecef; /* Light grey header */
+        }
+        .class-info {
+            cursor: help; /* Changes the cursor to indicate that these can be interacted with */
+            background-color: #eef; /* Light blue background to distinguish these cells */
+        }
+        .sigle-container span.badge {
+            margin-right: 5px;
+            display: inline-block;
+            padding: 10px;
+        }
+        .class-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .class-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .class-list li .remove-btn {
+            background-color: transparent;
+            border: none;
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+    <style>
+  .blur-mask {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(5px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s;
+  }
 
-.calendar-section, .user-input-section {
-    border: 1px solid #ddd;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
+  .blur-mask.active {
+      visibility: visible;
+      opacity: 1;
+  }
 
-.calendar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+  .spinner {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-left-color: #000;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+  }
 
-.calendar table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.calendar th, .calendar td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
+  @keyframes spin {
+      to { transform: rotate(360deg); }
+  }
