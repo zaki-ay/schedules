@@ -31,7 +31,7 @@ def _convert_to_minutes(time_str):
 
 def read_tasks_from_file(season):
     #file_path = f'{season}.csv'
-    file_path = '/home/zicozico/sched/data_uqam.csv'
+    file_path = '/home/homer/sched/data_uqam.csv'
     tasks = {}
     with open(file_path, 'r') as file:
         reader = csv.DictReader(file)
@@ -82,7 +82,7 @@ def create_schedule():
         season = request.form['season']
         min_length = len(sigles) #int(request.form['min_length']) #len(sigles)
         #file_path = f'{season}.csv'
-        #file_path = '/home/zicozico/sched/data_uqam.csv'
+        #file_path = '/home/homer/sched/data_uqam.csv'
 
         tasks = read_tasks_from_file(season)
         tasks = [task for task in tasks if any(sigle in task.name for sigle in sigles)]
@@ -105,7 +105,7 @@ def get_class_details():
 
     #season = class_name.split('-')[1].lower()
     #file_path = f'{season}.csv'
-    file_path = '/home/zicozico/sched/data_uqam.csv'
+    file_path = '/home/homer/sched/data_uqam.csv'
 
     class_details = []
 
