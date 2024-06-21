@@ -220,13 +220,15 @@
         })
         .then(response => response.json())
         .then(data => {
-            blurMask.classList.remove('active');
             if (data && data.schedules) {
                 window.schedules = data.schedules;
                 window.currentScheduleIndex = 0;
                 updateScheduleDisplay();
-                fetchAndDisplaySchedule(window.currentScheduleIndex);
+                fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
+                    blurMask.classList.remove('active');
+                });
             } else {
+                blurMask.classList.remove('active');
                 console.error('No schedules returned:', data);
             }
         })
@@ -291,18 +293,20 @@
                 })
                 .then(response => response.json())
                 .then(data => {
-                    blurMask.classList.remove('active'); // Hide the blur mask
                     if (data && data.schedules) {
                         window.schedules = data.schedules;
                         window.currentScheduleIndex = 0;
                         updateScheduleDisplay();
-                        fetchAndDisplaySchedule(window.currentScheduleIndex);
+                        fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
+                            blurMask.classList.remove('active');
+                        });
                     } else {
+                        blurMask.classList.remove('active');
                         console.error('No schedules returned:', data);
                     }
                 })
                 .catch(error => {
-                    blurMask.classList.remove('active'); // Hide the blur mask
+                    blurMask.classList.remove('active');
                     console.error('Error fetching schedules:', error);
                 });
             };
