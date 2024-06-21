@@ -192,7 +192,7 @@ document.getElementById('scheduleForm').addEventListener('submit', function(even
     });
 
     // Clear the input form after submission
-   // event.target.reset();
+    //event.target.reset();
 });
 
 function displayClassList(classes) {
@@ -242,8 +242,23 @@ function updateScheduleDisplay() {
     document.getElementById('scheduleIndex').textContent = `${window.currentScheduleIndex + 1}/${window.schedules.length}`;
 }
 
+document.getElementById('prevSchedule').addEventListener('click', function() {
+    if (window.currentScheduleIndex > 0) {
+        window.currentScheduleIndex--;
+        updateScheduleDisplay();
+        fetchAndDisplaySchedule(window.currentScheduleIndex);
+    }
+});
+
+document.getElementById('nextSchedule').addEventListener('click', function() {
+    if (window.currentScheduleIndex < window.schedules.length - 1) {
+        window.currentScheduleIndex++;
+        updateScheduleDisplay();
+        fetchAndDisplaySchedule(window.currentScheduleIndex);
+    }
+});
+
 function fetchAndDisplaySchedule(index) {
-    document.querySelector('#calendarTable tbody').innerHTML = '';
     const schedule = window.schedules[index];
     Promise.all(schedule.map(className => fetch(`/class_details?class_name=${className}`)
         .then(res => res.json())
