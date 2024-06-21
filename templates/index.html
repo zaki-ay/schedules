@@ -17,14 +17,23 @@
             text-align: center;
         }
         .container {
+            display: flex;
+            justify-content: space-around;
             padding: 20px;
             margin-top: 10px;
         }
-        .form-section, .class-list-section, .calendar {
+        .calendar {
+            flex: 3; /* Larger flex value for a wider calendar section */
             background-color: white;
             padding: 20px;
             border-radius: 5px;
-            margin-bottom: 20px;
+        }
+        .form-section {
+            flex: 1; /* Smaller flex value for a narrower form section */
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-left: 20px; /* Space between the calendar and form */
         }
         table {
             width: 100%;
@@ -66,32 +75,83 @@
             color: red;
             cursor: pointer;
         }
-        @media (min-width: 768px) {
-            .container {
-                display: flex;
-                justify-content: space-around;
-            }
-            .calendar {
-                flex: 3;
-                margin-left: 20px; /* Space between the calendar and form */
-            }
-            .form-section, .class-list-section {
-                flex: 1;
-            }
-        }
     </style>
+    <style>
+  .blur-mask {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(5px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s;
+  }
+
+  .blur-mask.active {
+      visibility: visible;
+      opacity: 1;
+  }
+
+  .spinner {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-left-color: #000;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+      to { transform: rotate(360deg); }
+  }
+</style>
+
 </head>
 <body>
     <div class="top-bar">
         <strong>ZicoCorp: Horaires UQAM 1.0</strong>
     </div>
     <div class="container">
+        <div class="calendar">
+            <h2>Calendrier</h2>
+            <div class="nav-buttons mb-3">
+                <button id="prevSchedule" class="btn btn-secondary">&larr; Précedent</button>
+                <span id="scheduleIndex">1/1</span>
+                <button id="nextSchedule" class="btn btn-secondary">Suivant &rarr;</button>
+            </div>
+            <table id="calendarTable" class="table">
+                <thead>
+                    <tr>
+                        <th>Heure</th>
+                        <th>Lundi</th>
+                        <th>Mardi</th>
+                        <th>Mercredi</th>
+                        <th>Jeudi</th>
+                        <th>Vendredi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Calendar rows will be inserted dynamically -->
+                </tbody>
+            </table>
+        </div>
         <div class="form-section">
             <h2>Cours</h2>
             <form id="scheduleForm" action="/schedule" method="post">
                 <div class="mb-3">
                     <label for="sigles" class="form-label">Sigles (séparés par virgule):</label>
                     <input type="text" id="sigles" name="sigles" class="form-control" placeholder="INF1120,AOT1110">
+                </div>
+                <div class="mb-3 d-none">
+                    <label for="min_length" class="form-label">Nombre de cours minimum sur l'horaire:</label>
+                    <input type="number" id="min_length" name="min_length" class="form-control" min=0>
                 </div>
                 <fieldset class="mb-3">
                     <legend>Session:</legend>
@@ -114,239 +174,279 @@
                 </fieldset>
                 <button type="submit" class="btn btn-primary">Génerer</button>
             </form>
-        </div>
-        <div class="class-list-section">
-            <h2>Liste des Cours</h2>
             <div class="sigle-container mt-3">
                 <ul id="classList" class="class-list"></ul>
             </div>
         </div>
-        <div class="calendar">
-            <h2>Calendrier</h2>
-            <div class="nav-buttons mb-3">
-                <button id="prevSchedule" class="btn btn-secondary">&larr; Précedent</button>
-                <span id="scheduleIndex">1/1</span>
-                <button id="nextSchedule" class="btn btn-secondary">Suivant &rarr;</button>
-            </div>
-            <div id="calendarContent"></div>
-        </div>
     </div>
+
     <div class="blur-mask" id="blurMask">
         <div class="spinner"></div>
     </div>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const calendarContent = document.getElementById('calendarContent');
-        const blurMask = document.getElementById('blurMask');
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const calendarTableBody = document.querySelector('#calendarTable tbody');
+    const blurMask = document.getElementById('blurMask');
+    const rows = 28; // 28 half-hour increments from 8:00 AM to 10:00 PM
+    const columns = 6;
 
-        function displayCalendar(schedule) {
-            calendarContent.innerHTML = ''; // Clear previous content
-            const days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi'];
-
-            days.forEach((day, dayIndex) => {
-                const dayDiv = document.createElement('div');
-                dayDiv.classList.add('day-column');
-                dayDiv.innerHTML = `<h3>${day}</h3>`;
-
-                for (let hour = 8; hour < 22; hour++) {
-                    for (let half = 0; half < 2; half++) {
-                        const timeSlot = document.createElement('div');
-                        timeSlot.classList.add('time-slot');
-                        const minutes = half === 0 ? "00" : "30";
-                        timeSlot.textContent = `${hour}:${minutes}`;
-
-                        // Check if there's a class in this time slot
-                        const classDetail = schedule.find(classItem => {
-                            return classItem.day === day &&
-                                classItem.start_time === `${hour}h${minutes}`;
-                        });
-
-                        if (classDetail) {
-                            timeSlot.textContent += ` - ${classDetail.name} - Groupe ${classDetail.group}`;
-                            timeSlot.title = `Cours: ${classDetail.name}\nEnseignant: ${classDetail.teacher}\nHeure: ${classDetail.start_time} - ${classDetail.end_time}\nLocal: ${classDetail.location}`;
-                            timeSlot.classList.add('class-info');
-                        }
-
-                        dayDiv.appendChild(timeSlot);
-                    }
+    let currentHour = 8; // Start at 8:00 AM
+    for (let i = 0; i < rows; i++) {
+        const row = document.createElement('tr');
+        for (let j = 0; j < columns; j++) {
+            const cell = document.createElement('td');
+            if (j === 0) { // First column: Time column
+                let time = `${currentHour}:${i % 2 === 0 ? '00' : '30'}`;
+                cell.textContent = time;
+                if (i % 2 === 1) { // Increment the hour every two iterations (every full hour)
+                    currentHour++;
                 }
-                calendarContent.appendChild(dayDiv);
-            });
+            }
+            row.appendChild(cell);
         }
+        calendarTableBody.appendChild(row);
+    }
 
-        document.getElementById('scheduleForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            blurMask.classList.add('active');
-            const formData = new FormData(event.target);
-            const sigles = formData.get('sigles').split(',').map(s => s.trim()).filter(s => s);
-            displayClassList(sigles);
+    document.getElementById('scheduleForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        blurMask.classList.add('active');
+        const formData = new FormData(event.target);
+        const sigles = formData.get('sigles').split(',').map(s => s.trim()).filter(s => s);
+        displayClassList(sigles);
 
-            fetch('/schedule', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data && data.schedules) {
-                    window.schedules = data.schedules;
-                    window.currentScheduleIndex = 0;
-                    updateScheduleDisplay();
-                    fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
-                        blurMask.classList.remove('active');
-                    });
-                } else {
+        fetch('/schedule', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data && data.schedules) {
+                window.schedules = data.schedules;
+                window.currentScheduleIndex = 0;
+                updateScheduleDisplay();
+                fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
                     blurMask.classList.remove('active');
-                    console.error('No schedules returned:', data);
-                }
-            })
-            .catch(error => {
+                });
+            } else {
                 blurMask.classList.remove('active');
-                console.error('Error fetching schedules:', error);
+                console.error('No schedules returned:', data);
+            }
+        })
+        .catch(error => {
+            blurMask.classList.remove('active');
+            console.error('Error fetching schedules:', error);
+        });
+
+        // Clear the input form after submission
+        //event.target.reset();
+    });
+
+    document.getElementById('prevSchedule').addEventListener('click', function() {
+        blurMask.classList.add('active');
+        if (window.currentScheduleIndex > 0) {
+            window.currentScheduleIndex--;
+            updateScheduleDisplay();
+            fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
+                blurMask.classList.remove('active');
             });
+        } else {
+            blurMask.classList.remove('active');
+        }
+    });
 
-            // Clear the input form after submission
-            //event.target.reset();
-        });
-
-        document.getElementById('prevSchedule').addEventListener('click', function() {
-            blurMask.classList.add('active');
-            if (window.currentScheduleIndex > 0) {
-                window.currentScheduleIndex--;
-                updateScheduleDisplay();
-                fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
-                    blurMask.classList.remove('active');
-                });
-            } else {
+    document.getElementById('nextSchedule').addEventListener('click', function() {
+        blurMask.classList.add('active');
+        if (window.currentScheduleIndex < window.schedules.length - 1) {
+            window.currentScheduleIndex++;
+            updateScheduleDisplay();
+            fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
                 blurMask.classList.remove('active');
-            }
-        });
+            });
+        } else {
+            blurMask.classList.remove('active');
+        }
+    });
 
-        document.getElementById('nextSchedule').addEventListener('click', function() {
-            blurMask.classList.add('active');
-            if (window.currentScheduleIndex < window.schedules.length - 1) {
-                window.currentScheduleIndex++;
-                updateScheduleDisplay();
-                fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
-                    blurMask.classList.remove('active');
-                });
-            } else {
-                blurMask.classList.remove('active');
-            }
-        });
+    function displayClassList(classes) {
+        const classList = document.getElementById('classList');
+        classList.innerHTML = ''; // Clear previous list
+        const siglesInput = document.getElementById('sigles'); // Get the input field
 
-        function displayClassList(classes) {
-            const classList = document.getElementById('classList');
-            classList.innerHTML = ''; // Clear previous list
-            const siglesInput = document.getElementById('sigles'); // Get the input field
+        classes.forEach((className, index) => {
+            const listItem = document.createElement('li');
+            listItem.textContent = className;
+            const removeButton = document.createElement('button');
+            removeButton.textContent = 'X';
+            removeButton.className = 'remove-btn';
+            removeButton.onclick = function() {
+                blurMask.classList.add('active'); // Show the blur mask
+                classes.splice(index, 1); // Remove class from array
+                displayClassList(classes); // Update display
+                siglesInput.value = classes.join(','); // Update the input field with remaining classes
 
-            classes.forEach((className, index) => {
-                const listItem = document.createElement('li');
-                listItem.textContent = className;
-                const removeButton = document.createElement('button');
-                removeButton.textContent = 'X';
-                removeButton.className = 'remove-btn';
-                removeButton.onclick = function() {
-                    blurMask.classList.add('active'); // Show the blur mask
-                    classes.splice(index, 1); // Remove class from array
-                    displayClassList(classes); // Update display
-                    siglesInput.value = classes.join(','); // Update the input field with remaining classes
-
-                    // Create a FormData object and submit the updated list
-                    const formData = new FormData(document.getElementById('scheduleForm'));
-                    formData.set('sigles', classes.join(',')); // Update the formData sigles field
-                    fetch('/schedule', {
-                        method: 'POST',
-                        body: formData
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data && data.schedules) {
-                            window.schedules = data.schedules;
-                            window.currentScheduleIndex = 0;
-                            updateScheduleDisplay();
-                            fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
-                                blurMask.classList.remove('active');
-                            });
-                        } else {
+                // Create a FormData object and submit the updated list
+                const formData = new FormData(document.getElementById('scheduleForm'));
+                formData.set('sigles', classes.join(',')); // Update the formData sigles field
+                fetch('/schedule', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data && data.schedules) {
+                        window.schedules = data.schedules;
+                        window.currentScheduleIndex = 0;
+                        updateScheduleDisplay();
+                        fetchAndDisplaySchedule(window.currentScheduleIndex).finally(() => {
                             blurMask.classList.remove('active');
-                            console.error('No schedules returned:', data);
-                        }
-                    })
-                    .catch(error => {
+                        });
+                    } else {
                         blurMask.classList.remove('active');
-                        console.error('Error fetching schedules:', error);
-                    });
-                };
-                listItem.appendChild(removeButton);
-                classList.appendChild(listItem);
-            });
-        }
+                        console.error('No schedules returned:', data);
+                    }
+                })
+                .catch(error => {
+                    blurMask.classList.remove('active');
+                    console.error('Error fetching schedules:', error);
+                });
+            };
+            listItem.appendChild(removeButton);
+            classList.appendChild(listItem);
+        });
+    }
 
-        function updateScheduleDisplay() {
-            document.getElementById('scheduleIndex').textContent = `${window.currentScheduleIndex + 1}/${window.schedules.length}`;
-        }
+    function updateScheduleDisplay() {
+        document.getElementById('scheduleIndex').textContent = `${window.currentScheduleIndex + 1}/${window.schedules.length}`;
+    }
 
-        function fetchAndDisplaySchedule(index) {
-            const schedule = window.schedules[index];
-            return Promise.all(schedule.map(className => fetch(`/class_details?class_name=${className}`)
-                .then(res => res.json())
-                .then(res => res.class_details)))
-            .then(classDetailsArray => {
-                displaySchedule(classDetailsArray.flat());
-            })
-            .catch(error => {
-                console.error('Error fetching class details:', error);
-            });
-        }
+    function fetchAndDisplaySchedule(index) {
+        const schedule = window.schedules[index];
+        return Promise.all(schedule.map(className => fetch(`/class_details?class_name=${className}`)
+            .then(res => res.json())
+            .then(res => res.class_details)))
+        .then(classDetailsArray => {
+            displaySchedule(classDetailsArray.flat());
+        })
+        .catch(error => {
+            console.error('Error fetching class details:', error);
+        });
+    }
 
-        function displaySchedule(classes) {
-            const calendarContent = document.getElementById('calendarContent');
-            calendarContent.innerHTML = '';
+    function displaySchedule(classes) {
+        const calendarTableBody = document.querySelector('#calendarTable tbody');
+        calendarTableBody.innerHTML = '';
 
-            const days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi'];
-            days.forEach(day => {
-                const dayColumn = document.createElement('div');
-                dayColumn.classList.add('day-column');
-                dayColumn.innerHTML = `<h3>${day}</h3>`;
-                calendarContent.appendChild(dayColumn);
-
-                const timeSlots = [];
-                for (let hour = 8; hour < 22; hour++) {
-                    for (let half = 0; half < 2; half++) {
-                        const timeSlot = document.createElement('div');
+        // Create time slots from 8:00 to 22:00, in half-hour increments
+        const startHour = 8;
+        const endHour = 22;
+        let rowCounter = 0; // To track rows for half-hour increments
+        for (let hour = startHour; hour < endHour; hour++) {
+            for (let half = 0; half < 2; half++) { // Two iterations per hour: 0 for the hour, 1 for the half hour
+                const row = document.createElement('tr');
+                for (let day = 0; day < 6; day++) {
+                    const cell = document.createElement('td');
+                    if (day === 0) { // First column for the time label
                         const minutes = half === 0 ? "00" : "30";
-                        timeSlot.classList.add('time-slot');
-                        timeSlot.textContent = `${hour}:${minutes}`;
-                        timeSlots.push(timeSlot);
+                        cell.textContent = `${hour}:${minutes}`;
                     }
+                    row.appendChild(cell);
                 }
-
-                timeSlots.forEach(timeSlot => {
-                    dayColumn.appendChild(timeSlot);
-                });
-
-                classes.forEach(classDetail => {
-                    if (classDetail.day === day) {
-                        const startHour = parseInt(classDetail.start_time.split('h')[0]);
-                        const startMinute = parseInt(classDetail.start_time.split('h')[1] || "00");
-                        const endHour = parseInt(classDetail.end_time.split('h')[0]);
-                        const endMinute = parseInt(classDetail.end_time.split('h')[1] || "00");
-
-                        const startIndex = (startHour - 8) * 2 + (startMinute >= 30 ? 1 : 0);
-                        const endIndex = (endHour - 8) * 2 + (endMinute > 0 ? 1 : 0);
-
-                        for (let i = startIndex; i < endIndex; i++) {
-                            if (timeSlots[i]) {
-                                timeSlots[i].textContent += ` - ${classDetail.name} - Groupe ${classDetail.group}`;
-                                timeSlots[i].title = `Cours: ${classDetail.name}\nEnseignant: ${classDetail.teacher}\nHeure: ${classDetail.start_time} - ${classDetail.end_time}\nLocal: ${classDetail.location}`;
-                                timeSlots[i].classList.add('class-info');
-                            }
-                        }
-                    }
-                });
-            });
+                calendarTableBody.appendChild(row);
+            }
+            rowCounter++;
         }
-      });
-    </script>
+
+        // Fill in class details and add tooltips
+        classes.forEach(classDetail => {
+            const dayIndex = {
+                'Lundi': 1,
+                'Mardi': 2,
+                'Mercredi': 3,
+                'Jeudi': 4,
+                'Vendredi': 5
+            }[classDetail.day];
+
+            const className = classDetail.name.split('-')[0];
+            const startTime = parseInt(classDetail.start_time.split('h')[0]);
+            const endTime = parseInt(classDetail.end_time.split('h')[0]);
+            const startMinute = parseInt(classDetail.start_time.split('h')[1] || "00");
+            const endMinute = parseInt(classDetail.end_time.split('h')[1] || "00");
+
+            // Determine the start and end rows based on time
+            let startRow = (startTime - startHour) * 2;
+            if (startMinute >= 30) startRow++;
+            let endRow = (endTime - startHour) * 2;
+            if (endMinute > 0) endRow++;
+
+            const classColor = getClassColor(className, classDetail.type);
+
+            for (let row = startRow; row < endRow; row++) {
+                if (calendarTableBody.children[row]) {
+                    const cell = calendarTableBody.children[row].children[dayIndex];
+                    cell.textContent = `${className} - Groupe ${classDetail.group}`;
+                    cell.title = `Cours: ${className}\nEnseignant: ${classDetail.teacher}\nJour: ${classDetail.day}\nHeure: ${classDetail.start_time} - ${classDetail.end_time}\nGroupe: ${classDetail.group}\nLocal: ${classDetail.location}\nType: ${classDetail.type}\nDates: ${classDetail.dates}`;
+                    cell.classList.add('class-info');
+                    cell.style.backgroundColor = classColor;
+                }
+            }
+        });
+    }
+
+    function getClassColor(className, classType) {
+        // Check if the color for this class has already been generated
+        if (!window.classColors) {
+            window.classColors = {};
+        }
+        if (!window.classColors[className]) {
+            // Generate a random color
+            let color = '#' + (Math.floor(Math.random() * 127 + 128).toString(16).padStart(2, '0')) +
+                (Math.floor(Math.random() * 127 + 128).toString(16).padStart(2, '0')) +
+                (Math.floor(Math.random() * 127 + 128).toString(16).padStart(2, '0'));
+            window.classColors[className] = color;
+        }
+
+        // Convert the hex color to RGB
+        let rgb = hexToRgb(window.classColors[className]);
+
+        // Adjust the color based on class type
+        if (classType === 'Cours magistral') {
+            rgb = adjustColorBrightness(rgb, 0); // Slightly darker for Cours magistral
+        } else if (classType === 'Atelier') {
+            rgb = adjustColorBrightness(rgb, 10); // Slightly lighter for Labo
+        }
+
+        return rgbToHex(rgb);
+    }
+
+    // Helper function to convert hex color to RGB
+    function hexToRgb(hex) {
+        let bigint = parseInt(hex.slice(1), 16);
+        let r = (bigint >> 16) & 255;
+        let g = (bigint >> 8) & 255;
+        let b = bigint & 255;
+        return { r, g, b };
+    }
+
+    // Helper function to convert RGB color to hex
+    function rgbToHex(rgb) {
+        return `#${((1 << 24) + (rgb.r << 16) + (rgb.g << 8) + rgb.b).toString(16).slice(1)}`;
+    }
+
+    // Helper function to adjust color brightness
+    function adjustColorBrightness(rgb, percent) {
+        let r = Math.round(rgb.r * (1 + percent / 100));
+        let g = Math.round(rgb.g * (1 + percent / 100));
+        let b = Math.round(rgb.b * (1 + percent / 100));
+
+        // Ensure the values are within the valid range [0, 255]
+        r = Math.min(255, Math.max(0, r));
+        g = Math.min(255, Math.max(0, g));
+        b = Math.min(255, Math.max(0, b));
+
+        return { r, g, b };
+    }
+  });
+</script>
+
 </body>
 </html>
