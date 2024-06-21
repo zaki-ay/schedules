@@ -218,7 +218,7 @@ function displaySchedule(classes) {
                 const cell = document.createElement('td');
                 if (day === 0) { // First column for the time label
                     const minutes = half === 0 ? "00" : "30";
-                    cell.textContent = `${hour}:${minutes}`;// - ${half === 0 ? hour : hour + 1}:${half === 0 ? "30" : "00"}`;
+                    cell.textContent = `${hour}:${minutes}`;
                 }
                 row.appendChild(cell);
             }
@@ -249,70 +249,77 @@ function displaySchedule(classes) {
         let endRow = (endTime - startHour) * 2;
         if (endMinute > 0) endRow++;
 
+        const classColor = getClassColor(className, classDetail.type);
+
         for (let row = startRow; row < endRow; row++) {
             if (calendarTableBody.children[row]) {
                 const cell = calendarTableBody.children[row].children[dayIndex];
                 cell.textContent = `${className} - Groupe ${classDetail.group}`;
                 cell.title = `Cours: ${className}\nEnseignant: ${classDetail.teacher}\nJour: ${classDetail.day}\nHeure: ${classDetail.start_time} - ${classDetail.end_time}\nGroupe: ${classDetail.group}\nLocal: ${classDetail.location}\nType: ${classDetail.type}\nDates: ${classDetail.dates}`;
                 cell.classList.add('class-info');
+                cell.style.backgroundColor = classColor;
             }
         }
     });
 }
 
+function getClassColor(className, classType) {
+    // Check if the color for this class has already been generated
+    if (!window.classColors) {
+        window.classColors = {};
+    }
+    if (!window.classColors[className]) {
+        // Generate a random color
+        let color = '#' + (Math.floor(Math.random() * 127 + 128).toString(16).padStart(2, '0')) +
+            (Math.floor(Math.random() * 127 + 128).toString(16).padStart(2, '0')) +
+            (Math.floor(Math.random() * 127 + 128).toString(16).padStart(2, '0'));
+        window.classColors[className] = color;
+    }
+
+    // Convert the hex color to RGB
+    let rgb = hexToRgb(window.classColors[className]);
+
+    // Adjust the color based on class type
+    if (classType === 'Cours magistral') {
+        rgb = adjustColorBrightness(rgb, -10); // Slightly darker for Cours magistral
+    } else if (classType === 'Atelier') {
+        rgb = adjustColorBrightness(rgb, 10); // Slightly lighter for Labo
+    }
+
+    return rgbToHex(rgb);
+}
+
+// Helper function to convert hex color to RGB
+function hexToRgb(hex) {
+    let bigint = parseInt(hex.slice(1), 16);
+    let r = (bigint >> 16) & 255;
+    let g = (bigint >> 8) & 255;
+    let b = bigint & 255;
+    return { r, g, b };
+}
+
+// Helper function to convert RGB color to hex
+function rgbToHex(rgb) {
+    return `#${((1 << 24) + (rgb.r << 16) + (rgb.g << 8) + rgb.b).toString(16).slice(1)}`;
+}
+
+
+// Helper function to adjust color brightness
+function adjustColorBrightness(rgb, percent) {
+    let r = Math.round(rgb.r * (1 + percent / 100));
+    let g = Math.round(rgb.g * (1 + percent / 100));
+    let b = Math.round(rgb.b * (1 + percent / 100));
+
+    // Ensure the values are within the valid range [0, 255]
+    r = Math.min(255, Math.max(0, r));
+    g = Math.min(255, Math.max(0, g));
+    b = Math.min(255, Math.max(0, b));
+
+    return { r, g, b };
+}
+
+
     </script>
-// <script>
-// document.addEventListener('DOMContentLoaded', function() {
-//     const sigleInput = document.getElementById('sigles');
-//     const sigleContainer = document.querySelector('.sigle-container');
-//     const form = document.getElementById('scheduleForm');
-
-//     form.addEventListener('submit', function(event) {
-//         event.preventDefault(); // Prevent the normal form submission
-//         const sigles = sigleInput.value.split(',').map(s => s.trim()).filter(s => s);
-//         sigleContainer.innerHTML = ''; // Clear previous sigles
-//         sigles.forEach(sigle => createSigleBubble(sigle)); // Create a bubble for each sigle
-//         sigleInput.value = ''; // Clear input after submission
-//         submitForm(sigles); // Send the sigles to the server
-//     });
-
-//     function createSigleBubble(sigle) {
-//         const bubble = document.createElement('span');
-//         bubble.id = `sigle-${sigle}`;
-//         bubble.textContent = sigle;
-//         bubble.className = 'badge bg-secondary';
-//         const closeBtn = document.createElement('button');
-//         closeBtn.textContent = 'X';
-//         closeBtn.className = 'btn-close';
-//         closeBtn.onclick = function() {
-//             bubble.remove(); // Remove the bubble
-//             resubmitForm(); // Resubmit form with remaining sigles
-//         };
-//         bubble.appendChild(closeBtn);
-//         sigleContainer.appendChild(bubble);
-//     }
-
-//     function resubmitForm() {
-//         const remainingSigles = Array.from(sigleContainer.children).map(bubble => bubble.textContent.replace('X', '').trim());
-//         sigleInput.value = remainingSigles.join(','); // Set the input to remaining sigles
-//         submitForm(remainingSigles); // Submit these to the server
-//     }
-
-//     function submitForm(sigles) {
-//         const formData = new FormData();
-//         formData.append('sigles', sigles.join(',')); // Send the current sigles as a single string
-//         fetch('/schedule', { // Adjust this URL to your actual form handler endpoint
-//             method: 'POST',
-//             body: formData
-//         })
-//         .then(response => response.json())
-//         .then(data => {
-//             // Handle the response here, maybe update the UI based on returned data
-//         })
-//         .catch(error => console.error('Error submitting form:', error));
-//     }
-// });
-// </script>
 
 
 </body>
