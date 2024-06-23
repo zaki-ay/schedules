@@ -4,7 +4,9 @@ import re
 import pandas as pd
 
 base_url = "https://www.ulaval.ca"
-save_interval = 10
+input_file = "cours_ulaval.txt"
+output_file = "data_ulaval.csv"
+save_interval = 20
 
 # Function to fetch and parse the webpage content
 def fetch_webpage(url):
@@ -16,8 +18,7 @@ def extract_course_info(soup):
     data = []
     
     # Find all buttons with the specified id pattern
-    buttons = soup.find_all('button', id=re.compile(r'(automne|hiver|printemps|ete)-\d{4}-gif-\d{4}-'))
-    
+    buttons = soup.find_all('button', id=re.compile(r'(automne|hiver|printemps|ete)-\d{4}'))
     for button in buttons:
         course_id = button['id']
         course_parts = course_id.split('-')
@@ -27,7 +28,7 @@ def extract_course_info(soup):
         course_code += course_parts[3]
         course_group_letter = chr(65 + len(data))  # Generate group letters starting from 'A'
         
-        course_name = f"{course_code}-{course_season}-{course_group_letter}"
+        course_name = f"{course_code}-{course_season}{course_year}-{course_group_letter}"
         
         parent = button.find_parent().find_parent()
         
@@ -61,6 +62,7 @@ def extract_course_info(soup):
             try:
                 time_range = section.find('strong', string='Horaire:').next_sibling.strip()
                 start_time, end_time = time_range.split(' à ')
+                start_time = start_time.replace("De ", "")
             except AttributeError:
                 pass
 
@@ -91,7 +93,7 @@ def main():
     all_course_data = []
 
     # Read URLs from the file
-    with open('example_data.csv', 'r') as file:
+    with open(input_file, 'r') as file:
         urls = file.readlines()
     
     for i, url_suffix in enumerate(urls, 1):
@@ -99,19 +101,19 @@ def main():
         soup = fetch_webpage(url)
         course_data = extract_course_info(soup)
         all_course_data.extend(course_data)
-        print(url_suffix)
+        print(url)
         
         if i % save_interval == 0:
             df = pd.DataFrame(all_course_data)
-            df.to_csv('course_data.csv', mode='a', header=False, index=False)
-            print(f"Data saved to course_data.csv")
+            df.to_csv(output_file, mode='a', header=False, index=False)
+            print(f"Data saved to {output_file}")
             all_course_data = []  # Clear the data after saving
 
     # Save any remaining data after the loop completes
     if all_course_data:
         df = pd.DataFrame(all_course_data)
-        df.to_csv('course_data.csv', mode='a', header=False, index=False)
-        print(f"Data saved to course_data.csv")
+        df.to_csv(output_file, mode='a', header=False, index=False)
+        print(f"Data saved to {output_file}")
 
 if __name__ == "__main__":
     main()

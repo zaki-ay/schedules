@@ -1,1 +1,573 @@
 Name,Group Number,Day,Dates,Start Time,End Time,Location,Type,Teacher
+ACT1000-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,13h30,15h20,Paul-Comtois 2105,En classe,Isabelle Larouche
+ACT1000-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,13h30,15h20,Paul-Comtois 2105,En classe,N/A
+ACT1000-Automne2022-C,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,13h30,15h20,Paul-Comtois 2105,En classe,N/A
+ACT1001-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,14h30,16h20,Adrien-Pouliot 2501,Atelier,N/A
+ACT1001-Hiver2024-B,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,12h30,15h20,Paul-Comtois 3111,En classe,N/A
+ACT1001-Automne2023-C,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,13h30,15h20,Alexandre-Vachon 2860,Atelier,N/A
+ACT1002-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,8h30,11h20,Adrien-Pouliot 2341,En classe,Huu Thai Nguyen
+ACT1002-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,8h30,11h20,Adrien-Pouliot 2341,En classe,N/A
+ACT1002-Automne2022-C,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,8h30,11h20,Adrien-Pouliot 2700,En classe,N/A
+ACT1003-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,12h30,14h20,Adrien-Pouliot 2501,Atelier,N/A
+ACT1003-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,10h30,12h20,Adrien-Pouliot 2501,Atelier,N/A
+ACT1003-Automne2022-C,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,12h30,14h20,Paul-Comtois 2105,Atelier,N/A
+ACT1005-Hiver2024-A,0,Vendredi,Du 15 jan. 2024 au 26 avr. 2024,13h30,16h20,Paul-Comtois 2105,En classe,N/A
+ACT1005-Hiver2023-B,0,Vendredi,Du 10 jan. 2023 au 27 jan. 2023,13h30,16h20,Paul-Comtois 2105,En classe,N/A
+ACT1006-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,Paul-Comtois 2105,En classe,N/A
+ACT1006-Hiver2023-B,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,8h30,11h20,Adrien-Pouliot 2700,En classe,N/A
+ACT2000-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,13h30,15h20,Alexandre-Vachon 2850,Atelier,N/A
+ACT2000-Hiver2023-B,0,Mardi,Du 10 jan. 2023 au 21 avr. 2023,13h30,15h20,Alexandre-Vachon 3880,Atelier,N/A
+ACT2001-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,13h30,14h20,Adrien-Pouliot 2700,Atelier,N/A
+ACT2001-Hiver2023-B,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,13h30,15h20,Alexandre-Vachon 2850,En classe,N/A
+ACT2002-Hiver2024-A,0,Vendredi,N/A,9h30,12h20,Adrien-Pouliot 2708,En classe,N/A
+ACT2002-Hiver2023-B,0,Vendredi,Du 10 jan. 2023 au 21 avr. 2023,9h30,12h20,Adrien-Pouliot 2708,Sur Internet,N/A
+ACT2003-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,12h30,13h20,Paul-Comtois 2105,Atelier,N/A
+ACT2003-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,13h30,14h20,Alexandre-Vachon 2830,Atelier,N/A
+ACT2003-Automne2022-C,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,12h30,13h20,Paul-Comtois 3111,Atelier,N/A
+ACT2004-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,16h30,17h20,Paul-Comtois 3111,Atelier,N/A
+ACT2004-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,16h30,17h20,Paul-Comtois 3111,Atelier,N/A
+ACT2004-Automne2022-C,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,17h30,18h20,Paul-Comtois 3111,Atelier,N/A
+ACT2007-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,9h30,12h20,Adrien-Pouliot 2700,En classe,N/A
+ACT2007-Hiver2023-B,0,Mardi,Du 10 jan. 2023 au 21 avr. 2023,8h30,9h20,Adrien-Pouliot 2700,Atelier,N/A
+ACT2008-Hiver2024-A,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,13h30,16h20,Paul-Comtois 3111,Sur Internet,N/A
+ACT2008-Hiver2023-B,0,Jeudi,Du 10 jan. 2023 au 21 avr. 2023,13h30,16h20,Paul-Comtois 2105,Sur Internet,N/A
+ACT2009-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,17h30,18h20,Paul-Comtois 3111,Atelier,N/A
+ACT2009-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,17h30,18h20,Paul-Comtois 3111,Atelier,N/A
+ACT2009-Automne2022-C,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,16h30,17h20,Paul-Comtois 3111,Atelier,N/A
+ACT2010-Automne2017-A,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ACT2010-Automne2016-B,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ACT2011-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,16h30,17h20,Paul-Comtois 3111,Atelier,N/A
+ACT2011-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,11h30,12h20,Paul-Comtois 2105,Atelier,N/A
+ACT2101-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Projet,Vincent Goulet
+ACT2101-Hiver2024-B,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Projet,N/A
+ACT2101-Automne2023-C,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Projet,N/A
+ACT3000-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,Alexandre-Vachon 3860,En classe,Etienne Marceau
+ACT3000-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,9h30,12h20,Alexandre-Vachon 2840,En classe,N/A
+ACT3000-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,9h,11h50,Adrien-Pouliot 3775,En classe,N/A
+ACT3001-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,13h30,16h20,Adrien-Pouliot 2751,En classe,N/A
+ACT3001-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,13h30,16h20,Paul-Comtois 3111,En classe,N/A
+ACT4101-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,9h30,12h20,Paul-Comtois 2102,En classe,N/A
+ACT4101-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,9h30,12h20,Paul-Comtois 3102,En classe,N/A
+ACT4101-Automne2022-C,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,9h30,12h20,Paul-Comtois 3102,En classe,N/A
+ACT4102-Automne2018-A,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ACT4102-Automne2017-B,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ACT4103-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,13h30,16h20,Alexandre-Vachon 2830,En classe,Isabelle Larouche
+ACT4103-Automne2023-B,0,Lundi,Du 18 sept. 2023 au 15 déc. 2023,13h30,16h20,Adrien-Pouliot 3775,En classe,N/A
+ACT4103-Automne2022-C,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,13h30,16h20,Adrien-Pouliot 3775,En classe,N/A
+ACT4105-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,13h30,16h20,Paul-Comtois 3102,En classe,N/A
+ACT4105-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,13h30,16h20,Adrien-Pouliot 3775,En classe,N/A
+ACT4105-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,17h30,20h20,Paul-Comtois 2102,En classe,N/A
+ACT4109-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,17h30,20h20,Paul-Comtois 2102,En classe,N/A
+ACT4109-Automne2023-B,0,Jeudi,Du 5 sept. 2023 au 15 déc. 2023,17h30,20h20,Alexandre-Vachon 3840,En classe,N/A
+ACT4109-Automne2022-C,0,Vendredi,Du 6 sept. 2022 au 16 déc. 2022,9h,11h50,N/A,Classe virtuelle synchrone,N/A
+ACT4110-Hiver2022-A,0,Mardi,Du 10 jan. 2022 au 22 avr. 2022,9h30,12h20,Paul-Comtois 3104,En classe,N/A
+ACT4110-Hiver2021-B,0,Mardi,Du 18 jan. 2021 au 23 avr. 2021,9h30,12h20,N/A,Classe virtuelle synchrone,N/A
+ACT4111-Hiver2024-A,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ACT4111-Hiver2023-B,0,N/A,Du 10 jan. 2023 au 21 avr. 2023,N/A,N/A,N/A,Sur Internet,N/A
+ACT4113-Hiver2023-A,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,14h30,17h20,N/A,Classe virtuelle synchrone,N/A
+ACT4113-Hiver2022-B,0,Mercredi,Du 10 jan. 2022 au 22 avr. 2022,14h30,17h20,Adrien-Pouliot 4108,En classe,N/A
+ACT4114-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,10h30,11h20,Adrien-Pouliot 2708,Atelier,N/A
+ACT4114-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,18h30,20h20,Adrien-Pouliot 2708,Classe virtuelle synchrone,N/A
+ACT4115-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,13h30,14h20,Adrien-Pouliot 2341,Atelier,Hélène Cossette
+ACT6001-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,9h30,12h20,Paul-Comtois 2102,En classe,N/A
+ACT6001-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,9h30,12h20,Paul-Comtois 3102,En classe,N/A
+ACT6001-Automne2022-C,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,9h30,12h20,Paul-Comtois 3102,En classe,N/A
+ACT6002-Automne2018-A,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ACT6002-Automne2017-B,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ACT6004-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,17h30,20h20,Paul-Comtois 2102,En classe,N/A
+ACT6004-Automne2023-B,0,Jeudi,Du 5 sept. 2023 au 15 déc. 2023,17h30,20h20,Alexandre-Vachon 3840,En classe,N/A
+ACT6004-Automne2022-C,0,Vendredi,Du 6 sept. 2022 au 16 déc. 2022,9h,11h50,N/A,Classe virtuelle synchrone,N/A
+ACT6005-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,13h30,16h20,Alexandre-Vachon 2830,En classe,Isabelle Larouche
+ACT6005-Automne2023-B,0,Lundi,Du 18 sept. 2023 au 15 déc. 2023,13h30,16h20,Adrien-Pouliot 3775,En classe,N/A
+ACT6005-Automne2022-C,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,13h30,16h20,Adrien-Pouliot 3775,En classe,N/A
+ACT6006-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,13h30,16h20,Paul-Comtois 3102,En classe,N/A
+ACT6006-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,13h30,16h20,Adrien-Pouliot 3775,En classe,N/A
+ACT6006-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,17h30,20h20,Paul-Comtois 2102,En classe,N/A
+ACT6007-Hiver2022-A,0,Mardi,Du 10 jan. 2022 au 22 avr. 2022,9h30,12h20,Adrien-Pouliot 2548,En classe,N/A
+ACT6007-Hiver2021-B,0,Mardi,Du 18 jan. 2021 au 23 avr. 2021,9h30,12h20,N/A,Classe virtuelle synchrone,N/A
+ACT6100-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Essai,Ilie Radu Mitric
+ACT6100-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Essai,N/A
+ACT6100-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Essai,N/A
+ACT6111-Hiver2024-A,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ACT6111-Hiver2023-B,0,N/A,Du 10 jan. 2023 au 21 avr. 2023,N/A,N/A,N/A,Sur Internet,N/A
+ACT6113-Hiver2023-A,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,14h30,17h20,N/A,Classe virtuelle synchrone,N/A
+ACT6113-Hiver2022-B,0,Mercredi,Du 10 jan. 2022 au 22 avr. 2022,14h30,17h20,Adrien-Pouliot 4108,En classe,N/A
+ACT6114-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,10h30,11h20,Adrien-Pouliot 2708,Atelier,N/A
+ACT6114-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,18h30,20h20,Adrien-Pouliot 2708,Classe virtuelle synchrone,N/A
+ACT6115-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,13h30,14h20,Adrien-Pouliot 2341,Atelier,Hélène Cossette
+ACT6811-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6811-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6811-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6812-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6812-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6812-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6813-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6813-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6813-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6814-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,En classe,N/A
+ACT6814-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT6814-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT7006-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Sujets spéciaux,Ilie Radu Mitric
+ACT7006-Automne2023-B,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Sujets spéciaux,N/A
+ACT7006-Automne2022-C,0,N/A,Du 6 sept. 2022 au 16 déc. 2022,N/A,N/A,N/A,Sujets spéciaux,N/A
+ACT7007-Automne2021-A,0,N/A,Du 30 août 2021 au 10 déc. 2021,N/A,N/A,N/A,Sujets spéciaux,N/A
+ACT7007-Automne2019-B,0,N/A,Du 3 sept. 2019 au 13 déc. 2019,N/A,N/A,N/A,Sujets spéciaux,N/A
+ACT7008-Hiver2022-A,0,Jeudi,Du 10 jan. 2022 au 22 avr. 2022,13h30,16h20,Paul-Comtois 2106,En classe,N/A
+ACT7008-Hiver2021-B,0,N/A,Du 18 jan. 2021 au 23 avr. 2021,N/A,N/A,N/A,Sujets spéciaux,N/A
+ACT7012-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Lectures dirigées,Ilie Radu Mitric
+ACT7012-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ACT7012-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ACT7013-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Lectures dirigées,Ilie Radu Mitric
+ACT7013-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ACT7013-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ACT7014-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Lectures dirigées,Ilie Radu Mitric
+ACT7014-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ACT7014-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ACT7015-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Lectures dirigées,Ilie Radu Mitric
+ACT7015-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ACT7015-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ACT7019-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Sur Internet,Ilie Radu Mitric
+ACT7019-Automne2023-B,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Sur Internet,N/A
+ACT7019-Automne2022-C,0,N/A,Du 6 sept. 2022 au 16 déc. 2022,N/A,N/A,N/A,Sur Internet,N/A
+ACT7100-Automne2023-A,0,Jeudi,Du 5 sept. 2023 au 15 déc. 2023,9h30,12h20,Adrien-Pouliot 2548,En classe,N/A
+ACT7100-Automne2020-B,0,Lundi,Du 31 août 2020 au 11 déc. 2020,13h30,16h20,N/A,Sur Internet,N/A
+ACT7102-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,9h30,12h20,Adrien-Pouliot 2544,En classe,N/A
+ACT7102-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,13h30,16h20,Adrien-Pouliot 2540,En classe,N/A
+ACT7103-Hiver2024-A,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,13h30,16h20,Adrien-Pouliot 2540,En classe,N/A
+ACT7103-Hiver2023-B,0,Jeudi,Du 10 jan. 2023 au 21 avr. 2023,9h30,12h20,Adrien-Pouliot 2540,En classe,N/A
+ACT7105-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Stage,N/A
+ACT7105-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Stage,N/A
+ACT7105-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Stage,N/A
+ACT7110-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,13h30,14h50,Paul-Comtois 3101,En classe,Ilie Radu Mitric
+ACT7116-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,13h30,16h20,Adrien-Pouliot 2544,En classe,N/A
+ACT7117-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,10h30,12h20,Adrien-Pouliot 2500,En classe,Hélène Cossette
+ACT7118-Hiver2021-A,0,Lundi,Du 18 jan. 2021 au 23 avr. 2021,14h30,17h20,N/A,Classe virtuelle synchrone,N/A
+ACT7119-Hiver2023-A,0,Vendredi,Du 10 jan. 2023 au 21 avr. 2023,10h30,12h20,Adrien-Pouliot 2504,En classe,N/A
+ACT8001-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ACT8001-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ACT8001-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ACT8002-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ACT8002-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ACT8002-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ACT8801-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8801-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8801-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8802-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8802-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8802-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8803-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8803-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8803-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8804-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8804-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8804-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8805-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8805-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8805-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8806-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8806-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8806-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8807-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8807-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8807-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8808-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8808-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ACT8808-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM1001-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,12h30,15h20,N/A,Classe virtuelle synchrone,Catherine-Ann Blackburn
+ADM1001-Hiver2024-B,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,12h30,15h20,N/A,Classe virtuelle synchrone,N/A
+ADM1001-Automne2023-C,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,12h30,15h20,N/A,Classe virtuelle synchrone,N/A
+ADM2100-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,15h30,19h20,Palasis-Prince 0215,En classe,Martin Dubé
+ADM2100-Automne2023-B,0,Jeudi,Du 5 sept. 2023 au 15 déc. 2023,15h30,19h20,Palasis-Prince 0215,En classe,N/A
+ADM2100-Automne2022-C,0,Jeudi,Du 6 sept. 2022 au 16 déc. 2022,15h30,19h20,Palasis-Prince 0215,En classe,N/A
+ADM2101-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Stage,Maripier Tremblay
+ADM2101-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Stage,N/A
+ADM2101-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Stage,N/A
+ADM2106-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Stage,Maripier Tremblay
+ADM2106-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Stage,N/A
+ADM2106-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Stage,N/A
+ADM2107-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Stage,Maripier Tremblay
+ADM3050-Automne2024-A,0,Vendredi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,Palasis-Prince 3325,En classe,Renato Lago Pereira Chaves
+ADM3050-Automne2024-B,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Sur Internet,Catherine Bertrand
+ADM3050-Automne2024-C,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Sur Internet,Catherine Bertrand
+ADM3050-Ete2024-D,0,N/A,Du 6 mai 2024 au 19 jui. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADM3050-Hiver2024-E,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,15h30,18h20,Palasis-Prince 3325,En classe,N/A
+ADM3050-Hiver2024-F,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADM3050-Hiver2024-G,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADM3100-Hiver2024-A,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,18h30,21h20,Palasis-Prince 3325,Projet,N/A
+ADM3100-Hiver2024-B,0,Vendredi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,Palasis-Prince 0215,Projet,N/A
+ADM3100-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Projet,N/A
+ADM3100-Automne2023-D,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Lectures dirigées,N/A
+ADM3109-Automne2024-A,0,Vendredi,Du 3 sept. 2024 au 13 déc. 2024,12h30,15h20,Palasis-Prince 1307,En classe,Martin Dubé
+ADM3109-Automne2023-B,0,Vendredi,Du 5 sept. 2023 au 15 déc. 2023,12h30,15h20,Palasis-Prince 1307,En classe,N/A
+ADM3109-Automne2022-C,0,Vendredi,Du 6 sept. 2022 au 16 déc. 2022,12h30,15h20,Palasis-Prince 1307,En classe,N/A
+ADM6014-Hiver2022-A,0,N/A,Du 8 mai 2022 au 13 mai 2022,N/A,N/A,N/A,En classe,N/A
+ADM6014-Hiver2021-B,0,N/A,Du 9 mai 2021 au 14 mai 2021,N/A,N/A,N/A,Rencontre,N/A
+ADM6015-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,8h30,11h20,Palasis-Prince 3313,En classe,Yves Gendron
+ADM6015-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,8h30,11h20,Palasis-Prince 3313,En classe,N/A
+ADM6015-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,8h30,11h20,Palasis-Prince 3313,En classe,N/A
+ADM6016-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,N/A,Sur Internet,Felix Ballesteros Leiva
+ADM6016-Hiver2024-B,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,12h30,15h20,Palasis-Prince 4240,Sur Internet,N/A
+ADM6016-Automne2023-C,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,N/A,Sur Internet,N/A
+ADM6801-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6801-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6801-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6802-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6802-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6802-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6803-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6803-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6803-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6804-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6804-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM6804-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADM7000-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,Palasis-Prince 3316,Sur Internet,Claire-France Picard
+ADM7000-Automne2023-B,0,Jeudi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,Palasis-Prince 3316,Sur Internet,N/A
+ADM7000-Automne2017-C,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ADM7002-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,15h30,18h20,Palasis-Prince 4240,En classe,N/A
+ADM7904-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Lectures dirigées,Irene Abi-Zeid
+ADM7904-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ADM7904-Ete2024-C,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ADM7904-Hiver2024-D,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+ADM7905-Automne2023-A,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Lectures dirigées,N/A
+ADM7905-Automne2022-B,0,N/A,Du 6 sept. 2022 au 16 déc. 2022,N/A,N/A,N/A,Lectures dirigées,N/A
+ADM8000-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,8h30,11h20,Palasis-Prince 2327,En classe,N/A
+ADM8000-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,8h30,11h20,Palasis-Prince 2327,En classe,N/A
+ADM8001-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Examen de doctorat,Marie-Hélène Gilbert
+ADM8001-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ADM8001-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ADM8002-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Projet,Marie-Hélène Gilbert
+ADM8002-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Projet,N/A
+ADM8002-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Projet,N/A
+ADM8005-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,12h30,15h20,Palasis-Prince 1307,En classe,Nabil Amara
+ADM8005-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,12h30,15h20,Palasis-Prince 1307,En classe,N/A
+ADM8005-Automne2022-C,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,12h30,15h20,Palasis-Prince 4221,En classe,N/A
+ADM8006-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,15h30,18h20,Palasis-Prince 4240,Sur Internet,N/A
+ADM8006-Hiver2023-B,0,Mardi,N/A,9h,11h50,Palasis-Prince 4221,Classe virtuelle synchrone,N/A
+ADM8012-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,15h30,18h20,Palasis-Prince 6240,En classe,N/A
+ADM8012-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,15h30,18h20,Palasis-Prince 6240,En classe,N/A
+ADM8012-Automne2022-C,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,15h30,18h20,Palasis-Prince 6240,En classe,N/A
+ADS1000-Ete2024-A,0,N/A,Du 6 mai 2024 au 21 jun. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1000-Hiver2024-B,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1000-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1900-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,8h30,11h20,J.-A.-DeSève 1245,En classe,Jean-François Broudehoux
+ADS1900-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,8h30,11h20,J.-A.-DeSève 1215,En classe,N/A
+ADS1900-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,8h30,11h20,Charles-De Koninck 3157,En classe,N/A
+ADS1901-Ete2024-A,0,N/A,Du 6 mai 2024 au 21 jun. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1901-Hiver2024-B,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1902-Hiver2024-A,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1902-Hiver2023-B,0,N/A,Du 10 jan. 2023 au 21 avr. 2023,N/A,N/A,N/A,Sur Internet,N/A
+ADS1904-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1904-Automne2023-B,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Sur Internet,N/A
+ADS1904-Automne2022-C,0,N/A,Du 6 sept. 2022 au 16 déc. 2022,N/A,N/A,N/A,Sur Internet,N/A
+ADS1905-Ete2024-A,0,N/A,Du 6 mai 2024 au 19 jui. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1905-Hiver2024-B,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1910-Hiver2024-A,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1910-Hiver2023-B,0,N/A,Du 10 jan. 2023 au 21 avr. 2023,N/A,N/A,N/A,Sur Internet,N/A
+ADS1911-Ete2024-A,0,N/A,Du 6 mai 2024 au 19 jui. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS1911-Hiver2024-B,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS6004-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,18h30,21h20,N/A,Sur Internet,N/A
+ADS6005-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,18h30,21h20,N/A,Sur Internet,N/A
+ADS6005-Automne2024-B,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,18h30,21h20,N/A,Sur Internet,N/A
+ADS6006-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,18h30,21h20,N/A,Classe virtuelle synchrone,N/A
+ADS6007-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS6008-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,Louise Clément
+ADS6008-Hiver2024-B,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,18h30,21h20,N/A,Classe virtuelle synchrone,N/A
+ADS6015-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,18h30,21h20,N/A,Classe virtuelle synchrone,N/A
+ADS6022-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,15h30,18h20,N/A,Sur Internet,N/A
+ADS6022-Automne2024-B,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,18h30,21h20,N/A,Sur Internet,N/A
+ADS6022-Automne2023-C,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,15h30,18h20,N/A,Sur Internet,N/A
+ADS6022-Automne2023-D,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,18h30,21h20,N/A,Sur Internet,N/A
+ADS6022-Automne2022-E,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,16h30,19h20,N/A,Sur Internet,N/A
+ADS6022-Automne2022-F,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,19h30,22h20,N/A,Sur Internet,N/A
+ADS6030-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,Louise Clément
+ADS6031-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,18h30,21h20,N/A,Sur Internet,N/A
+ADS6101-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Sur Internet,Jean-François Broudehoux
+ADS6101-Automne2023-B,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Sur Internet,N/A
+ADS6101-Automne2022-C,0,N/A,Du 6 sept. 2022 au 16 déc. 2022,N/A,N/A,N/A,Sur Internet,N/A
+ADS6102-Hiver2024-A,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Sur Internet,N/A
+ADS6102-Hiver2023-B,0,N/A,Du 10 jan. 2023 au 21 avr. 2023,N/A,N/A,N/A,Sur Internet,N/A
+ADS6500-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Projet,Lucie Héon
+ADS6500-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Projet,N/A
+ADS6500-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Projet,N/A
+ADS6801-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6801-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6801-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6802-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6802-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6802-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6803-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6803-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6803-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6804-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6804-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS6804-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS7000-Automne2018-A,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ADS7000-Automne2016-B,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ADS7001-Automne2022-A,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7001-Automne2021-B,0,Mardi,Du 30 août 2021 au 10 déc. 2021,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7003-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7003-Hiver2023-B,0,Mardi,Du 10 jan. 2023 au 21 avr. 2023,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7004-Automne2022-A,0,Jeudi,Du 6 sept. 2022 au 16 déc. 2022,16h30,19h20,Félix-Antoine-Savard 026,En classe,N/A
+ADS7006-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7006-Hiver2023-B,0,Mardi,Du 10 jan. 2023 au 21 avr. 2023,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7007-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7007-Hiver2023-B,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7008-Hiver2024-A,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7008-Hiver2023-B,0,Jeudi,Du 10 jan. 2023 au 21 avr. 2023,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7009-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,Yamina Bouchamma
+ADS7009-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,16h30,19h20,N/A,Sur Internet,N/A
+ADS7009-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,16h30,19h20,N/A,Sur Internet,N/A
+ADS7010-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7010-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,16h30,19h20,N/A,Sur Internet,N/A
+ADS7010-Hiver2023-C,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7012-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7012-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7013-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,N/A
+ADS7013-Hiver2024-B,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7013-Automne2023-C,0,Jeudi,Du 5 sept. 2023 au 15 déc. 2023,16h30,19h20,N/A,Sur Internet,N/A
+ADS7016-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7016-Hiver2023-B,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7019-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7019-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7021-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,N/A
+ADS7021-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,16h30,19h20,N/A,Sur Internet,N/A
+ADS7021-Automne2022-C,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,16h30,19h20,N/A,Sur Internet,N/A
+ADS7022-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,Yamina Bouchamma
+ADS7022-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,16h30,19h20,N/A,Sur Internet,N/A
+ADS7022-Automne2022-C,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,16h30,19h20,N/A,Sur Internet,N/A
+ADS7023-Hiver2024-A,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7023-Hiver2023-B,0,Jeudi,Du 10 jan. 2023 au 21 avr. 2023,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS7024-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,Kevin Naimi
+ADS7024-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,16h30,19h20,N/A,Sur Internet,N/A
+ADS7024-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,16h30,19h20,Félix-Antoine-Savard 026,En classe,N/A
+ADS7025-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,Louise Clément
+ADS7025-Automne2023-B,0,Jeudi,Du 5 sept. 2023 au 15 déc. 2023,16h30,19h20,N/A,Sur Internet,N/A
+ADS7026-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,19h30,22h20,N/A,Sur Internet,Emilie Doutreloux
+ADS7026-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,19h30,22h20,N/A,Sur Internet,N/A
+ADS7027-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,Kevin Naimi
+ADS7027-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,16h30,19h20,N/A,Sur Internet,N/A
+ADS7030-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,16h30,19h20,N/A,Sur Internet,N/A
+ADS7033-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,16h30,19h20,N/A,Classe virtuelle synchrone,N/A
+ADS8000-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Examen de doctorat,Lucie Héon
+ADS8000-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ADS8000-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+ADS8001-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Projet,Lucie Héon
+ADS8001-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Projet,N/A
+ADS8001-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Projet,N/A
+ADS8801-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8801-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8801-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8802-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8802-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8802-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8803-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8803-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8803-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8804-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8804-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8804-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8805-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8805-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8805-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8806-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8806-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8806-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8807-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8807-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8807-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8808-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8808-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+ADS8808-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC1000-Automne2024-A,0,Jeudi,N/A,12h30,15h20,Paul-Comtois 2106,En classe,Karima Afif
+AGC1000-Automne2023-B,0,Jeudi,Du 12 oct. 2023 au 26 oct. 2023,12h30,15h20,Paul-Comtois 3102,Classe virtuelle synchrone,N/A
+AGC1000-Automne2022-C,0,Jeudi,Du 6 sept. 2022 au 16 sept. 2022,12h30,15h20,Paul-Comtois 2102,Classe virtuelle synchrone,N/A
+AGC1001-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,Paul-Comtois 2102,En classe,Bocar Samba Ba
+AGC1001-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,8h30,11h20,Paul-Comtois 2106,En classe,N/A
+AGC1001-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,8h30,11h20,Paul-Comtois 2107,En classe,N/A
+AGC1002-Automne2024-A,0,Vendredi,Du 3 sept. 2024 au 13 déc. 2024,9h,17h50,Paul-Comtois 2104,En classe,Laurence Morin Rivet
+AGC1002-Automne2023-B,0,Vendredi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,Paul-Comtois 2104,En classe,N/A
+AGC1002-Automne2022-C,0,Vendredi,Du 6 sept. 2022 au 16 déc. 2022,9h,18h,Paul-Comtois 3104,En classe,N/A
+AGC1003-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,8h30,9h,N/A,Sur Internet,N/A
+AGC1003-Hiver2023-B,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,8h30,9h,N/A,Sur Internet,N/A
+AGC1010-Hiver2024-A,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,J.-A.-DeSève 1215,En classe,N/A
+AGC1010-Hiver2023-B,0,Jeudi,Du 10 jan. 2023 au 21 avr. 2023,8h30,11h20,Paul-Comtois 2107,Sur Internet,N/A
+AGC1011-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,8h30,11h20,Paul-Comtois 2102,En classe,N/A
+AGC2000-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,13h30,16h20,Alexandre-Vachon 3820,En classe,Romain Paul Dureau
+AGC2000-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,13h30,16h20,Paul-Comtois 2105,En classe,N/A
+AGC2000-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,13h30,16h20,Paul-Comtois 2105,En classe,N/A
+AGC2001-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Sur Internet,N/A
+AGC2001-Automne2023-B,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Sur Internet,N/A
+AGC2001-Automne2022-C,0,N/A,Du 6 sept. 2022 au 16 déc. 2022,N/A,N/A,N/A,Sur Internet,N/A
+AGC2002-Automne2024-A,0,Lundi,N/A,13h30,16h20,Paul-Comtois 3111,En classe,Fanny Lepage
+AGC2002-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,Paul-Comtois 2107,En classe,N/A
+AGC2002-Automne2022-C,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,9h,11h50,Paul-Comtois 2107,En classe,N/A
+AGC2003-Hiver2024-A,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,12h30,15h20,Paul-Comtois 2106,En classe,N/A
+AGC2003-Hiver2023-B,0,Jeudi,Du 10 jan. 2023 au 21 avr. 2023,12h30,15h20,Paul-Comtois 2102,En classe,N/A
+AGC2004-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,13h,15h50,Paul-Comtois 2420,En classe,N/A
+AGC2004-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,13h,15h50,Paul-Comtois 2420,En classe,N/A
+AGC2005-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 1 mars 2024,13h30,16h20,Paul-Comtois 3101,En classe,N/A
+AGC2005-Hiver2023-B,0,Mercredi,Du 10 jan. 2023 au 10 mars 2023,13h30,16h20,Paul-Comtois 2101,En classe,N/A
+AGC2100-Automne2024-A,0,Lundi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,Paul-Comtois 2420,En classe,Marc-Ange Doyon
+AGC2100-Automne2023-B,0,Lundi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,Paul-Comtois 2420,En classe,N/A
+AGC2100-Automne2021-C,0,Lundi,Du 30 août 2021 au 10 déc. 2021,15h30,18h20,N/A,Classe virtuelle synchrone,N/A
+AGC2102-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,N/A,Sur Internet,Ibrahima Bocoum
+AGC2102-Automne2022-B,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,9h,11h50,Paul-Comtois 2104,Sur Internet,N/A
+AGC2102-Automne2021-C,0,Lundi,Du 30 août 2021 au 10 déc. 2021,13h30,16h20,N/A,Sur Internet,N/A
+AGC2502-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Stage,Laurence Morin Rivet
+AGC2502-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Stage,N/A
+AGC2502-Automne2023-C,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Stage,N/A
+AGC2503-Hiver2024-A,0,Vendredi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,Paul-Comtois 2420,Rencontre,N/A
+AGC2503-Hiver2023-B,0,Vendredi,Du 10 jan. 2023 au 21 avr. 2023,9h,11h50,Paul-Comtois 2420,Sur Internet,N/A
+AGC2504-Ete2024-A,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Stage,N/A
+AGC2504-Ete2023-B,0,N/A,Du 1 mai 2023 au 11 août 2023,N/A,N/A,N/A,Stage,N/A
+AGC2900-Hiver2024-A,0,Jeudi,Du 15 fév. 2024 au 18 avr. 2024,13h30,16h20,Adrien-Pouliot 2700,En classe,N/A
+AGC2900-Hiver2023-B,0,Jeudi,Du 26 jan. 2023 au 9 fév. 2023,13h30,16h20,Paul-Comtois 3102,En classe,N/A
+AGC3000-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,9h30,12h20,Paul-Comtois 2101,En classe,N/A
+AGC3000-Hiver2023-B,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,9h30,12h20,Paul-Comtois 2104,En classe,N/A
+AGC3001-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,Paul-Comtois 2107,En classe,N/A
+AGC3001-Hiver2023-B,0,Lundi,Du 10 jan. 2023 au 21 avr. 2023,9h,11h50,Paul-Comtois 2106,En classe,N/A
+AGC3002-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,13h30,16h20,Paul-Comtois 3102,En classe,Alphonse Gbemay Singbo
+AGC3002-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,13h30,16h20,Paul-Comtois 3101,En classe,N/A
+AGC3002-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,13h30,16h20,Paul-Comtois 3104,En classe,N/A
+AGC3003-Hiver2023-A,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,13h30,15h50,Paul-Comtois 3106,Sur Internet,N/A
+AGC3003-Automne2022-B,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,9h,11h50,Paul-Comtois 3106,En classe,N/A
+AGC3005-Hiver2023-A,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,13h30,16h20,Paul-Comtois 2104,En classe,N/A
+AGC3008-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,Paul-Comtois 3106,En classe,Fanny Lepage
+AGC3008-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,Paul-Comtois 4320,En classe,N/A
+AGC3008-Hiver2023-C,0,Jeudi,Du 10 jan. 2023 au 21 avr. 2023,13h30,16h20,Paul-Comtois 3101,En classe,N/A
+AGC3502-Automne2024-A,0,Mardi,N/A,15h30,16h50,Paul-Comtois 2104,Rencontre,Laurence Morin Rivet
+AGC3502-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,15h30,16h50,Paul-Comtois 2104,En classe,N/A
+AGC3502-Automne2022-C,0,Mardi,Du 8 nov. 2022 au 29 nov. 2022,15h30,16h50,Paul-Comtois 2107,En classe,N/A
+AGC3503-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Stage,Laurence Morin Rivet
+AGC3503-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Stage,N/A
+AGC3503-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Stage,N/A
+AGC4000-Automne2024-A,0,Jeudi,N/A,13h30,16h20,Paul-Comtois 2102,En classe,Marie-Ève Gaboury-Bonhomme
+AGC4000-Automne2023-B,0,Jeudi,Du 9 nov. 2023 au 30 nov. 2023,13h30,16h20,Paul-Comtois 3101,En classe,N/A
+AGC4000-Automne2022-C,0,Jeudi,Du 6 sept. 2022 au 16 sept. 2022,13h30,16h20,Paul-Comtois 2106,En classe,N/A
+AGC4001-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,13h,15h50,Paul-Comtois 2420,En classe,N/A
+AGC4001-Hiver2023-B,0,Mardi,Du 10 jan. 2023 au 21 avr. 2023,13h,15h50,Adrien-Pouliot 2500,Sur Internet,N/A
+AGC4002-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,Paul-Comtois 2102,En classe,N/A
+AGC4002-Hiver2023-B,0,Mardi,Du 10 jan. 2023 au 21 avr. 2023,8h30,11h20,Paul-Comtois 2107,En classe,N/A
+AGC4003-Hiver2024-A,0,Vendredi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,Paul-Comtois 2107,En classe,N/A
+AGC4003-Hiver2023-B,0,Vendredi,Du 10 jan. 2023 au 21 avr. 2023,9h,11h50,Paul-Comtois 3102,En classe,N/A
+AGC4100-Hiver2024-A,0,Mercredi,Du 17 jan. 2024 au 21 fév. 2024,13h,15h50,Paul-Comtois 3111,Classe virtuelle synchrone,N/A
+AGC4100-Hiver2023-B,0,Mercredi,N/A,13h,15h50,Paul-Comtois 3111,Classe virtuelle synchrone,N/A
+AGC6001-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Séminaire,Rémy Lambert
+AGC6001-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Séminaire,N/A
+AGC6001-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Séminaire,N/A
+AGC6004-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Séminaire,Rémy Lambert
+AGC6004-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Séminaire,N/A
+AGC6004-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Séminaire,N/A
+AGC6500-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Essai,Rémy Lambert
+AGC6500-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Essai,N/A
+AGC6500-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Essai,N/A
+AGC6503-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Stage,Rémy Lambert
+AGC6503-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Stage,N/A
+AGC6503-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Stage,N/A
+AGC6801-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6801-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6801-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6802-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6802-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6802-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6803-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6803-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6803-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6804-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6804-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC6804-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC7000-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 29 jan. 2024,13h,15h40,Paul-Comtois 2101,En classe,N/A
+AGC7000-Automne2015-B,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+AGC7001-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,12h30,15h20,Paul-Comtois 4320,En classe,Ibrahima Bocoum
+AGC7001-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,12h30,15h20,Paul-Comtois 4320,En classe,N/A
+AGC7001-Automne2022-C,0,Mardi,Du 6 sept. 2022 au 30 sept. 2022,12h30,15h20,Paul-Comtois 4320,En classe,N/A
+AGC7003-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,13h30,16h20,Paul-Comtois 2101,En classe,Bruno Larue
+AGC7003-Automne2023-B,0,Vendredi,Du 5 sept. 2023 au 15 déc. 2023,13h30,16h20,Paul-Comtois 3106,En classe,N/A
+AGC7003-Automne2022-C,0,Vendredi,Du 6 sept. 2022 au 16 déc. 2022,13h30,16h20,Paul-Comtois 3106,En classe,N/A
+AGC7004-Automne2024-A,0,Jeudi,N/A,13h30,16h20,Paul-Comtois 2102,En classe,Marie-Ève Gaboury-Bonhomme
+AGC7004-Automne2023-B,0,Jeudi,Du 9 nov. 2023 au 30 nov. 2023,13h30,16h20,Paul-Comtois 3101,En classe,N/A
+AGC7004-Automne2022-C,0,Jeudi,Du 6 sept. 2022 au 16 sept. 2022,13h30,16h20,Paul-Comtois 2106,En classe,N/A
+AGC7005-Hiver2024-A,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,N/A,Sur Internet,N/A
+AGC7005-Hiver2023-B,0,Jeudi,Du 10 jan. 2023 au 21 avr. 2023,9h,11h50,N/A,Sur Internet,N/A
+AGC7007-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,Paul-Comtois 4404,En classe,Rémy Lambert
+AGC7007-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,Paul-Comtois 4404,En classe,N/A
+AGC7007-Hiver2020-C,0,Vendredi,Du 13 jan. 2020 au 24 avr. 2020,9h,11h50,Paul-Comtois 4404,En classe,N/A
+AGC7008-Hiver2024-A,0,Vendredi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,Paul-Comtois 2107,En classe,N/A
+AGC7008-Hiver2023-B,0,Vendredi,Du 10 jan. 2023 au 21 avr. 2023,9h,11h50,Paul-Comtois 3102,En classe,N/A
+AGC7010-Hiver2019-A,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+AGC7010-Hiver2018-B,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+AGC7011-Hiver2024-A,0,Mercredi,Du 17 jan. 2024 au 7 fév. 2024,13h30,16h20,Paul-Comtois 3106,En classe,N/A
+AGC7011-Hiver2023-B,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,13h30,16h20,Paul-Comtois 3101,Sur Internet,N/A
+AGC7013-Hiver2024-A,0,Jeudi,Du 15 jan. 2024 au 26 avr. 2024,13h30,16h20,Paul-Comtois 4320,Sur Internet,N/A
+AGC7013-Hiver2023-B,0,Jeudi,Du 10 jan. 2023 au 21 avr. 2023,13h30,16h20,Paul-Comtois 4320,Sur Internet,N/A
+AGC7015-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,13h,15h50,Paul-Comtois 2420,En classe,N/A
+AGC7015-Hiver2023-B,0,Mardi,Du 10 jan. 2023 au 21 avr. 2023,13h,15h50,Adrien-Pouliot 2500,Sur Internet,N/A
+AGC7016-Automne2022-A,0,Lundi,Du 6 sept. 2022 au 16 déc. 2022,12h30,15h20,Paul-Comtois 4404,En classe,N/A
+AGC7016-Automne2020-B,0,Mercredi,Du 31 août 2020 au 11 déc. 2020,9h,9h50,N/A,Sur Internet,N/A
+AGC7017-Automne2024-A,0,Jeudi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,Paul-Comtois 4320,En classe,Patrick Mundler
+AGC7017-Automne2023-B,0,Jeudi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,Paul-Comtois 4320,En classe,N/A
+AGC7017-Automne2022-C,0,Jeudi,Du 6 sept. 2022 au 16 déc. 2022,9h,11h50,Paul-Comtois 4320,En classe,N/A
+AGC7018-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,13h30,16h20,Paul-Comtois 4404,En classe,Maurice Doyon
+AGC7018-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,13h30,16h20,Paul-Comtois 4404,En classe,N/A
+AGC7018-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,13h30,16h20,Paul-Comtois 4404,Sur Internet,N/A
+AGC7019-Hiver2024-A,0,Mercredi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,N/A,Classe virtuelle synchrone,N/A
+AGC7019-Hiver2023-B,0,Mercredi,Du 10 jan. 2023 au 21 avr. 2023,9h,11h50,N/A,Classe virtuelle synchrone,N/A
+AGC7020-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Lectures dirigées,Rémy Lambert
+AGC7020-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+AGC7020-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Lectures dirigées,N/A
+AGC7021-Automne2022-A,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,9h,11h50,Paul-Comtois 4404,Sur Internet,N/A
+AGC7021-Automne2021-B,0,Mardi,Du 30 août 2021 au 10 déc. 2021,9h,11h50,N/A,Sur Internet,N/A
+AGC7022-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,12h30,15h20,Paul-Comtois 4404,En classe,Bruno Larue
+AGC7022-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,12h30,15h20,Paul-Comtois 4404,En classe,N/A
+AGC7022-Automne2022-C,0,Mardi,Du 6 sept. 2022 au 16 déc. 2022,12h30,15h20,Paul-Comtois 4404,En classe,N/A
+AGC7023-Automne2024-A,0,Mardi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,Paul-Comtois 4320,En classe,Alphonse Gbemay Singbo
+AGC7023-Automne2023-B,0,Mardi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,Paul-Comtois 4320,En classe,N/A
+AGC7023-Automne2022-C,0,Jeudi,Du 6 sept. 2022 au 16 déc. 2022,13h30,16h20,Paul-Comtois 4320,En classe,N/A
+AGC7024-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,9h,11h50,Paul-Comtois 3106,En classe,N/A
+AGC7100-Hiver2024-A,0,Mercredi,Du 17 jan. 2024 au 21 fév. 2024,13h,15h50,Paul-Comtois 3111,Classe virtuelle synchrone,N/A
+AGC7100-Hiver2023-B,0,Mercredi,N/A,13h,15h50,Paul-Comtois 3111,Classe virtuelle synchrone,N/A
+AGC8000-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Séminaire,Ibrahima Bocoum
+AGC8000-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Séminaire,N/A
+AGC8000-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Séminaire,N/A
+AGC8002-Ete2024-A,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Examen de doctorat,N/A
+AGC8002-Ete2023-B,0,N/A,Du 1 mai 2023 au 11 août 2023,N/A,N/A,N/A,Examen de doctorat,N/A
+AGC8003-Ete2018-A,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+AGC8004-Ete2024-A,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Sujets spéciaux,N/A
+AGC8004-Ete2023-B,0,N/A,Du 1 mai 2023 au 11 août 2023,N/A,N/A,N/A,Sujets spéciaux,N/A
+AGC8811-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8811-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8811-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8812-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8812-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8812-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8813-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8813-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8813-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8814-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8814-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8814-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8815-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8815-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8815-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8816-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8816-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8816-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8817-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8817-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8817-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8818-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8818-Ete2024-B,0,N/A,Du 6 mai 2024 au 16 août 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGC8818-Hiver2024-C,0,N/A,Du 15 jan. 2024 au 26 avr. 2024,N/A,N/A,N/A,Crédits de recherche,N/A
+AGE7000-Automne2024-A,0,Vendredi,Du 3 sept. 2024 au 13 déc. 2024,9h,11h50,N/A,Sur Internet,Patrick Mundler
+AGE7000-Automne2023-B,0,Vendredi,Du 5 sept. 2023 au 15 déc. 2023,9h,11h50,N/A,Sur Internet,N/A
+AGE7000-Automne2022-C,0,Vendredi,Du 6 sept. 2022 au 16 déc. 2022,9h,11h50,N/A,Sur Internet,N/A
+AGE7001-Automne2024-A,0,Mercredi,Du 3 sept. 2024 au 13 déc. 2024,9h30,12h20,Paul-Comtois 2104,En classe,Alain Olivier
+AGE7001-Automne2023-B,0,Mercredi,Du 5 sept. 2023 au 15 déc. 2023,9h30,12h20,Paul-Comtois 2104,Sur Internet,N/A
+AGE7001-Automne2022-C,0,Mercredi,Du 6 sept. 2022 au 16 déc. 2022,9h30,12h20,Paul-Comtois 3101,Sur Internet,N/A
+AGE7002-Hiver2024-A,0,Mardi,Du 15 jan. 2024 au 26 avr. 2024,13h30,16h20,Paul-Comtois 3101,En classe,N/A
+AGE7002-Hiver2023-B,0,Mardi,Du 10 jan. 2023 au 21 avr. 2023,13h30,16h20,Paul-Comtois 3101,Sur Internet,N/A
+AGF4001-Hiver2024-A,0,Lundi,Du 15 jan. 2024 au 26 avr. 2024,9h30,12h20,Paul-Comtois 2106,En classe,N/A
+AGF4001-Hiver2022-B,0,Lundi,Du 10 jan. 2022 au 22 avr. 2022,9h30,12h20,Paul-Comtois 2420,En classe,N/A
+AGF6000-Automne2024-A,0,N/A,Du 3 sept. 2024 au 13 déc. 2024,N/A,N/A,N/A,Sur Internet,Alain Olivier
+AGF6000-Automne2023-B,0,N/A,Du 5 sept. 2023 au 15 déc. 2023,N/A,N/A,N/A,Sur Internet,N/A
+AGF6000-Automne2022-C,0,N/A,Du 6 sept. 2022 au 16 déc. 2022,N/A,N/A,N/A,Sur Internet,N/A
