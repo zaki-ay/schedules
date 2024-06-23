@@ -16,9 +16,10 @@ def scrape_class_info(sigle):
     soup = BeautifulSoup(response.content, 'html.parser')
 
     data = []
-    data.extend(extract_semester_info(soup, 'groupes_wrapper20241', sigle, 'Winter'))
-    data.extend(extract_semester_info(soup, 'groupes_wrapper20242', sigle, 'Summer'))
-    data.extend(extract_semester_info(soup, 'groupes_wrapper20243', sigle, 'Fall'))
+    data.extend(extract_semester_info(soup, 'groupes_wrapper20241', sigle, 'hiver2024'))
+    data.extend(extract_semester_info(soup, 'groupes_wrapper20242', sigle, 'ete2024'))
+    data.extend(extract_semester_info(soup, 'groupes_wrapper20243', sigle, 'automne2024'))
+    data.extend(extract_semester_info(soup, 'groupes_wrapper20251', sigle, 'hiver2025'))
     
     return data
 
