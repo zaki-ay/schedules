@@ -357,7 +357,7 @@
           const siglesInput = document.getElementById('sigles'); // Get the input field
           classes.forEach((className, index) => {
             const listItem = document.createElement('li');
-            listItem.textContent = className;
+            listItem.textContent = className.toUpperCase();
             const removeButton = document.createElement('button');
             removeButton.textContent = 'X';
             removeButton.className = 'remove-btn';
