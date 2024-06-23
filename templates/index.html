@@ -146,29 +146,36 @@
             <h2>Cours</h2>
             <form id="scheduleForm" action="/schedule" method="post">
                 <div class="mb-3">
+                    <legend>Université:</legend>
+                    <input type="radio" id="universite" name="universite" value="uqam" class="form-check-input">
+                    <label for="universite" class="form-check-label">UQAM</label>
+                    <input type="radio" id="universite" name="universite" value="ulaval" class="form-check-input">
+                    <label for="universite" class="form-check-label">U Laval</label>
+                </div>
+                <div class="mb-3">
                     <label for="sigles" class="form-label">Sigles (séparés par virgule):</label>
-                    <input type="text" id="sigles" name="sigles" class="form-control" placeholder="INF1120,AOT1110">
+                    <input type="text" id="sigles" name="sigles" class="form-control" placeholder="INF1120,INF1132">
                 </div>
                 <div class="mb-3 d-none">
                     <label for="min_length" class="form-label">Nombre de cours minimum sur l'horaire:</label>
                     <input type="number" id="min_length" name="min_length" class="form-control" min=0>
                 </div>
                 <fieldset class="mb-3">
-                    <legend>Session:</legend>
+
                     <div class="form-check">
                         <input type="radio" id="winter2024" name="season" value="winter2024" class="form-check-input">
                         <label for="winter2024" class="form-check-label">Hiver 2024</label>
                     </div>
                     <div class="form-check">
-                        <input type="radio" id="summer" name="season" value="summer" class="form-check-input">
+                        <input type="radio" id="ete2024" name="season" value="ete2024" class="form-check-input">
                         <label for="summer" class="form-check-label">Été 2024</label>
                     </div>
                     <div class="form-check">
-                        <input type="radio" id="fall" name="season" value="fall" class="form-check-input" checked>
-                        <label for="fall" class="form-check-label">Autonme 2024</label>
+                        <input type="radio" id="automne2024" name="season" value="automne2024" class="form-check-input" checked>
+                        <label for="automne2024" class="form-check-label">Autonme 2024</label>
                     </div>
                     <div class="form-check">
-                        <input type="radio" id="winter" name="season" value="winter" class="form-check-input">
+                        <input type="radio" id="winter2025" name="season" value="winter2025" class="form-check-input">
                         <label for="winter" class="form-check-label">Hiver 2025</label>
                     </div>
                 </fieldset>
