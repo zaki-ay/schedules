@@ -4,6 +4,7 @@ import csv
 app = Flask(__name__)
 
 BASE_USER = "zicozico"
+#BASE_USER = "homer"
 
 class Task:
     def __init__(self, name, day_times):
