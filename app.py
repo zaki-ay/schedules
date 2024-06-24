@@ -1,10 +1,9 @@
 from flask import Flask, request, jsonify, render_template
-import csv
+import csv, getpass
 
 app = Flask(__name__)
 
-BASE_USER = "homer"
-#BASE_USER = "zicozico"
+BASE_USER = getpass.getuser()
 
 class Task:
     def __init__(self, name, day_times):
