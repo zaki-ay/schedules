@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 import csv, getpass
+from functools import lru_cache
 
 app = Flask(__name__)
 
@@ -31,8 +32,8 @@ def _convert_to_minutes(time_str):
         print(f"Warning: Invalid time format '{time_str}'. Expected format like '10h30'.")
         return -1
 
+@lru_cache(maxsize=None)
 def read_tasks_from_file(season):
-    #file_path = f'{season}.csv'
     file_path = f'/home/{BASE_USER}/sched/data_uqam.csv'
     tasks = {}
     with open(file_path, 'r') as file:
@@ -40,14 +41,12 @@ def read_tasks_from_file(season):
         for line in reader:
             key = line['Name']
             class_split = key.split('-')
-            if len(class_split) == 3:
-                if class_split[1].lower() == season:
-                    day_time = (line['Day'], _convert_to_minutes(line['Start Time']), _convert_to_minutes(line['End Time']))
-                    if key in tasks:
-                        tasks[key].append(day_time)
-                    else:
-                        tasks[key] = [day_time]
-    # Convert to Task instances
+            if len(class_split) == 3 and class_split[1].lower() == season:
+                day_time = (line['Day'], _convert_to_minutes(line['Start Time']), _convert_to_minutes(line['End Time']))
+                if key in tasks:
+                    tasks[key].append(day_time)
+                else:
+                    tasks[key] = [day_time]
     return [Task(name, day_times) for name, day_times in tasks.items()]
 
 def find_possible_schedules(tasks):
