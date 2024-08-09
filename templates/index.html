@@ -316,10 +316,10 @@
               updateScheduleDisplay();
               await fetchAndDisplaySchedule(window.currentScheduleIndex);
             } else {
-              console.error('No schedules returned:', data);
+              //console.error('No schedules returned:', data);
             }
           } catch (error) {
-            console.error('Error fetching schedules:', error);
+            //console.error('Error fetching schedules:', error);
             alert("Aucun horaire n'a été trouvé!")
             clearCalendar();
           } finally {
@@ -418,13 +418,13 @@
                   });
                 } else {
                   blurMask.classList.remove('active');
-                  console.error('No schedules returned:', data);
+                  //console.error('No schedules returned:', data);
                 }
               }).catch(error => {
                 blurMask.classList.remove('active');
                 alert("Aucun horaire n'a été trouvé!")
                 clearCalendar()
-                console.error('Error fetching schedules:', error);
+                //console.error('Error fetching schedules:', error);
               });
             };
             listItem.appendChild(removeButton);
@@ -445,7 +445,9 @@
             }));
             displaySchedule(classDetailsArray.flat());
           } catch (error) {
-            console.error('Error fetching class details:', error);
+            alert("Aucun horaire n'a été trouvé!")
+            clearCalendar();
+            //console.error('Error fetching class details:', error);
           }
         }
 
