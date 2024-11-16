@@ -14,6 +14,7 @@ def scrape_data_sigle(url):
         if soup:
             # Extracting all elements with data-sigle attribute within 'bloc-cours'
             courses = soup.find_all(attrs={"data-sigle": True})
+            print(courses)
             return [course['data-sigle'] for course in courses]
         else:
             print(f"No 'bloc-cours' found in {url}")
@@ -48,7 +49,7 @@ def write_to_file(output_file_path, data):
             file.write(f"{url}: {sigles}\n")
 
 # Example usage
-file_path = 'cours_uqam.txt'  # Update with the path to your file
-output_file_path = 'input_cours.txt'  # Path to output file
+file_path = '../static/liste_programmes.txt'  # Update with the path to your file
+output_file_path = '../static/liste_cours.txt'  # Path to output file
 N = 10  # Number of iterations after which to write to the file
 read_urls_and_scrape(file_path, output_file_path, N)
