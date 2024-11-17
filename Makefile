@@ -21,10 +21,10 @@ all: scrape_all run
 scrape_programmes:
 	@echo "Scraping program data..."
 	$(PYTHON) $(SCRIPT_SCRAPE_PROGRAMMES)
-	@echo "Scraping contenu variable"
-	curl https://etudier.uqam.ca/cours-contenu-variable > $(VAR_CONTENT) && grep -oE "id='[A-Z]{3}[0-9]{3}[A-Z]?'" $(VAR_CONTENT) | sed "s/id='\(.*\)'/\1/" >> $(CLEAN_COURS)
 	@echo "Removing old cleaned course list..."
 	rm -f $(CLEAN_COURS)
+	@echo "Scraping contenu variable"
+	curl https://etudier.uqam.ca/cours-contenu-variable > $(VAR_CONTENT) && grep -oE "id='[A-Z]{3}[0-9]{3}[A-Z]?'" $(VAR_CONTENT) | sed "s/id='\(.*\)'/\1/" >> $(CLEAN_COURS)
 	@echo "Generating unique course list..."
 	grep -oE '[A-Z]{3}[0-9]{4}' $(RAW_COURS) | sort | uniq > $(CLEAN_COURS)
 	@echo "Program data scraping completed."
