@@ -49,7 +49,7 @@ def write_to_file(output_file_path, data):
             file.write(f"{url}: {sigles}\n")
 
 # Example usage
-file_path = '../static/liste_programmes.txt'  # Update with the path to your file
-output_file_path = '../static/liste_cours.txt'  # Path to output file
+file_path = './static/liste_programmes.txt'  # Update with the path to your file
+output_file_path = './static/raw_liste_cours.txt'  # Path to output file
 N = 10  # Number of iterations after which to write to the file
 read_urls_and_scrape(file_path, output_file_path, N)

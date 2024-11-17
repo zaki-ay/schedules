@@ -1,5 +1,3 @@
 sched_env/
-static/data_uqam.csv
-static/liste_cours.txt
-static/liste_programmes.txt
 __pycache__/
+static/data_unique.csv
