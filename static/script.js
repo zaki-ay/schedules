@@ -44,6 +44,7 @@ $(document).ready(function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     clearCalendar();
+    clearClassList
     document.getElementById('scheduleForm').addEventListener('submit', async function(event) {
         event.preventDefault();
         const formData = new FormData(event.target);
@@ -69,6 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             //console.error('Error fetching schedules:', error);
             alert("Aucun horaire n'a été trouvé!")
             clearCalendar();
+            clearClassList();
         } finally {
             blurMask.classList.remove('active');
         }
@@ -130,6 +132,10 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("scheduleIndex").innerHTML = "1/1";
     }
 
+    function clearClassList() {
+      document.getElementById('classList').innerHTML = "";
+    }
+
     function displayClassList(classes) {
         const classList = document.getElementById('classList');
         classList.innerHTML = '';
@@ -149,6 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 formData.set('sigles', classes.join(','));
                 if (classes.length == 0) {
                     clearCalendar();
+                    clearClassList();
                     blurMask.classList.remove('active');
                     return;
                 }
@@ -170,7 +177,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 }).catch(error => {
                     blurMask.classList.remove('active');
                     alert("Aucun horaire n'a été trouvé!")
-                    clearCalendar()
+                    clearCalendar();
+                    clearClassList();
                     //console.error('Error fetching schedules:', error);
                 });
             };
@@ -194,6 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch (error) {
             alert("Aucun horaire n'a été trouvé!")
             clearCalendar();
+            clearClassList();
             //console.error('Error fetching class details:', error);
         }
     }

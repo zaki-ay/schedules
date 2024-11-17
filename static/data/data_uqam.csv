@@ -80,6 +80,7 @@ ACT6100-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,09h00,1
 ACT6100-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,10h30,12h00,PK-S1575 | Campus de Montréal,Cours magistral,Arthur Charpentier
 ACT6100-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 25 avril 2025,09h00,11h00,,Cours magistral,Cédric Beaulac
 ACT6100-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 25 avril 2025,11h00,12h00,PK-S1550 | Campus de Montréal,Cours magistral,Cédric Beaulac
+ACT633C-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 25 avril 2025,09h00,12h00,,Cours magistral,Non disponible
 ACT6901-automne2024-A,080,-,-,,,-,-,Mathieu Pigeon
 ACT6901-ete2025-A,080,-,-,,,-,-,Non disponible
 ACT6901-hiver2025-A,080,-,-,,,-,-,Mathieu Pigeon
@@ -108,6 +109,8 @@ ADM9903-ete2025-A,010,Mardi,27 mai   2025 29 avr.  2025 10 juin  2025 06 mai   2
 ADM9903-hiver2025-A,040,Jeudi,17 avr.  2025 16 janv. 2025 13 févr. 2025 09 janv. 2025 06 févr. 2025 20 mars  2025 13 mars  2025,09h30,16h30,,Cours magistral,Amélie Guèvremont
 ADM9930-ete2025-A,010,Lundi,Du 28 avril 2025 au 18 juin 2025,09h30,12h30,,Cours magistral,Non disponible
 ADM9930-ete2025-A,010,Mercredi,Du 28 avril 2025 au 18 juin 2025,09h30,12h30,,Cours magistral,Non disponible
+ADM993Y-automne2024-A,010,-,-,,,-,-,Annie Camus
+ADM993Y-hiver2025-A,010,-,-,,,-,-,Thibaut Coulon
 ADM9944-automne2024-A,020,Mardi,Du 3 septembre 2024 au 18 décembre 2024,09h30,12h30,R-4135   | Campus de Montréal,Cours magistral,Ariane Ollier Malaterre
 ADM9945-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,,Cours magistral,Annie Camus
 ADM9946-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 18 décembre 2024,09h30,12h30,R-1910   | Campus de Montréal,Cours magistral,Julie Delisle
@@ -118,6 +121,7 @@ ADM9956-automne2024-A,010,Lundi,Du 3 septembre 2024 au 18 décembre 2024,14h00,1
 ADM9957-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,,Cours magistral,Janosch Ortmann
 ADM9961-automne2024-A,010,Lundi,Du 3 septembre 2024 au 18 décembre 2024,14h00,17h00,A-2645   | Campus de Montréal,Cours magistral,Zandra Balbinot
 ADM9965-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 27 avril 2025,14h00,17h00,,Cours magistral,André Richelieu
+ADM997D-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,,Cours magistral,Maher Kooli
 ADM9984-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,,Cours magistral,Christina Constantinidis
 ADM9985-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 27 avril 2025,13h00,16h00,,Cours magistral,Mehran Ebrahimi
 ALL1030-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Sebastian Döderlein
@@ -382,6 +386,9 @@ AOT7005-ete2025-A,010,Lundi,Du 28 avril 2025 au 18 juin 2025,17h30,20h30,,Cours 
 AOT7005-ete2025-A,010,Mercredi,Du 28 avril 2025 au 18 juin 2025,17h30,20h30,,Cours magistral,Non disponible
 AOT7005-hiver2025-A,010,Lundi,06 janv. 2025 27 janv. 2025 31 mars  2025 24 févr. 2025 17 mars  2025 17 févr. 2025 13 janv. 2025 21 avr.  2025 10 févr. 2025,14h00,17h00,,Cours magistral,Laurent Renard
 AOT7005-hiver2025-A,010,Lundi,20 janv. 2025 24 mars  2025 07 avr.  2025 03 févr. 2025 10 mars  2025,14h01,17h00,,Cours magistral,Laurent Renard
+AOT700D-ete2025-A,020,Jeudi,Du 29 avril 2025 au 20 juin 2025,17h30,20h30,,Cours magistral,Non disponible
+AOT700D-ete2025-A,020,Mardi,Du 29 avril 2025 au 20 juin 2025,17h30,20h30,,Cours magistral,Non disponible
+AOT700D-hiver2025-A,010,Samedi,11 janv. 2025 29 mars  2025 15 mars  2025 25 janv. 2025 08 févr. 2025 12 avr.  2025 22 févr. 2025,09h30,17h00,,Cours magistral,Magda Fusaro
 AOT7110-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,17h30,20h30,A-2680   | Campus de Montréal,Cours magistral,Elie Elia
 AOT7110-ete2025-A,040,Jeudi,10 juil. 2025,17h30,21h50,,Cours magistral,Non disponible
 AOT7110-ete2025-A,040,Jeudi,26 juin  2025 01 mai   2025 12 juin  2025 15 mai   2025 19 juin  2025 22 mai   2025 05 juin  2025 08 mai   2025 29 mai   2025 03 juil. 2025,17h30,21h40,,Cours magistral,Non disponible
@@ -711,6 +718,7 @@ ASS7127-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,18h00,2
 ASS7129-ete2025-A,010,Jeudi,Du 28 avril 2025 au 18 juin 2025,18h00,21h00,,Cours magistral,Non disponible
 ASS7129-ete2025-A,010,Lundi,Du 28 avril 2025 au 18 juin 2025,18h00,21h00,,Cours magistral,Non disponible
 ASS7129-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Vitor Matias
+ASS712B-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Jean Horvais
 ASS7170-automne2024-A,021,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,A-1850   | Campus de Montréal,Cours magistral,Stéphanie Lauzé
 ASS7170-automne2024-B,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,A-2660   | Campus de Montréal,Cours magistral,Stéphanie Lauzé
 ASS7171-hiver2025-A,021,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Isabelle Atkins
@@ -976,6 +984,9 @@ AVM4603-automne2024-A,010,Mardi,Du 3 septembre 2024 au 16 décembre 2024,09h30,1
 AVM4604-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-6180   | Campus de Montréal,Cours magistral,Non disponible
 AVM4604-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-6180   | Campus de Montréal,Atelier,Non disponible
 AVM4604-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-6180   | Campus de Montréal,Cours magistral,Non disponible
+AVM460D-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-5290   | Campus de Montréal,Cours magistral,Romeo Gongora
+AVM460D-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-5290   | Campus de Montréal,Atelier,Romeo Gongora
+AVM460D-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-5290   | Campus de Montréal,Cours magistral,Romeo Gongora
 AVM4900-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,J-R340   | Campus de Montréal,Cours magistral,Marc Laforest
 AVM4900-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,J-R340   | Campus de Montréal,Cours magistral,Marie-Pierre Labrie
 AVM4901-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,17h30,20h30,J-R260   | Campus de Montréal,Cours magistral,Laurence Sylvestre
@@ -996,6 +1007,8 @@ AVM5733-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,17h30,2
 AVM5733-ete2025-A,010,Lundi,Du 29 avril 2024 au 19 juin 2024,17h30,20h30,,Cours magistral,Non disponible
 AVM5733-ete2025-A,010,Mercredi,Du 29 avril 2024 au 19 juin 2024,17h30,20h30,,Atelier,Non disponible
 AVM5733-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,17h30,20h30,J-R260   | Campus de Montréal,Cours magistral,Véronique Côté
+AVM580J-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-R315   | Campus de Montréal,Cours magistral,Non disponible
+AVM580J-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-R315   | Campus de Montréal,Cours magistral,Non disponible
 AVM5900-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,17h30,20h30,J-R340   | Campus de Montréal,Cours magistral,Adriana Oliveira
 AVM5925-automne2024-A,020,Jeudi,19 sept. 2024 31 oct.  2024 05 sept. 2024 17 oct.  2024 03 oct.  2024,09h30,12h30,J-R340   | Campus de Montréal,Cours magistral,Marie-Pier Viens
 AVM5925-automne2024-A,020,Mardi,10 sept. 2024 17 sept. 2024 22 oct.  2024 05 nov.  2024 01 oct.  2024 15 oct.  2024 24 sept. 2024 03 sept. 2024 08 oct.  2024 29 oct.  2024,09h30,12h30,J-R340   | Campus de Montréal,Cours magistral,Marie-Pier Viens
@@ -1007,6 +1020,8 @@ AVM5965-hiver2025-A,020,Jeudi,30 janv. 2025 16 janv. 2025 13 mars  2025 13 févr
 AVM5965-hiver2025-A,020,Mardi,21 janv. 2025 04 févr. 2025 14 janv. 2025 25 févr. 2025 07 janv. 2025 04 mars  2025 11 mars  2025 28 janv. 2025 11 févr. 2025 18 févr. 2025,14h00,17h00,J-R340   | Campus de Montréal,Cours magistral,Adriana Oliveira
 AVM8010-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-R370   | Campus de Montréal,Cours magistral,Jean Dubois
 AVM8010-hiver2025-B,011,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-R370   | Campus de Montréal,Cours magistral,Jean Dubois
+AVM802Y-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-R370   | Campus de Montréal,Cours magistral,Dominique Sirois
+AVM804P-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-R370   | Campus de Montréal,Cours magistral,Philippe-Aubert Gauthier
 AVM8101-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,J-R370   | Campus de Montréal,Cours magistral,Dominic Papillon
 AVM8101-automne2024-B,041,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,J-R370   | Campus de Montréal,Cours magistral,Gisèle Trudel
 AVM8111-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,J-7170   | Campus de Montréal,Atelier,Michael Blum
@@ -1680,6 +1695,8 @@ DAN2042-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,
 DAN2050-hiver2025-A,020,Mardi,08 avr.  2025 11 mars  2025 25 mars  2025 18 févr. 2025 11 févr. 2025,18h00,19h30,K-3220   | Campus de Montréal,Cours magistral,Andréanne Breault
 DAN2058-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Caroline Raymond
 DAN2061-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,K-4110   | Campus de Montréal,Atelier,Andréanne Breault
+DAN206J-hiver2025-A,020,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,K-4115   | Campus de Montréal,Laboratoire,Non disponible
+DAN206J-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,K-4115   | Campus de Montréal,Atelier,Non disponible
 DAN2108-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-4110   | Campus de Montréal,Atelier,Kelly Keenan
 DAN2108-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-4110   | Campus de Montréal,Atelier,Kelly Keenan
 DAN2108-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-4110   | Campus de Montréal,Atelier,Kelly Keenan
@@ -1699,6 +1716,10 @@ DAN4108-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-4
 DAN4108-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-4115   | Campus de Montréal,Atelier,Johanna Bienaise
 DAN4108-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-4115   | Campus de Montréal,Atelier,Johanna Bienaise
 DAN4108-hiver2025-A,010,Vendredi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-4115   | Campus de Montréal,Atelier,Johanna Bienaise
+DAN422R-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,13h00,16h00,K-4110   | Campus de Montréal,Atelier,Non disponible
+DAN422R-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,13h00,16h00,K-4110   | Campus de Montréal,Atelier,Non disponible
+DAN422R-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,13h00,16h00,K-4110   | Campus de Montréal,Laboratoire,Non disponible
+DAN422R-hiver2025-A,010,Vendredi,Du 6 janvier 2025 au 18 avril 2025,13h00,16h00,K-4110   | Campus de Montréal,Laboratoire,Non disponible
 DAN4260-ete2025-A,010,Jeudi,Du 26 mai 2025 au 18 juin 2025,09h30,12h30,,Cours magistral,Non disponible
 DAN4260-ete2025-A,010,Jeudi,Du 26 mai 2025 au 18 juin 2025,14h00,17h00,,Laboratoire,Non disponible
 DAN4260-ete2025-A,010,Lundi,Du 26 mai 2025 au 18 juin 2025,09h30,12h30,,Cours magistral,Non disponible
@@ -1720,6 +1741,11 @@ DAN5286-automne2024-A,020,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,11h00,1
 DAN5286-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,11h00,12h30,K-1150   | Campus de Montréal,Laboratoire,Danièle Desnoyers
 DAN5286-automne2024-A,020,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,K-1150   | Campus de Montréal,Atelier,Danièle Desnoyers
 DAN5286-automne2024-A,020,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,11h00,12h30,K-1150   | Campus de Montréal,Laboratoire,Danièle Desnoyers
+DAN610E-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-1150   | Campus de Montréal,Atelier,Non disponible
+DAN610E-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-1150   | Campus de Montréal,Atelier,Non disponible
+DAN610E-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-1150   | Campus de Montréal,Atelier,Non disponible
+DAN610E-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-1150   | Campus de Montréal,Atelier,Non disponible
+DAN610E-hiver2025-A,010,Vendredi,Du 6 janvier 2025 au 18 avril 2025,09h00,10h40,K-1150   | Campus de Montréal,Atelier,Non disponible
 DAN6223-automne2024-A,020,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,11h00,12h30,K-1150   | Campus de Montréal,Laboratoire,Danièle Desnoyers
 DAN6223-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,11h00,12h30,K-1150   | Campus de Montréal,Laboratoire,Danièle Desnoyers
 DAN6223-automne2024-A,020,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,K-1150   | Campus de Montréal,Atelier,Danièle Desnoyers
@@ -1940,6 +1966,9 @@ DDD8010-automne2024-A,060,Samedi,21 sept. 2024 07 sept. 2024,09h00,16h00,N-M120 
 DDD8010-automne2024-A,060,Vendredi,13 sept. 2024,18h00,21h00,N-M120   | Campus de Montréal,Cours magistral,Émilie Tremblay-Wragg
 DDD8020-automne2024-A,050,Lundi,07 oct.  2024 21 oct.  2024 09 sept. 2024 16 sept. 2024 23 sept. 2024,18h00,21h00,N-M520   | Campus de Montréal,Cours magistral,Émilie Tremblay-Wragg
 DDD8020-ete2025-A,050,Lundi,12 mai   2025 26 mai   2025,18h00,21h00,,Cours magistral,Non disponible
+DDD828P-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
+DDD828S-hiver2025-A,050,-,-,,,-,-,Non disponible
+DDD830A-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 DDD8520-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,SB-1730  | Campus de Montréal,Cours magistral,Abdeljalil Metioui
 DDD8523-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,SB-1730  | Campus de Montréal,Cours magistral,Frédéric Fournier
 DDD8530-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Mélanie Champoux
@@ -2054,6 +2083,7 @@ DDL8220-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,2
 DDL8223-automne2024-A,030,Mardi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,A-2770   | Campus de Montréal,Cours magistral,Morgan Le Thiec
 DDL8233-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,A-2770   | Campus de Montréal,Cours magistral,Marie Duchemin
 DDL8243-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
+DDL824J-hiver2025-A,060,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Caroline Anne Payant
 DDL8253-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 DDL8263-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 DDL8273-ete2025-A,010,Lundi,Du 28 avril 2025 au 18 juin 2025,18h00,21h00,,Cours magistral,Non disponible
@@ -2515,6 +2545,16 @@ DES5634-automne2024-C,012,Lundi,Du 28 octobre 2024 au 16 décembre 2024,13h30,18
 DES6440-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,DE-5270  | Campus de Montréal,Cours magistral,Non disponible
 DES6620-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
 DES6620-hiver2025-B,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
+DES663A-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-3580  | Campus de Montréal,Atelier,Guillaume Sasseville
+DES663A-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-3580  | Campus de Montréal,Cours magistral,Guillaume Sasseville
+DES663B-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-4550  | Campus de Montréal,Atelier,Patrick Evans
+DES663B-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-4550  | Campus de Montréal,Cours magistral,Patrick Evans
+DES663C-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-2540  | Campus de Montréal,Atelier,Non disponible
+DES663C-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-2540  | Campus de Montréal,Cours magistral,Non disponible
+DES663C-hiver2025-B,011,Jeudi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-4581  | Campus de Montréal,Atelier,Non disponible
+DES663C-hiver2025-B,011,Lundi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-4581  | Campus de Montréal,Cours magistral,Non disponible
+DES663D-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-3540  | Campus de Montréal,Atelier,Non disponible
+DES663D-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,13h30,18h00,DE-3540  | Campus de Montréal,Cours magistral,Non disponible
 DES7002-automne2024-A,010,-,-,,,-,-,Non disponible
 DES7002-hiver2025-A,010,-,-,,,-,-,Non disponible
 DES7003-automne2024-A,010,-,-,,,-,-,Non disponible
@@ -3142,6 +3182,8 @@ ECO9100-automne2024-A,050,Vendredi,Du 3 septembre 2024 au 18 décembre 2024,14h0
 ECO9100-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 27 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 ECO9200-hiver2025-A,050,Vendredi,Du 10 janvier 2022 au 29 avril 2022,09h30,12h30,,Cours magistral,Non disponible
 ECO9240-automne2024-A,030,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,09h30,12h30,DS-5549  | Campus de Montréal,Cours magistral,Till Duppe
+ECO930G-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,DS-5959  | Campus de Montréal,Cours magistral,Kristian Behrens
+ECO930J-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,DS-5650  | Campus de Montréal,Cours magistral,Philippe Goulet Coulombe
 EDL1600-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,V-1650   | Campus de Montréal,Cours magistral,Juliane Bertrand
 EDL5300-automne2024-A,080,-,-,,,-,-,Non disponible
 EDL5300-hiver2025-A,080,-,-,,,-,-,Non disponible
@@ -3448,6 +3490,8 @@ EDM7818-ete2025-A,020,Mardi,Du 28 avril 2025 au 18 juin 2025,09h30,12h30,,Cours 
 EDM8105-ete2025-A,010,Lundi,Du 28 avril 2025 au 18 juin 2025,09h30,12h30,,Cours magistral,Non disponible
 EDM8105-ete2025-A,010,Mercredi,Du 28 avril 2025 au 18 juin 2025,09h30,12h30,,Cours magistral,Non disponible
 EDM8106-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Suzanne Lortie
+EDM811D-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
+EDM811D-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Atelier,Non disponible
 EDM8130-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,A-2710   | Campus de Montréal,Cours magistral,Roland-Yves Carignan
 EFA1016-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 EFA1020-hiver2025-A,060,Samedi,08 févr. 2025 22 févr. 2025 25 janv. 2025 18 janv. 2025 11 janv. 2025 15 févr. 2025,09h00,17h30,,Cours magistral,Non disponible
@@ -3587,8 +3631,10 @@ EPA9002-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-R
 EPA9003-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,R-4240   | Campus de Montréal,Cours magistral,Hélène Doyon
 EPA9003-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,R-4240   | Campus de Montréal,Cours magistral,Monia Abdallah
 EPA9003-hiver2025-B,021,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
+EPA904S-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,R-4215   | Campus de Montréal,Cours magistral,Vanessa Blais-Tremblay
 EPA9100-automne2024-A,001,-,-,,,-,-,Non disponible
 EPA9100-hiver2025-A,001,-,-,,,-,-,Non disponible
+EPA910C-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,R-4215   | Campus de Montréal,Cours magistral,Non disponible
 EPA9200-automne2024-A,001,-,-,,,-,-,Non disponible
 EPA9200-hiver2025-A,001,-,-,,,-,-,Non disponible
 EPA9300-automne2024-A,001,-,-,,,-,-,Non disponible
@@ -3671,6 +3717,8 @@ ESP2700-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Co
 ESP2800-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Ayarid Guillen
 ESP3500-automne2024-A,063,-,-,,,-,-,Ayarid Guillen
 EST1010-ete2025-A,010,-,-,,,-,-,Non disponible
+EST102E-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
+EST102E-hiver2025-A,010,Vendredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Laboratoire,Non disponible
 EST1075-automne2024-A,010,Lundi,Du 3 septembre 2024 au 9 décembre 2024,14h00,17h00,DS-M280  | Campus de Montréal,Cours magistral,Vincent De Repentigny-Corbeil
 EST1100-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
 EST1105-automne2024-A,010,Lundi,Du 3 septembre 2024 au 9 décembre 2024,18h00,21h00,DS-R515  | Campus de Montréal,Cours magistral,Stéphane Lépine
@@ -3680,8 +3728,11 @@ EST1305-automne2024-A,030,Mercredi,Du 4 septembre 2024 au 4 décembre 2024,09h30
 EST1400-hiver2025-A,020,Mardi,Du 7 janvier 2025 au 8 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 EST1406-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h30,17h30,J-1960   | Campus de Montréal,Cours magistral,Jean Desjardins
 EST1406-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h30,21h30,J-1960   | Campus de Montréal,Laboratoire,Jean Desjardins
+EST171D-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
+EST172E-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
 EST2010-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,A-2770   | Campus de Montréal,Cours magistral,Geneviève Bélisle
 EST2010-automne2024-B,011,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,A-1880   | Campus de Montréal,Cours magistral,Royds Fuentès
+EST201C-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 EST2099-hiver2025-A,020,Mardi,Du 7 janvier 2025 au 11 avril 2025,09h30,12h40,J-2980   | Campus de Montréal,Cours magistral,Non disponible
 EST2099-hiver2025-A,020,Vendredi,Du 7 janvier 2025 au 11 avril 2025,09h30,12h40,J-2980   | Campus de Montréal,Laboratoire,Non disponible
 EST2144-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-1965   | Campus de Montréal,Laboratoire,Non disponible
@@ -3698,6 +3749,14 @@ EST2280-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-2
 EST2280-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-2940   | Campus de Montréal,Laboratoire,Camille Burger
 EST2305-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-1965   | Campus de Montréal,Cours magistral,Non disponible
 EST2305-hiver2025-A,020,Vendredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-1965   | Campus de Montréal,Laboratoire,Non disponible
+EST230H-automne2024-A,040,Jeudi,Du 5 septembre 2024 au 14 novembre 2024,09h00,10h45,K-R380   | Campus de Montréal,Cours magistral,Félix Beaulieu-Duchesneau
+EST230H-automne2024-A,040,Jeudi,Du 5 septembre 2024 au 14 novembre 2024,10h45,12h30,K-R380   | Campus de Montréal,Laboratoire,Félix Beaulieu-Duchesneau
+EST230H-hiver2025-A,040,Jeudi,Du 9 janvier 2025 au 20 mars 2025,09h00,10h45,K-R380   | Campus de Montréal,Cours magistral,Non disponible
+EST230H-hiver2025-A,040,Jeudi,Du 9 janvier 2025 au 20 mars 2025,10h45,12h30,K-R380   | Campus de Montréal,Laboratoire,Non disponible
+EST230W-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,16h00,J-2980   | Campus de Montréal,Cours magistral,Non disponible
+EST230W-hiver2025-A,020,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,16h00,J-2980   | Campus de Montréal,Laboratoire,Non disponible
+EST230W-hiver2025-A,020,Vendredi,Du 6 janvier 2025 au 18 avril 2025,14h00,15h00,J-2980   | Campus de Montréal,Cours magistral,Non disponible
+EST230W-hiver2025-A,020,Vendredi,Du 6 janvier 2025 au 18 avril 2025,15h00,16h00,J-2980   | Campus de Montréal,Laboratoire,Non disponible
 EST2313-automne2024-A,010,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,J-2980   | Campus de Montréal,Laboratoire,Robert Drouin
 EST2313-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,J-2980   | Campus de Montréal,Cours magistral,Robert Drouin
 EST2314-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 26 février 2025,09h00,13h00,J-2960   | Campus de Montréal,Cours magistral,Non disponible
@@ -3714,6 +3773,10 @@ EST2403-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,1
 EST2403-automne2024-A,040,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,N-M410   | Campus de Montréal,Laboratoire,Émilie Martz-Kuhn
 EST2410-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-1950   | Campus de Montréal,Cours magistral,Non disponible
 EST2410-hiver2025-A,010,Vendredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-1950   | Campus de Montréal,Laboratoire,Non disponible
+EST241Q-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-2930   | Campus de Montréal,Cours magistral,Non disponible
+EST241Q-hiver2025-A,020,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,J-2930   | Campus de Montréal,Laboratoire,Non disponible
+EST241Q-hiver2025-A,020,Vendredi,Du 6 janvier 2025 au 18 avril 2025,09h30,11h00,J-2930   | Campus de Montréal,Cours magistral,Non disponible
+EST241Q-hiver2025-A,020,Vendredi,Du 6 janvier 2025 au 18 avril 2025,11h00,12h30,J-2930   | Campus de Montréal,Laboratoire,Non disponible
 EST2500-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,J-2940   | Campus de Montréal,Cours magistral,Camille Burger
 EST2500-automne2024-A,010,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,J-2940   | Campus de Montréal,Laboratoire,Camille Burger
 EST2502-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,J-1965   | Campus de Montréal,Cours magistral,Élisabeth Senay
@@ -3724,6 +3787,7 @@ EST2506-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,09h30,1
 EST2506-automne2024-A,020,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,K-R380   | Campus de Montréal,Laboratoire,Annick Bergeron
 EST2507-hiver2025-A,020,Mardi,Du 7 janvier 2025 au 9 avril 2025,13h50,17h00,J-2940   | Campus de Montréal,Cours magistral,Non disponible
 EST2507-hiver2025-A,020,Mercredi,Du 7 janvier 2025 au 9 avril 2025,18h00,21h10,J-2940   | Campus de Montréal,Laboratoire,Non disponible
+EST270C-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 28 mars 2025,08h00,12h30,K-R380   | Campus de Montréal,Cours magistral,Petre Batakliev
 EST3000-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,J-2105   | Campus de Montréal,Cours magistral,Isabelle Chrétien
 EST3000-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,J-2105   | Campus de Montréal,Laboratoire,Isabelle Chrétien
 EST3000-automne2024-B,030,Mercredi,Du 28 août 2024 au 4 décembre 2024,09h30,12h30,J-2105   | Campus de Montréal,Cours magistral,Dinaïg Stall
@@ -3761,14 +3825,22 @@ EST3581-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h30,1
 EST3581-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,J-S1640  | Campus de Montréal,Laboratoire,Hugo Dalphond-Laporte
 EST3682-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,J-1310   | Campus de Montréal,Cours magistral,Non disponible
 EST3682-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-1310   | Campus de Montréal,Laboratoire,Non disponible
+EST405G-ete2025-A,040,Jeudi,Du 28 avril 2025 au 18 juin 2025,17h00,19h30,J-2930   | Campus de Montréal,Cours magistral,Non disponible
+EST405G-ete2025-A,040,Jeudi,Du 28 avril 2025 au 18 juin 2025,19h30,21h00,J-2930   | Campus de Montréal,Laboratoire,Non disponible
+EST405G-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,19h30,J-2930   | Campus de Montréal,Cours magistral,Non disponible
+EST405G-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,19h30,21h00,J-2930   | Campus de Montréal,Laboratoire,Non disponible
 EST4104-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
 EST4108-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 EST4112-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,J-2350   | Campus de Montréal,Cours magistral,Élisabeth Senay
 EST4112-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 EST4116-automne2024-A,030,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,J-2350   | Campus de Montréal,Cours magistral,Benoit Graton
 EST4116-hiver2025-A,020,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
+EST411Q-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-2930   | Campus de Montréal,Laboratoire,Catherine Desjardins-Jolin
+EST411Q-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,J-2930   | Campus de Montréal,Cours magistral,Catherine Desjardins-Jolin
 EST4126-automne2024-A,040,Mardi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,J-2350   | Campus de Montréal,Cours magistral,Élisabeth Senay
 EST4126-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,J-1950   | Campus de Montréal,Cours magistral,Non disponible
+EST421T-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,K-R380   | Campus de Montréal,Laboratoire,Non disponible
+EST421T-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,K-R380   | Campus de Montréal,Cours magistral,Non disponible
 EST5002-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,J-1950   | Campus de Montréal,Cours magistral,Geneviève De Pasquale
 EST5011-automne2024-A,020,Mardi,Du 3 septembre 2024 au 3 décembre 2024,09h30,12h30,J-1950   | Campus de Montréal,Cours magistral,Katy Boucher
 EST5023-automne2024-A,040,Jeudi,Du 5 septembre 2024 au 5 décembre 2024,09h30,12h30,J-1960   | Campus de Montréal,Cours magistral,Marie Deaudelin
@@ -3787,12 +3859,15 @@ EST7623-automne2024-A,010,Vendredi,Du 6 septembre 2024 au 13 décembre 2024,14h0
 EST7630-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
 EST7630-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Laboratoire,Non disponible
 EST7631-ete2025-A,010,-,-,,,-,-,Non disponible
+EST763B-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Dinaïg Stall
+EST763B-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Laboratoire,Dinaïg Stall
 EST8000-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,A-2660   | Campus de Montréal,Cours magistral,Marie-Claude Garneau
 EST8000-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 EST8100-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,J-2350   | Campus de Montréal,Cours magistral,Maude Blanchette Lafrance
 EST8200-automne2024-A,001,-,-,,,-,-,Non disponible
 EST8200-ete2025-A,001,-,-,,,-,-,Non disponible
 EST8200-hiver2025-A,001,-,-,,,-,-,Non disponible
+EST860V-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 EST8711-automne2024-A,010,Jeudi,08 août  2024 15 août  2024,09h30,12h30,J-1950   | Campus de Montréal,Atelier,Anne Nadeau
 EST8711-automne2024-A,010,Jeudi,15 août  2024 08 août  2024,13h30,16h30,J-1950   | Campus de Montréal,Atelier,Anne Nadeau
 EST8711-automne2024-A,010,Lundi,05 août  2024 12 août  2024,09h30,12h30,J-1950   | Campus de Montréal,Atelier,Anne Nadeau
@@ -3980,6 +4055,11 @@ FAM1501-hiver2025-B,050,Vendredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,
 FAM4006-automne2024-A,030,Mercredi,Du 4 septembre 2024 au 6 novembre 2024,09h30,12h30,A-2645   | Campus de Montréal,Cours magistral,Marie-Stéphane Ledoux
 FAM4006-automne2024-A,030,Mercredi,Du 4 septembre 2024 au 6 novembre 2024,14h00,15h30,A-2645   | Campus de Montréal,Cours magistral,Marie-Stéphane Ledoux
 FAM4006-automne2024-A,030,Mercredi,Du 4 septembre 2024 au 6 novembre 2024,15h30,17h00,A-2645   | Campus de Montréal,Laboratoire,Marie-Stéphane Ledoux
+FAM410V-hiver2025-A,010,Vendredi,Du 6 janvier 2025 au 18 avril 2025,17h00,20h00,,Cours magistral,Hugo Dalphond-Laporte
+FAM410V-hiver2025-A,010,Vendredi,Du 6 janvier 2025 au 18 avril 2025,20h00,23h00,,Laboratoire,Hugo Dalphond-Laporte
+FAM410W-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,K-R380   | Campus de Montréal,Cours magistral,Non disponible
+FAM410W-hiver2025-A,030,Vendredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,K-R380   | Campus de Montréal,Laboratoire,Non disponible
+FAM800B-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 FCM1001-hiver2025-A,011,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 FCM1514-automne2024-A,050,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,V-1410   | Campus de Montréal,Cours magistral,Mazel Bidaoui
 FCM1800-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
@@ -4000,6 +4080,7 @@ FCM7650-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,1
 FCM7701-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Véronique Leduc
 FCM7702-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,J-3855   | Campus de Montréal,Cours magistral,Mouloud Boukala
 FCM7909-automne2024-A,080,-,-,,,-,-,Non disponible
+FCM790L-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Stéfany Boisvert
 FCM7920-automne2024-A,001,-,-,,,-,-,Non disponible
 FCM7920-ete2025-A,001,-,-,,,-,-,Non disponible
 FCM7920-hiver2025-A,001,-,-,,,-,-,Non disponible
@@ -4010,6 +4091,8 @@ FCM9120-automne2024-A,001,-,-,,,-,-,Non disponible
 FCM9120-ete2025-A,001,-,-,,,-,-,Non disponible
 FCM9131-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Stéfany Boisvert
 FCM9131-hiver2025-B,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Yanick Farmer
+FCM913U-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Caroline Bouchard
+FCM913V-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Diane Poitras
 FCM9221-automne2024-A,060,-,-,,,-,-,Non disponible
 FCM9221-ete2025-A,060,-,-,,,-,-,Non disponible
 FCM9221-hiver2025-A,060,-,-,,,-,-,Non disponible
@@ -4260,6 +4343,12 @@ FPD5006-ete2025-A,080,-,-,,,-,-,Non disponible
 FPD5006-hiver2025-A,080,-,-,,,-,-,Michèle Rioux
 FPD5009-ete2025-A,080,-,-,,,-,-,Non disponible
 FPD5009-hiver2025-A,080,-,-,,,-,-,Michèle Rioux
+FPD500A-hiver2025-A,080,-,-,,,-,-,Michèle Rioux
+FPD500B-hiver2025-A,080,-,-,,,-,-,Michèle Rioux
+FPD500C-hiver2025-A,080,-,-,,,-,-,Michèle Rioux
+FPD500D-hiver2025-A,080,-,-,,,-,-,Michèle Rioux
+FPD500E-automne2024-A,080,-,-,,,-,-,Michèle Rioux
+FPD500E-hiver2025-A,080,-,-,,,-,-,Michèle Rioux
 FPD5012-automne2024-A,080,-,-,,,-,-,Michèle Rioux
 FPD5012-ete2025-A,080,-,-,,,-,-,Non disponible
 FPD5012-hiver2025-A,080,-,-,,,-,-,Michèle Rioux
@@ -4377,6 +4466,9 @@ FPE7101-automne2024-A,050,-,-,,,-,-,France Gravelle
 FPE7101-hiver2025-A,050,-,-,,,-,-,France Gravelle
 FPE7102-automne2024-A,050,-,-,,,-,-,France Gravelle
 FPE7102-hiver2025-A,050,-,-,,,-,-,France Gravelle
+FPE713E-automne2024-A,060,-,-,,,-,-,France Gravelle
+FPE713E-ete2025-A,050,Vendredi,16 mai   2025 02 mai   2025 23 mai   2025 09 mai   2025 30 mai   2025,18h00,21h00,,Cours magistral,Non disponible
+FPE713E-hiver2025-A,060,-,-,,,-,-,France Gravelle
 FPE7150-automne2024-A,060,Samedi,14 sept. 2024 21 sept. 2024 19 oct.  2024 07 sept. 2024,09h00,12h00,,Cours magistral,Francine Dubois
 FPE7150-automne2024-A,060,Samedi,19 oct.  2024,13h00,16h00,,Cours magistral,Francine Dubois
 FPE7150-ete2025-A,060,Samedi,07 juin  2025,13h00,16h00,,Cours magistral,Non disponible
@@ -4443,6 +4535,27 @@ FPT3007-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Co
 FPT3510-hiver2025-A,070,Dimanche,23 mars  2025 30 mars  2025 09 mars  2025 16 mars  2025 06 avr.  2025 13 avr.  2025,09h00,17h30,,Cours magistral,Non disponible
 FPT6291-automne2024-A,060,Samedi,09 nov.  2024 07 déc.  2024 16 nov.  2024 30 nov.  2024 23 nov.  2024 14 déc.  2024,09h00,17h30,N-3760   | Campus de Montréal,Cours magistral,Sébastien St-Amour
 FPT7493-ete2025-A,061,Samedi,Du 28 avril 2025 au 18 juin 2025,09h00,17h00,,Cours magistral,Non disponible
+FSE711A-automne2024-A,030,Lundi,19 août  2024,09h30,12h30,SH-3540  | Campus de Montréal,Cours magistral,André-Sébastien Aubin
+FSE711A-automne2024-A,030,Lundi,19 août  2024,13h30,16h30,SH-3540  | Campus de Montréal,Cours magistral,André-Sébastien Aubin
+FSE711A-automne2024-A,030,Mardi,20 août  2024,09h30,12h30,SH-3540  | Campus de Montréal,Cours magistral,André-Sébastien Aubin
+FSE711A-automne2024-A,030,Mercredi,02 oct.  2024 20 nov.  2024 04 sept. 2024 30 oct.  2024 27 nov.  2024 25 sept. 2024 23 oct.  2024 18 déc.  2024,17h30,20h30,SH-3540  | Campus de Montréal,Cours magistral,André-Sébastien Aubin
+FSE711A-automne2024-A,030,Samedi,12 oct.  2024 07 déc.  2024 14 sept. 2024 09 nov.  2024,13h30,16h30,SH-3540  | Campus de Montréal,Cours magistral,André-Sébastien Aubin
+FSE711A-automne2024-A,030,Samedi,14 sept. 2024 12 oct.  2024 09 nov.  2024 07 déc.  2024,09h30,12h30,SH-3540  | Campus de Montréal,Cours magistral,André-Sébastien Aubin
+FSE711A-hiver2025-A,030,Mercredi,28 mai   2025 26 févr. 2025 12 mars  2025 21 mai   2025 29 janv. 2025 05 févr. 2025 02 avr.  2025 11 juin  2025 08 janv. 2025 30 avr.  2025 23 avr.  2025,17h30,20h30,,Cours magistral,André-Sébastien Aubin
+FSE711A-hiver2025-A,030,Samedi,12 avr.  2025 07 juin  2025 18 janv. 2025 15 févr. 2025 10 mai   2025 22 mars  2025,09h30,12h30,,Cours magistral,André-Sébastien Aubin
+FSE711A-hiver2025-A,030,Samedi,12 avr.  2025 10 mai   2025 07 juin  2025 15 févr. 2025 22 mars  2025 18 janv. 2025,13h30,16h30,,Cours magistral,André-Sébastien Aubin
+FSE721A-automne2024-A,020,Dimanche,10 nov.  2024 08 déc.  2024 15 sept. 2024 13 oct.  2024,09h30,12h30,SH-2540  | Campus de Montréal,Cours magistral,Olivier Arvisais
+FSE721A-automne2024-A,020,Dimanche,10 nov.  2024 08 déc.  2024 15 sept. 2024 13 oct.  2024,13h30,16h30,SH-2540  | Campus de Montréal,Cours magistral,Olivier Arvisais
+FSE721A-automne2024-A,020,Mardi,20 août  2024,09h30,12h30,SH-2540  | Campus de Montréal,Cours magistral,Olivier Arvisais
+FSE721A-automne2024-A,020,Mardi,20 août  2024,13h30,16h30,SH-2540  | Campus de Montréal,Cours magistral,Olivier Arvisais
+FSE721A-automne2024-A,020,Mardi,24 sept. 2024 19 nov.  2024 22 oct.  2024 01 oct.  2024 03 sept. 2024 26 nov.  2024 29 oct.  2024 17 déc.  2024,16h45,19h45,SH-2540  | Campus de Montréal,Cours magistral,Olivier Arvisais
+FSE721A-hiver2025-A,020,Dimanche,16 févr. 2025 23 mars  2025 19 janv. 2025 11 mai   2025 08 juin  2025 13 avr.  2025,13h30,16h30,,Cours magistral,Olivier Arvisais
+FSE721A-hiver2025-A,020,Dimanche,23 mars  2025 11 mai   2025 08 juin  2025 13 avr.  2025 16 févr. 2025 19 janv. 2025,09h30,12h30,,Cours magistral,Olivier Arvisais
+FSE721A-hiver2025-A,020,Mardi,07 janv. 2025 20 mai   2025 10 juin  2025 01 avr.  2025 22 avr.  2025 29 avr.  2025 04 févr. 2025 25 févr. 2025 11 mars  2025 27 mai   2025 28 janv. 2025,16h45,19h45,,Cours magistral,Olivier Arvisais
+FSE800A-automne2024-A,080,-,-,,,-,-,Geneviève Audet
+FSE800A-hiver2025-A,080,-,-,,,-,-,Geneviève Audet
+FSE810A-automne2024-A,080,-,-,,,-,-,Valérie Amireault
+FSE810A-hiver2025-A,080,-,-,,,-,-,Valérie Amireault
 FSM3200-automne2024-A,080,-,-,,,-,-,Non disponible
 FSM3200-ete2025-A,080,-,-,,,-,-,Non disponible
 FSM3200-ete2025-B,081,-,-,,,-,-,Non disponible
@@ -4708,6 +4821,8 @@ HAR4725-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,
 HAR4730-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,R-M150   | Campus de Montréal,Cours magistral,Marie Fraser
 HAR8040-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,R-4240   | Campus de Montréal,Cours magistral,Eduardo Ralickas
 HAR8045-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,R-4240   | Campus de Montréal,Cours magistral,Edith-Anne Pageot
+HAR806D-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,R-4240   | Campus de Montréal,Cours magistral,Peggy Davis
+HAR820C-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,R-4240   | Campus de Montréal,Cours magistral,Vincent Lavoie
 HAR8602-automne2024-A,001,-,-,,,-,-,Non disponible
 HAR8602-ete2025-A,001,-,-,,,-,-,Non disponible
 HAR8602-hiver2025-A,001,-,-,,,-,-,Non disponible
@@ -4722,6 +4837,7 @@ HAR9107-hiver2025-A,001,-,-,,,-,-,Non disponible
 HAR9108-automne2024-A,001,-,-,,,-,-,Non disponible
 HAR9108-ete2025-A,001,-,-,,,-,-,Non disponible
 HAR9108-hiver2025-A,001,-,-,,,-,-,Non disponible
+HAR912N-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,R-4215   | Campus de Montréal,Cours magistral,Christina Contandriopoulos
 HAR9200-automne2024-A,001,-,-,,,-,-,Non disponible
 HAR9200-ete2025-A,001,-,-,,,-,-,Non disponible
 HAR9200-hiver2025-A,001,-,-,,,-,-,Non disponible
@@ -4791,9 +4907,12 @@ HIS4665-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Co
 HIS4670-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,DS-M320  | Campus de Montréal,Cours magistral,Melchisedek Chetima
 HIS4849-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,DS-1420  | Campus de Montréal,Cours magistral,Piroska Nagy
 HIS4850-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Christopher Goscha
+HIS490G-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Benjamin Deruelle
 HIS5299-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Lyse Roy
 HIS5399-automne2024-A,050,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,A-2710   | Campus de Montréal,Cours magistral,Andrew Barros
+HIS539I-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Yolande Cohen
 HIS5599-automne2024-A,050,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,N-8550   | Campus de Montréal,Cours magistral,Stéphane Savard
+HIS559B-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Daniel Ross
 HIS5679-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Geneviève Dorais
 HIS5790-automne2024-A,080,-,-,,,-,-,Non disponible
 HIS5790-ete2025-A,080,-,-,,,-,-,Non disponible
@@ -4819,6 +4938,8 @@ HIS8050-automne2024-A,040,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,09h3
 HIS8051-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,N-4050   | Campus de Montréal,Cours magistral,Benjamin Deruelle
 HIS8052-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,A-6290   | Campus de Montréal,Cours magistral,Laurent Colantonio
 HIS8061-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Greg Robinson
+HIS806C-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,A-6290   | Campus de Montréal,Cours magistral,Olga Alexeeva
+HIS807E-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,A-6290   | Campus de Montréal,Cours magistral,Andrew Barros
 HIS9030-automne2024-A,030,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,A-6290   | Campus de Montréal,Cours magistral,Martin Petitclerc
 HIS9030-automne2024-B,031,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,A-6280   | Campus de Montréal,Cours magistral,Geneviève Dorais
 HIS9030-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,A-6290   | Campus de Montréal,Cours magistral,Geneviève Dorais
@@ -5082,6 +5203,12 @@ INF5190-automne2024-A,030,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,18h0
 INF5190-automne2024-A,030,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,18h00,20h00,PK-S1575 | Campus de Montréal,Atelier,Félix-Étienne Trépanier
 INF5190-hiver2025-A,010,Jeudi,Du 6 janvier 2025 au 27 avril 2025,09h30,11h30,PK-S1555 | Campus de Montréal,Atelier,Non disponible
 INF5190-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,,Cours magistral,Non disponible
+INF600C-hiver2025-A,030,Jeudi,Du 6 janvier 2025 au 27 avril 2025,13h30,15h30,PK-S1565 | Campus de Montréal,Atelier,Non disponible
+INF600C-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 27 avril 2025,14h00,17h00,,Cours magistral,Non disponible
+INF600E-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,,Cours magistral,Jean Privat
+INF600E-hiver2025-A,020,Vendredi,Du 6 janvier 2025 au 27 avril 2025,09h30,11h30,PK-S1535 | Campus de Montréal,Atelier,Jean Privat
+INF600F-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 18 décembre 2024,14h00,17h00,SH-2140  | Campus de Montréal,Cours magistral,Joël Lefebvre
+INF600F-automne2024-A,030,Vendredi,Du 3 septembre 2024 au 18 décembre 2024,13h30,15h30,PK-S1565 | Campus de Montréal,Atelier,Joël Lefebvre
 INF6120-automne2024-A,020,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,13h30,15h30,PK-S1555 | Campus de Montréal,Atelier,Samuele Giraudo
 INF6120-automne2024-A,020,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,13h30,15h30,PK-S1580 | Campus de Montréal,Atelier,Samuele Giraudo
 INF6120-automne2024-A,020,Mardi,Du 3 septembre 2024 au 18 décembre 2024,13h30,16h30,SH-3620  | Campus de Montréal,Cours magistral,Samuele Giraudo
@@ -5131,6 +5258,7 @@ INF8790-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 27 avril 2025,17h30,20h30,
 INF8810-automne2024-A,020,Mardi,Du 3 septembre 2024 au 18 décembre 2024,17h30,20h30,SH-2580  | Campus de Montréal,Cours magistral,Jean-François Rajotte
 INF8810-automne2024-B,021,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,17h30,20h30,SH-3720  | Campus de Montréal,Cours magistral,Jean-François Rajotte
 INF8881-hiver2025-A,040,-,-,,,-,-,Marc-Olivier Killijian
+INF889G-hiver2025-A,040,Lundi,Du 6 janvier 2025 au 25 avril 2025,13h30,16h30,,Cours magistral,Joël Lefebvre
 INF9810-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 18 décembre 2024,12h00,13h30,PK-4610  | Campus de Montréal,Cours magistral,Mohamed Bouguessa
 INF9810-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 25 avril 2025,12h00,13h30,,Cours magistral,Halima Elbiaze
 INF9812-automne2024-A,001,-,-,,,-,-,Marc-Olivier Killijian
@@ -5242,6 +5370,21 @@ JPN1400-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,17h15,1
 JPN1400-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,DS-R345  | Campus de Montréal,Cours magistral,Hiroshi Goto
 JPN1500-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,17h15,18h00,,Atelier,Non disponible
 JPN1500-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
+JUM440A-automne2024-A,030,Mercredi,Du 26 août 2024 au 13 décembre 2024,18h00,21h00,,Cours magistral,Nicholas St-Jacques
+JUM440A-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 25 avril 2025,18h00,21h00,,Cours magistral,Non disponible
+JUM440B-automne2024-A,030,Mercredi,Du 26 août 2024 au 13 décembre 2024,18h00,21h00,,Cours magistral,Nicholas St-Jacques
+JUM440B-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 25 avril 2025,18h00,21h00,,Cours magistral,Non disponible
+JUM440M-automne2024-A,050,Lundi,Du 26 août 2024 au 13 décembre 2024,14h00,17h00,A-1330   | Campus de Montréal,Cours magistral,Djemila Carron
+JUM440M-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 25 avril 2025,14h00,17h00,,Cours magistral,Djemila Carron
+JUM440N-automne2024-A,050,Lundi,Du 26 août 2024 au 13 décembre 2024,14h00,17h00,A-1330   | Campus de Montréal,Cours magistral,Djemila Carron
+JUM440N-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 25 avril 2025,14h00,17h00,,Cours magistral,Djemila Carron
+JUM463A-hiver2025-A,080,Vendredi,Du 6 janvier 2025 au 25 avril 2025,18h00,21h00,,Cours magistral,Non disponible
+JUM466A-automne2024-A,080,Vendredi,Du 26 août 2024 au 13 décembre 2024,14h00,17h00,A-2585   | Campus de Montréal,Atelier,Dominique Vallières
+JUM466A-hiver2025-A,080,Vendredi,Du 6 janvier 2025 au 25 avril 2025,14h00,17h00,,Atelier,Non disponible
+JUM466B-automne2024-A,080,Vendredi,Du 26 août 2024 au 13 décembre 2024,14h00,17h00,A-2585   | Campus de Montréal,Atelier,Catherine Mathieu
+JUM466B-hiver2025-A,080,Vendredi,Du 6 janvier 2025 au 25 avril 2025,14h00,17h00,,Atelier,Non disponible
+JUM466C-automne2024-A,080,Vendredi,Du 26 août 2024 au 13 décembre 2024,14h00,17h00,A-2585   | Campus de Montréal,Atelier,Guillaume Laganière
+JUM466C-hiver2025-A,080,Vendredi,Du 6 janvier 2025 au 25 avril 2025,14h00,17h00,A-2585   | Campus de Montréal,Atelier,Non disponible
 JUM4810-automne2024-A,080,-,-,,,-,-,Hélène Piquet
 JUM4810-hiver2025-A,080,-,-,,,-,-,Hélène Piquet
 JUM4820-automne2024-A,080,-,-,,,-,-,Hélène Piquet
@@ -5439,6 +5582,7 @@ JUR6636-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 25 avril 2025,09h30,12h30,,Co
 JUR6639-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 JUR6642-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 25 avril 2025,09h30,12h30,,Cours magistral,Non disponible
 JUR6651-automne2024-A,010,Lundi,Du 26 août 2024 au 15 décembre 2024,14h00,17h00,DS-M425  | Campus de Montréal,Cours magistral,Gaëlle Breton-Le Goff
+JUR666D-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 25 avril 2025,14h00,17h00,,Cours magistral,Jacques Papy
 JUR6854-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 JUR6871-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,DS-1545  | Campus de Montréal,Cours magistral,Valérie Bouchard
 JUR7004-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
@@ -5458,6 +5602,11 @@ JUR7265-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,
 JUR7274-automne2024-A,020,Mardi,Du 3 septembre 2024 au 18 décembre 2024,18h00,21h00,N-8150   | Campus de Montréal,Cours magistral,Alexandre Dubois
 JUR7301-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,W-2235   | Campus de Montréal,Cours magistral,Ndeye Dieynaba Ndiaye
 JUR7301-automne2024-B,011,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,W-2225   | Campus de Montréal,Cours magistral,Alessandra Devulsky
+JUR741H-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Bernard Duhaime
+JUR741P-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
+JUR741R-automne2024-A,080,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,A-1330   | Campus de Montréal,Atelier,Djemila Carron
+JUR741R-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 25 avril 2025,14h00,17h00,,Atelier,Non disponible
+JUR741U-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Josiane Rioux Collin
 JUR7500-automne2024-A,001,-,-,,,-,-,Non disponible
 JUR7500-ete2025-A,001,-,-,,,-,-,Non disponible
 JUR7500-hiver2025-A,001,-,-,,,-,-,Non disponible
@@ -5485,6 +5634,7 @@ JUR7636-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Co
 JUR7645-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,François Roch
 JUR7660-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Bernard Duhaime
 JUR7671-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,W-2235   | Campus de Montréal,Cours magistral,Alexandre Lillo
+JUR768L-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Lucie Lamarche
 JUR7690-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,W-2235   | Campus de Montréal,Cours magistral,Philippe Fortin
 JUR7699-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Djemila Carron
 JUR7700-automne2024-A,080,-,-,,,-,-,Non disponible
@@ -5873,6 +6023,7 @@ LIN8995-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h30,1
 LIN9000-automne2024-A,010,-,-,,,-,-,Non disponible
 LIN9000-ete2025-A,010,-,-,,,-,-,Non disponible
 LIN9000-hiver2025-A,010,-,-,,,-,-,Non disponible
+LIN930E-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
 LIN9976-automne2024-A,050,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,A-3316   | Campus de Montréal,Cours magistral,Lefteris Paparounas
 LIN9976-ete2025-A,050,-,-,,,-,-,Non disponible
 LIN9976-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,A-3316   | Campus de Montréal,Cours magistral,Non disponible
@@ -5925,6 +6076,7 @@ LIT2845-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,09h3
 LIT2850-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,A-2860   | Campus de Montréal,Cours magistral,Hubert-Yves Rose
 LIT2925-ete2025-A,020,Jeudi,Du 28 avril 2025 au 18 juin 2025,14h00,17h00,,Cours magistral,Non disponible
 LIT2925-ete2025-A,020,Mardi,Du 28 avril 2025 au 18 juin 2025,14h00,17h00,,Cours magistral,Non disponible
+LIT301S-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Laurence Pelletier
 LIT3020-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Charlotte Biron
 LIT3190-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 LIT3200-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,V-R830   | Campus de Montréal,Cours magistral,Roxane Maiorana
@@ -5960,7 +6112,11 @@ LIT4185-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,09h30,1
 LIT4330-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Chantal Savoie
 LIT4410-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 19 février 2025,14h00,17h00,,Cours magistral,Non disponible
 LIT4410-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 19 février 2025,14h00,17h00,,Cours magistral,Non disponible
+LIT450F-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
+LIT450J-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Gabrielle Tremblay
+LIT455N-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 LIT4600-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Jean-François Hamel
+LIT460C-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 LIT4890-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
 LIT4980-automne2024-A,050,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,A-1750   | Campus de Montréal,Cours magistral,Laurence Pelletier
 LIT6270-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,N-M360   | Campus de Montréal,Cours magistral,Gilbert Dupuis
@@ -5969,6 +6125,7 @@ LIT6275-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 19 février 2025,18h00,21h00,
 LIT6275-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 19 février 2025,09h30,12h30,,Cours magistral,Non disponible
 LIT6615-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,V-5525   | Campus de Montréal,Cours magistral,Sylvain Brehm
 LIT8001-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Sylvain Brehm
+LIT851J-hiver2025-A,010,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Philippe Charron
 LIT8820-automne2024-A,010,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,J-4225   | Campus de Montréal,Cours magistral,Lucie Desjardins
 LIT8820-automne2024-B,011,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,J-4225   | Campus de Montréal,Cours magistral,Geneviève Lafrance
 LIT8820-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Luc Bonenfant
@@ -6375,6 +6532,8 @@ MAT8185-ete2025-A,010,Mardi,06 mai   2025,09h00,12h00,PK-S1590 | Campus de Montr
 MAT8185-ete2025-A,010,Mercredi,14 mai   2025,09h00,12h00,PK-S1590 | Campus de Montréal,Cours magistral,Non disponible
 MAT8186-automne2024-A,010,Lundi,23 sept. 2024 09 sept. 2024 16 sept. 2024 30 sept. 2024,15h00,17h00,PK-S1535 | Campus de Montréal,Cours magistral,Patrick Fournier
 MAT8186-automne2024-A,010,Lundi,23 sept. 2024 09 sept. 2024 30 sept. 2024 16 sept. 2024,10h00,12h00,PK-S1535 | Campus de Montréal,Cours magistral,Patrick Fournier
+MAT818G-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,15h30,16h30,SH-3140  | Campus de Montréal,Cours magistral,Geneviève Lefebvre
+MAT818G-hiver2025-A,040,Jeudi,Du 8 janvier 2024 au 26 avril 2024,15h30,16h30,,Cours magistral,Geneviève Lefebvre
 MAT8285-automne2024-A,001,-,-,,,-,-,Non disponible
 MAT8285-ete2025-A,001,-,-,,,-,-,Non disponible
 MAT8285-hiver2025-A,001,-,-,,,-,-,Non disponible
@@ -6405,6 +6564,8 @@ MAT8512-ete2025-A,010,Lundi,Du 28 avril 2025 au 18 juin 2025,18h00,21h00,PK-S157
 MAT8512-ete2025-A,010,Mercredi,Du 28 avril 2025 au 18 juin 2025,18h00,21h00,PK-S1575 | Campus de Montréal,Cours magistral,Non disponible
 MAT8600-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,09h00,12h00,SH-3260  | Campus de Montréal,Cours magistral,Mathieu Boudreault
 MAT8601-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 27 avril 2025,09h00,12h00,,Cours magistral,Jean-François Renaud
+MAT861C-hiver2025-A,020,Lundi,Du 6 janvier 2025 au 25 avril 2025,09h00,12h00,,Cours magistral,Mathieu Pigeon
+MAT865Z-hiver2025-A,020,Jeudi,Du 6 janvier 2025 au 25 avril 2025,17h30,20h30,PK-4960  | Campus de Montréal,Cours magistral,Doris Jeannotte
 MAT8780-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,13h30,16h30,PK-R220  | Campus de Montréal,Cours magistral,Simon Guillotte
 MAT8791-automne2024-A,001,-,-,,,-,-,Non disponible
 MAT8791-hiver2025-A,001,-,-,,,-,-,Non disponible
@@ -6416,6 +6577,10 @@ MAT9013-automne2024-A,001,-,-,,,-,-,Non disponible
 MAT9013-hiver2025-A,001,-,-,,,-,-,Non disponible
 MAT9351-automne2024-A,020,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,13h30,15h00,PK-5333  | Campus de Montréal,Cours magistral,Alejandro Morales Borrero
 MAT9351-automne2024-A,020,Lundi,Du 3 septembre 2024 au 18 décembre 2024,10h30,12h00,PK-5333  | Campus de Montréal,Cours magistral,Alejandro Morales Borrero
+MAT993C-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 27 avril 2025,09h00,12h00,,Cours magistral,Duncan McCoy
+MAT993W-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 27 avril 2025,09h00,12h00,,Cours magistral,Non disponible
+MAT995Q-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 25 avril 2025,09h00,12h00,,Cours magistral,Christophe Hohlweg
+MAT998H-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 25 avril 2025,13h00,16h00,,Cours magistral,Jean-Philippe Boucher
 MBA7100-automne2024-A,019,Dimanche,22 sept. 2024 20 oct.  2024,09h00,16h30,R-1950   | Campus de Montréal,Cours magistral,Pierre Lainey
 MBA7100-automne2024-A,019,Samedi,05 oct.  2024 09 nov.  2024 07 sept. 2024 23 nov.  2024,09h00,16h30,,Cours magistral,Pierre Lainey
 MBA7100-automne2024-A,019,Samedi,14 déc.  2024,09h00,12h00,,Cours magistral,Pierre Lainey
@@ -6810,6 +6975,15 @@ MGL8707-hiver2025-A,001,-,-,,,-,-,Non disponible
 MGL8710-automne2024-A,002,-,-,,,-,-,Non disponible
 MGL8710-ete2025-A,002,-,-,,,-,-,Non disponible
 MGL8710-hiver2025-A,001,-,-,,,-,-,Non disponible
+MGP700E-automne2024-A,050,Dimanche,13 oct.  2024,09h30,12h30,DS-M900  | Campus de Montréal,Laboratoire,Michel Plaisent
+MGP700E-automne2024-A,050,Vendredi,13 sept. 2024 20 sept. 2024 04 oct.  2024 27 sept. 2024,09h30,12h30,,Laboratoire,Michel Plaisent
+MGP700E-automne2024-B,051,Dimanche,13 oct.  2024,14h00,17h00,DS-M900  | Campus de Montréal,Laboratoire,Michel Plaisent
+MGP700E-automne2024-B,051,Vendredi,20 sept. 2024 27 sept. 2024 04 oct.  2024 13 sept. 2024,14h00,17h00,,Laboratoire,Michel Plaisent
+MGP700E-automne2024-C,070,Dimanche,22 sept. 2024 29 sept. 2024 13 oct.  2024 15 sept. 2024 06 oct.  2024,09h30,12h30,DS-M900  | Campus de Montréal,Laboratoire,Michel Plaisent
+MGP700E-automne2024-D,071,Dimanche,22 sept. 2024 15 sept. 2024 06 oct.  2024 13 oct.  2024 29 sept. 2024,09h30,12h30,,Cours magistral,Jean Martel
+MGP700E-hiver2025-A,050,Vendredi,24 janv. 2025 07 févr. 2025 17 janv. 2025 31 janv. 2025,09h30,12h30,,Laboratoire,Non disponible
+MGP700E-hiver2025-B,060,Samedi,25 janv. 2025 18 janv. 2025 08 févr. 2025 01 févr. 2025,09h30,12h30,,Laboratoire,Non disponible
+MGP700E-hiver2025-C,061,Samedi,08 févr. 2025 18 janv. 2025 25 janv. 2025 01 févr. 2025,14h00,17h00,,Laboratoire,Non disponible
 MGP7016-ete2025-A,010,Lundi,Du 28 avril 2025 au 18 juin 2025,18h00,21h00,,Cours magistral,Non disponible
 MGP7016-ete2025-A,010,Mercredi,Du 28 avril 2025 au 18 juin 2025,18h00,21h00,,Cours magistral,Non disponible
 MGP7017-automne2024-A,020,Mercredi,Du 3 septembre 2024 au 18 décembre 2024,09h30,12h30,R-R110   | Campus de Montréal,Cours magistral,Olga Navarro-Flores
@@ -7409,6 +7583,32 @@ MOD3400-automne2024-A,010,Lundi,Du 3 septembre 2024 au 18 décembre 2024,09h30,1
 MOD3400-automne2024-A,010,Lundi,Du 3 septembre 2024 au 18 décembre 2024,14h00,17h00,,Exercices,Danny Gauthier
 MOD3401-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,14h00,17h00,,Cours magistral,Julie Charest
 MOD3402-automne2024-A,050,Vendredi,Du 3 septembre 2024 au 18 décembre 2024,09h30,12h30,DM-2100  | Campus de Montréal,Cours magistral,Céline Chicoine
+MOD410A-ete2025-A,080,-,-,,,-,-,Non disponible
+MOD410A-hiver2025-A,080,-,-,,,-,-,Sarra Mamoghli
+MOD410B-ete2025-A,080,-,-,,,-,-,Non disponible
+MOD410B-hiver2025-A,080,-,-,,,-,-,Sarra Mamoghli
+MOD410C-ete2025-A,080,-,-,,,-,-,Non disponible
+MOD410C-hiver2025-A,080,-,-,,,-,-,Sarra Mamoghli
+MOD420A-ete2025-A,080,-,-,,,-,-,Non disponible
+MOD420A-ete2025-B,081,-,-,,,-,-,Non disponible
+MOD420A-ete2025-C,082,-,-,,,-,-,Non disponible
+MOD420A-hiver2025-A,080,-,-,,,-,-,Marie-Ève Faust
+MOD420B-ete2025-A,080,-,-,,,-,-,Non disponible
+MOD420B-ete2025-B,081,-,-,,,-,-,Non disponible
+MOD420B-ete2025-C,082,-,-,,,-,-,Non disponible
+MOD420B-hiver2025-A,080,-,-,,,-,-,Marie-Ève Faust
+MOD420C-ete2025-A,080,-,-,,,-,-,Non disponible
+MOD420C-ete2025-B,081,-,-,,,-,-,Non disponible
+MOD420C-ete2025-C,082,-,-,,,-,-,Non disponible
+MOD420C-hiver2025-A,080,-,-,,,-,-,Marie-Ève Faust
+MOD430A-ete2025-A,080,-,-,,,-,-,Non disponible
+MOD430A-ete2025-B,081,-,-,,,-,-,Non disponible
+MOD430A-hiver2025-A,080,-,-,,,-,-,Ying Gao
+MOD430B-ete2025-A,080,-,-,,,-,-,Non disponible
+MOD430B-hiver2025-A,080,-,-,,,-,-,Ying Gao
+MOD430C-ete2025-A,080,-,-,,,-,-,Non disponible
+MOD430C-ete2025-B,081,-,-,,,-,-,Non disponible
+MOD430C-hiver2025-A,080,-,-,,,-,-,Ying Gao
 MOD4400-ete2025-A,080,-,-,,,-,-,Non disponible
 MOD4400-hiver2025-A,080,-,-,,,-,-,Ying Gao
 MOD4418-ete2025-A,080,-,-,,,-,-,Non disponible
@@ -7426,6 +7626,7 @@ MOD6301-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 27 avril 2025,14h00,17h00,DM-
 MOD6302-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,DM-R310  | Campus de Montréal,Cours magistral,Audrey Bartis
 MOD6400-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,DM-2300  | Campus de Montréal,Cours magistral,Non disponible
 MOD6400-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 27 avril 2025,14h00,17h00,DM-2300  | Campus de Montréal,Cours magistral,Non disponible
+MOD666N-hiver2025-A,030,-,-,,,-,-,Non disponible
 MOH1124-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,DM-R310  | Campus de Montréal,Cours magistral,Richard Fontaine
 MOH1140-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,09h30,12h30,DS-R520  | Campus de Montréal,Cours magistral,Naoufel Remili
 MOH1140-automne2024-B,041,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,14h00,17h00,DS-1420  | Campus de Montréal,Cours magistral,Naoufel Remili
@@ -7528,38 +7729,616 @@ MUS1020-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3
 MUS1511-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,F-3130   | Campus de Montréal,Cours magistral,Mathieu Gaulin
 MUS1514-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,F-3080   | Campus de Montréal,Cours magistral,Gina Ryan
 MUS1518-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,F-3080   | Campus de Montréal,Cours magistral,Isabelle Héroux
+MUS160E-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Audrey Kristel Barbeau
+MUS160E-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Non disponible
+MUS160F-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS160F-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS160V-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-4105   | Campus de Montréal,Cours magistral,Ons Barnat
+MUS160V-automne2024-B,041,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Thierry Champs
+MUS160V-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
 MUS1701-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,09h00,12h00,F-3130   | Campus de Montréal,Cours magistral,Isabelle Héroux
+MUS170C-automne2024-A,080,-,-,,,-,-,Marie-Annick Béliveau
+MUS170C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170D-automne2024-A,080,-,-,,,-,-,Martin Carpentier
+MUS170D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170E-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170E-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170F-automne2024-A,080,-,-,,,-,-,Marie-Hélène Breault
+MUS170F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170I-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170I-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170J-automne2024-A,080,-,-,,,-,-,Guillaume Dupuis
+MUS170J-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170M-automne2024-A,080,-,-,,,-,-,Gina Ryan
+MUS170M-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170P-automne2024-A,080,-,-,,,-,-,Sonia Wheaton Dudley
+MUS170P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170Q-automne2024-A,080,-,-,,,-,-,Jocelyn Veilleux
+MUS170Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170V-automne2024-A,080,-,-,,,-,-,Frédéric Lambert
+MUS170V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS170Y-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS170Y-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS1710-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,12h00,F-3560   | Campus de Montréal,Cours magistral,André Villeneuve
 MUS1715-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,09h00,12h00,F-3560   | Campus de Montréal,Cours magistral,Luana Stan
+MUS180A-automne2024-A,080,-,-,,,-,-,Mathieu Gagné
+MUS180A-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180B-automne2024-A,080,-,-,,,-,-,Luc Catellier
+MUS180B-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180C-automne2024-A,080,-,-,,,-,-,Julie Leblanc
+MUS180C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180G-automne2024-A,080,-,-,,,-,-,Claude Bergeron
+MUS180G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180L-automne2024-A,080,-,-,,,-,-,Pierre Bélisle
+MUS180L-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180N-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180N-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180P-automne2024-A,080,-,-,,,-,-,Pierre Bélisle
+MUS180P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180S-automne2024-A,080,-,-,,,-,-,François D'Amours
+MUS180S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180U-automne2024-A,080,-,-,,,-,-,Catherine Le Saunier
+MUS180U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180V-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS180Z-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS180Z-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS1810-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,12h00,F-3080   | Campus de Montréal,Cours magistral,Christian Turcotte
 MUS1815-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,09h00,12h00,F-3080   | Campus de Montréal,Cours magistral,Christian Turcotte
 MUS1920-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Danick Trottier
+MUS260E-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Audrey Kristel Barbeau
+MUS260E-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Non disponible
+MUS260F-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS260F-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS260V-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-4105   | Campus de Montréal,Cours magistral,Ons Barnat
+MUS260V-automne2024-B,041,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Thierry Champs
+MUS260V-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS270C-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270E-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270E-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270H-automne2024-A,080,-,-,,,-,-,Mélanie Harel
+MUS270H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270I-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270I-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270J-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270J-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270M-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270M-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270P-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270V-automne2024-A,080,-,-,,,-,-,Frédéric Lambert
+MUS270V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS270Y-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS270Y-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS2715-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h00,12h00,F-3560   | Campus de Montréal,Cours magistral,Non disponible
 MUS2720-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,12h00,F-3560   | Campus de Montréal,Cours magistral,André Villeneuve
+MUS280A-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280A-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280B-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280B-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280C-automne2024-A,080,-,-,,,-,-,Julie Leblanc
+MUS280C-hiver2025-A,080,-,-,,,-,-,Dominique Primeau
+MUS280D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280L-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280L-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280N-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280N-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280P-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280V-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS280Z-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS280Z-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS2810-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,12h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
 MUS2815-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h00,12h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS360E-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Audrey Kristel Barbeau
+MUS360E-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Non disponible
+MUS360F-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Luc Boivin
+MUS360F-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS360M-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-4105   | Campus de Montréal,Cours magistral,Non disponible
+MUS360T-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,F-4105   | Campus de Montréal,Cours magistral,Pierre Bélisle
+MUS360T-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,F-4105   | Campus de Montréal,Cours magistral,Non disponible
+MUS360V-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-4105   | Campus de Montréal,Cours magistral,Ons Barnat
+MUS360V-automne2024-B,041,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Thierry Champs
+MUS360V-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Ons Barnat
+MUS370C-automne2024-A,080,-,-,,,-,-,Marie-Annick Béliveau
+MUS370C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370E-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370E-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370I-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370I-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370J-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370J-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370M-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370M-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370P-automne2024-A,080,-,-,,,-,-,Sonia Wheaton Dudley
+MUS370P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370U-automne2024-A,080,-,-,,,-,-,Chloé Dominguez
+MUS370U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370V-automne2024-A,080,-,-,,,-,-,Frédéric Lambert
+MUS370V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS370Y-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS370Y-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS3710-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3560   | Campus de Montréal,Cours magistral,André Villeneuve
+MUS380A-automne2024-A,080,-,-,,,-,-,Mathieu Gagné
+MUS380A-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380B-automne2024-A,080,-,-,,,-,-,Luc Catellier
+MUS380B-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380C-automne2024-A,080,-,-,,,-,-,Julie Leblanc
+MUS380C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380G-automne2024-A,080,-,-,,,-,-,Jean-François Beaudet
+MUS380G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380K-automne2024-A,080,-,-,,,-,-,Mathieu Désy
+MUS380K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380L-automne2024-A,080,-,-,,,-,-,Pierre Bélisle
+MUS380L-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380N-automne2024-A,080,-,-,,,-,-,Luc Boivin
+MUS380N-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380P-automne2024-A,080,-,-,,,-,-,Yves Léveillé
+MUS380P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380V-automne2024-A,080,-,-,,,-,-,Tommy Gauthier
+MUS380V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS380Z-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS380Z-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS3810-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Benjamin Duinker
 MUS3820-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,F-3080   | Campus de Montréal,Cours magistral,Alexandra Leblanc L'Ecuyer
 MUS3910-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,09h00,12h00,F-3080   | Campus de Montréal,Cours magistral,Vanessa Blais-Tremblay
+MUS460E-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Audrey Kristel Barbeau
+MUS460E-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Non disponible
+MUS460F-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS460F-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS460M-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-4105   | Campus de Montréal,Cours magistral,Non disponible
+MUS460T-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,F-4105   | Campus de Montréal,Cours magistral,Non disponible
+MUS460T-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,F-4105   | Campus de Montréal,Cours magistral,Non disponible
+MUS460V-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-4105   | Campus de Montréal,Cours magistral,Ons Barnat
+MUS460V-automne2024-B,041,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Thierry Champs
+MUS460V-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
 MUS4701-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,09h00,12h00,F-3130   | Campus de Montréal,Cours magistral,Hélène Boucher
+MUS470C-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470E-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470E-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470F-automne2024-A,080,-,-,,,-,-,Marie-Hélène Breault
+MUS470F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470I-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470I-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470J-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470J-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470M-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470M-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470P-automne2024-A,080,-,-,,,-,-,Sonia Wheaton Dudley
+MUS470P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470R-automne2024-A,080,-,-,,,-,-,Sébastien Côté
+MUS470R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470U-automne2024-A,080,-,-,,,-,-,Chloé Dominguez
+MUS470U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470V-automne2024-A,080,-,-,,,-,-,Frédéric Lambert
+MUS470V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS470Y-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS470Y-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS4805-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h00,12h00,F-3130   | Campus de Montréal,Cours magistral,Hélène Boucher
 MUS4806-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Audrey Kristel Barbeau
+MUS480A-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480A-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480B-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480B-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480C-automne2024-A,080,-,-,,,-,-,Julie Leblanc
+MUS480C-hiver2025-A,080,-,-,,,-,-,Dominique Primeau
+MUS480D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480L-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480L-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480N-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480N-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480P-automne2024-A,080,-,-,,,-,-,Yves Léveillé
+MUS480P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480S-automne2024-A,080,-,-,,,-,-,Jean-Pierre Zanella
+MUS480S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480V-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS480Z-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS480Z-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS4900-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,A-2805   | Campus de Montréal,Cours magistral,Catherine Tardif
 MUS4900-hiver2025-A,020,Jeudi,Du 7 janvier 2025 au 27 février 2025,18h00,21h00,,Cours magistral,Non disponible
 MUS4900-hiver2025-A,020,Mardi,Du 7 janvier 2025 au 27 février 2025,18h00,21h00,,Cours magistral,Non disponible
 MUS4910-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,F-3080   | Campus de Montréal,Cours magistral,Vanessa Blais-Tremblay
 MUS5004-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,F-3080   | Campus de Montréal,Cours magistral,Gina Ryan
 MUS5621-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,F-3080   | Campus de Montréal,Cours magistral,Thierry Champs
+MUS570C-automne2024-A,080,-,-,,,-,-,Marie-Annick Béliveau
+MUS570C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570E-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570E-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570I-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570I-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570J-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570J-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570M-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570M-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570P-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570V-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS570Y-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS570Y-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS5710-hiver2025-A,020,Jeudi,Du 6 janvier 2025 au 3 mars 2025,14h00,17h00,F-3560   | Campus de Montréal,Cours magistral,André Villeneuve
 MUS5710-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 3 mars 2025,14h00,17h00,F-3560   | Campus de Montréal,Cours magistral,André Villeneuve
+MUS580A-automne2024-A,080,-,-,,,-,-,Mathieu Gagné
+MUS580A-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580B-automne2024-A,080,-,-,,,-,-,Denis Courchesne
+MUS580B-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580C-automne2024-A,080,-,-,,,-,-,Dominique Primeau
+MUS580C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580G-automne2024-A,080,-,-,,,-,-,Jean-François Beaudet
+MUS580G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580L-automne2024-A,080,-,-,,,-,-,Pierre Bélisle
+MUS580L-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580N-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580N-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580P-automne2024-A,080,-,-,,,-,-,Pierre Bélisle
+MUS580P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580V-automne2024-A,080,-,-,,,-,-,Tommy Gauthier
+MUS580V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS580Z-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS580Z-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS5810-hiver2025-A,020,Jeudi,Du 6 janvier 2025 au 3 mars 2025,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Non disponible
 MUS5810-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 3 mars 2025,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Non disponible
 MUS5815-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Vanessa Blais-Tremblay
+MUS605A-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3560   | Campus de Montréal,Cours magistral,Ons Barnat
+MUS605A-hiver2025-A,030,Mercredi,Du 14 janvier 2024 au 27 avril 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Ons Barnat
 MUS6332-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-4130   | Campus de Montréal,Cours magistral,Gina Ryan
+MUS660E-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Audrey Kristel Barbeau
+MUS660E-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3130   | Campus de Montréal,Cours magistral,Non disponible
+MUS660F-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS660F-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS660M-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-4105   | Campus de Montréal,Cours magistral,Non disponible
+MUS660T-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,F-4105   | Campus de Montréal,Cours magistral,Non disponible
+MUS660T-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,F-4105   | Campus de Montréal,Cours magistral,Non disponible
+MUS660V-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-4105   | Campus de Montréal,Cours magistral,Ons Barnat
+MUS660V-automne2024-B,041,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Thierry Champs
+MUS660V-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,F-3080   | Campus de Montréal,Cours magistral,Non disponible
+MUS670C-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670E-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670E-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670I-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670I-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670J-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670J-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670M-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670M-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670P-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670V-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS670Y-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS670Y-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675C-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675C-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675E-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675E-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675I-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675I-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675J-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675J-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675M-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675M-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675P-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675V-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS675W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS675W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680A-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680A-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680B-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680B-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680C-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680C-hiver2025-A,080,-,-,,,-,-,Dominique Primeau
+MUS680D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680G-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680K-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680L-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680L-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680N-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680N-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680P-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680U-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680V-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS680Z-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS680Z-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS6810-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,F-3080   | Campus de Montréal,Cours magistral,Danick Trottier
 MUS6815-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,F-3080   | Campus de Montréal,Cours magistral,Caroline Marcoux-Gendron
 MUS6825-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,F-3560   | Campus de Montréal,Cours magistral,Flavie Léger-Roy
+MUS685A-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685A-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685B-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685B-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685C-automne2024-A,080,-,-,,,-,-,Dominique Primeau
+MUS685C-hiver2025-A,080,-,-,,,-,-,Dominique Primeau
+MUS685D-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685D-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685E-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685E-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685F-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685F-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685G-automne2024-A,080,-,-,,,-,-,Jean-François Beaudet
+MUS685G-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685H-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685H-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685K-automne2024-A,080,-,-,,,-,-,Mathieu Désy
+MUS685K-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685L-automne2024-A,080,-,-,,,-,-,Pierre Bélisle
+MUS685L-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685N-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685N-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685P-automne2024-A,080,-,-,,,-,-,Yves Léveillé
+MUS685P-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685Q-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685Q-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685R-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685R-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685S-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685S-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685T-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685T-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685U-automne2024-A,080,-,-,,,-,-,Catherine Le Saunier
+MUS685U-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685V-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685V-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685W-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685W-hiver2025-A,080,-,-,,,-,-,Non disponible
+MUS685Z-automne2024-A,080,-,-,,,-,-,Non disponible
+MUS685Z-hiver2025-A,080,-,-,,,-,-,Non disponible
 MUS7008-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,F-3130   | Campus de Montréal,Cours magistral,Catalina Briceno
 MUS7020-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,F-4130   | Campus de Montréal,Cours magistral,Vincent Laurin-Pratte
 MUS7021-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,F-4130   | Campus de Montréal,Cours magistral,Vincent Laurin-Pratte
@@ -8011,12 +8790,16 @@ PHI8800-hiver2025-A,001,-,-,,,-,-,Non disponible
 PHI8810-hiver2025-A,050,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,W-5305   | Campus de Montréal,Cours magistral,Non disponible
 PHI9013-automne2024-A,001,-,-,,,-,-,Non disponible
 PHI9013-ete2025-A,001,-,-,,,-,-,Non disponible
+PHI901E-hiver2025-A,040,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 PHI9041-automne2024-A,001,-,-,,,-,-,Non disponible
 PHI9041-ete2025-A,001,-,-,,,-,-,Non disponible
 PHI9041-hiver2025-A,001,-,-,,,-,-,Non disponible
 PHI9042-automne2024-A,001,-,-,,,-,-,Non disponible
 PHI9042-ete2025-A,001,-,-,,,-,-,Non disponible
 PHI9042-hiver2025-A,001,-,-,,,-,-,Non disponible
+PHI911C-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
+PHI911F-hiver2025-A,040,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,W-5215   | Campus de Montréal,Cours magistral,Non disponible
+PHI922E-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,W-5215   | Campus de Montréal,Cours magistral,Non disponible
 PHS6002-automne2024-A,080,-,-,,,-,-,Non disponible
 PHS6002-hiver2025-A,080,-,-,,,-,-,Non disponible
 PHS6003-automne2024-A,080,-,-,,,-,-,Non disponible
@@ -8130,6 +8913,9 @@ POL5185-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Co
 POL5190-ete2025-A,020,Jeudi,Du 28 avril 2025 au 18 juin 2025,09h30,12h30,,Cours magistral,Non disponible
 POL5190-ete2025-A,020,Mardi,Du 28 avril 2025 au 18 juin 2025,09h30,12h30,,Cours magistral,Non disponible
 POL5195-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Francis Dupuis-Deri
+POL530A-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Non disponible
+POL530B-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Jean-Pierre Beaud
+POL540T-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Simon Hogue
 POL5410-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,A-2875   | Campus de Montréal,Cours magistral,Dan O'Meara
 POL5410-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 POL5425-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Cours magistral,Non disponible
@@ -8233,6 +9019,12 @@ POM6009-hiver2025-A,080,-,-,,,-,-,Non disponible
 POM6012-automne2024-A,080,-,-,,,-,-,Non disponible
 POM6012-ete2025-A,080,-,-,,,-,-,Non disponible
 POM6012-hiver2025-A,080,-,-,,,-,-,Non disponible
+POM603A-automne2024-A,080,-,-,,,-,-,Maude Benoit
+POM603A-ete2025-A,080,-,-,,,-,-,Non disponible
+POM603A-hiver2025-A,080,-,-,,,-,-,Non disponible
+POM606A-automne2024-A,080,-,-,,,-,-,Issiaka Mandé
+POM606A-ete2025-A,080,-,-,,,-,-,Non disponible
+POM606A-hiver2025-A,080,-,-,,,-,-,Non disponible
 PPA7010-hiver2025-A,010,Dimanche,16 févr. 2025 30 mars  2025,09h00,16h00,,Cours magistral,Non disponible
 PPA7010-hiver2025-A,010,Lundi,03 févr. 2025 10 févr. 2025 17 mars  2025 24 mars  2025 10 mars  2025 31 mars  2025 07 avr.  2025,18h00,21h00,,Cours magistral,Non disponible
 PPA7010-hiver2025-A,010,Samedi,15 févr. 2025 29 mars  2025,09h00,16h00,,Cours magistral,Non disponible
@@ -8300,6 +9092,9 @@ PRM3505-ete2025-A,040,Jeudi,08 mai   2025 29 mai   2025 10 juil. 2025,18h00,21h0
 PRM3505-hiver2025-A,040,Jeudi,03 avr.  2025 16 janv. 2025 17 avr.  2025,18h00,21h00,,Cours magistral,Non disponible
 PRM3701-automne2024-A,010,Lundi,16 sept. 2024 09 sept. 2024,18h00,21h00,A-2815   | Campus de Montréal,Cours magistral,Danny Brosseau
 PRM3701-hiver2025-A,010,Lundi,06 janv. 2025 20 janv. 2025,18h00,21h00,,Cours magistral,Non disponible
+PRM402A-automne2024-A,040,Jeudi,05 déc.  2024 05 sept. 2024,18h00,21h00,,Cours magistral,Danielle Cloutier
+PRM402A-ete2025-A,040,Jeudi,03 juil. 2025 01 mai   2025,18h00,21h00,,Cours magistral,Non disponible
+PRM402A-hiver2025-A,040,Jeudi,09 janv. 2025 10 avr.  2025,18h00,21h00,,Cours magistral,Martine St-Germain
 PSY2040-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 PSY2634-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,SH-2420  | Campus de Montréal,Cours magistral,Frédéric Dussault
 PSY2634-automne2024-B,050,Lundi,Du 3 septembre 2024 au 25 octobre 2024,09h30,12h30,J-1045   | Campus de Montréal,Cours magistral,Frédéric Dussault
@@ -8516,6 +9311,28 @@ PSY8412-automne2024-A,050,Vendredi,Du 3 septembre 2024 au 16 décembre 2024,09h3
 PSY8412-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,David Smolak
 PSY8414-ete2025-A,020,Mardi,Du 28 avril 2025 au 18 juin 2025,09h00,17h00,,Cours magistral,Non disponible
 PSY8414-ete2025-B,030,Mercredi,Du 28 avril 2025 au 18 juin 2025,09h00,17h00,,Cours magistral,Non disponible
+PSY843C-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,,Cours magistral,Non disponible
+PSY843C-ete2025-A,010,-,-,,,-,-,Non disponible
+PSY843C-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,17h00,,Cours magistral,Non disponible
+PSY843E-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,SH-2620  | Campus de Montréal,Cours magistral,Nadia Abouzeid
+PSY843E-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,17h00,,Cours magistral,Nadia Abouzeid
+PSY843H-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,SH-2620  | Campus de Montréal,Cours magistral,Giancarlo Collacciani
+PSY843H-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,17h00,,Cours magistral,Christian Thiboutot
+PSY843I-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,,Cours magistral,Sophie Meunier
+PSY843I-ete2025-A,010,-,-,,,-,-,Non disponible
+PSY843I-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,17h00,,Cours magistral,Sophie Meunier
+PSY843L-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,SH-2620  | Campus de Montréal,Cours magistral,Marie-Alexia Allard
+PSY843L-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,17h00,,Cours magistral,Marie-Alexia Allard
+PSY843M-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,SH-2620  | Campus de Montréal,Cours magistral,Perrine Renouf
+PSY843M-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,17h00,,Cours magistral,Non disponible
+PSY843P-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,SH-2620  | Campus de Montréal,Cours magistral,Nathalie Poirier
+PSY843P-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,17h00,,Cours magistral,Nathalie Poirier
+PSY843R-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,SH-2620  | Campus de Montréal,Cours magistral,Sonia Marcone
+PSY843R-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Marie Julie Potvin
+PSY843T-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,SH-2620  | Campus de Montréal,Cours magistral,Nadia Abouzeid
+PSY843T-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,17h00,,Cours magistral,Nadia Abouzeid
+PSY843U-automne2024-A,080,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h00,17h00,SH-2620  | Campus de Montréal,Cours magistral,Marie-Élaine Belhumeur
+PSY843U-hiver2025-A,080,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h00,17h00,,Cours magistral,Non disponible
 PSY8532-automne2024-A,001,-,-,,,-,-,Non disponible
 PSY8532-ete2025-A,001,-,-,,,-,-,Non disponible
 PSY8532-ete2025-B,080,-,-,,,-,-,Non disponible
@@ -8569,6 +9386,8 @@ REL2629-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,,Co
 REL5006-hiver2025-A,040,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Chantal Bertrand
 REL5036-hiver2025-A,011,Lundi,Du 6 janvier 2025 au 24 février 2025,14h00,17h00,,Cours magistral,Chantal Bertrand
 REL5036-hiver2025-A,011,Mercredi,Du 6 janvier 2025 au 24 février 2025,14h00,17h00,,Cours magistral,Chantal Bertrand
+REL713N-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,W-3235   | Campus de Montréal,Cours magistral,Chiara Letizia
+REL751J-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,W-3235   | Campus de Montréal,Cours magistral,Joël Madore
 REL7601-automne2024-A,010,Lundi,Du 3 septembre 2024 au 16 décembre 2024,18h00,21h00,W-3235   | Campus de Montréal,Cours magistral,Ève Paquette
 REL7602-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,W-3235   | Campus de Montréal,Cours magistral,Marie-Andrée Roy
 REL9000-automne2024-A,001,-,-,,,-,-,Non disponible
@@ -8616,6 +9435,7 @@ RRC7012-hiver2025-A,020,Jeudi,Du 12 février 2025 au 27 mars 2025,16h00,19h00,,C
 RRC7012-hiver2025-A,020,Mercredi,Du 12 février 2025 au 27 mars 2025,15h00,17h00,,Cours magistral,Yannick Hémond
 RRC7013-hiver2025-A,020,Jeudi,Du 2 avril 2025 au 17 avril 2025,16h00,19h00,,Cours magistral,Simon Bourdeau
 RRC7013-hiver2025-A,020,Mercredi,Du 2 avril 2025 au 17 avril 2025,15h00,17h00,,Cours magistral,Simon Bourdeau
+RRC710B-hiver2025-A,010,-,-,,,-,-,Yannick Hémond
 RRC7110-automne2024-A,001,-,-,,,-,-,Non disponible
 RRC7110-ete2025-A,001,-,-,,,-,-,Non disponible
 RRC7110-hiver2025-A,001,-,-,,,-,-,Non disponible
@@ -9301,6 +10121,12 @@ SCO8518-hiver2025-A,060,Dimanche,26 janv. 2025 23 févr. 2025 12 janv. 2025 23 m
 SCO8518-hiver2025-A,060,Samedi,08 févr. 2025 08 mars  2025,09h00,16h30,,Cours magistral,Non disponible
 SCO8518-hiver2025-A,060,Samedi,11 janv. 2025,13h30,16h30,,Cours magistral,Non disponible
 SCO8518-hiver2025-A,060,Samedi,12 avr.  2025,13h00,16h00,,Cours magistral,Non disponible
+SCO860K-automne2024-A,020,Mardi,Du 3 septembre 2024 au 18 décembre 2024,09h30,12h30,,Cours magistral,Sana Ben Hassine
+SCO860K-automne2024-B,040,Jeudi,Du 3 septembre 2024 au 18 décembre 2024,14h00,17h00,,Cours magistral,Sana Ben Hassine
+SCO860K-ete2025-A,010,Lundi,Du 28 avril 2025 au 18 juin 2025,18h00,21h00,,Cours magistral,Non disponible
+SCO860K-ete2025-A,010,Mercredi,Du 28 avril 2025 au 18 juin 2025,18h00,21h00,,Cours magistral,Non disponible
+SCO860K-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 27 avril 2025,09h30,12h30,,Cours magistral,Sana Ben Hassine
+SCO860K-hiver2025-B,041,Jeudi,Du 6 janvier 2025 au 27 avril 2025,14h00,17h00,,Cours magistral,Sana Ben Hassine
 SCO8701-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 18 décembre 2024,14h00,17h00,A-1875   | Campus de Montréal,Cours magistral,Jacques Youwakim
 SCO8801-automne2024-A,030,Mercredi,04 déc.  2024 04 sept. 2024 02 oct.  2024 16 oct.  2024 25 sept. 2024 11 sept. 2024 18 sept. 2024 09 oct.  2024,18h00,21h00,R-2680   | Campus de Montréal,Cours magistral,Paulina Arroyo Pardo
 SCO8801-ete2025-A,030,Mercredi,30 avr.  2025 28 mai   2025 07 mai   2025 18 juin  2025 14 mai   2025 21 mai   2025 04 juin  2025,18h00,21h00,,Cours magistral,Non disponible
@@ -9407,6 +10233,7 @@ SCT8891-ete2025-A,080,-,-,,,-,-,Non disponible
 SCT8891-hiver2025-A,080,-,-,,,-,-,Non disponible
 SEM9110-automne2024-A,010,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,J-4935   | Campus de Montréal,Cours magistral,Benoît Cordelier
 SEM9240-hiver2025-A,010,-,-,,,-,-,Marc Djaballah
+SEM940F-hiver2025-A,010,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Daniel Chartier
 SEM9500-automne2024-A,010,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,J-4935   | Campus de Montréal,Cours magistral,Jonathan Hope
 SEM9600-automne2024-A,010,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,J-4935   | Campus de Montréal,Cours magistral,Benoît Cordelier
 SEM9700-hiver2025-A,010,-,-,,,-,-,Maude Bonenfant
@@ -9589,6 +10416,7 @@ SEX9000-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Co
 SEX9100-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,W-R215   | Campus de Montréal,Cours magistral,Patrick Coulombe
 SEX9120-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
 SEX9130-hiver2025-A,050,Vendredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Non disponible
+SEX950C-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Natacha Godbout
 SEX9600-automne2024-A,001,-,-,,,-,-,Non disponible
 SEX9600-ete2025-A,001,-,-,,,-,-,Non disponible
 SEX9600-hiver2025-A,001,-,-,,,-,-,Non disponible
@@ -9665,6 +10493,9 @@ SOC8235-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,09h30,1
 SOC8245-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,A-5020   | Campus de Montréal,Cours magistral,Guillaume Dufour
 SOC8255-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,A-5020   | Campus de Montréal,Cours magistral,Elsa Galerand
 SOC8255-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,A-5020   | Campus de Montréal,Cours magistral,Elsa Galerand
+SOC830B-hiver2025-A,040,Jeudi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,A-5060   | Campus de Montréal,Cours magistral,Jean-François Côté
+SOC850D-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,A-5020   | Campus de Montréal,Cours magistral,Leila Iliana Celis
+SOC850G-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,A-5175   | Campus de Montréal,Cours magistral,Éric Pineault
 SOC8625-automne2024-A,020,Mardi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,A-5020   | Campus de Montréal,Cours magistral,Shirley Roy
 SOC8625-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,A-5020   | Campus de Montréal,Cours magistral,Shirley Roy
 SOC8645-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,A-1305   | Campus de Montréal,Cours magistral,Frédéric Parent
@@ -9867,6 +10698,7 @@ TRS3130-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,18h00,21h00,
 TRS3150-ete2025-A,001,Dimanche,08 juin  2025 04 mai   2025 25 mai   2025,09h00,17h30,,Cours magistral,Non disponible
 TRS3150-ete2025-A,001,Samedi,24 mai   2025 07 juin  2025 03 mai   2025,09h00,17h30,| UQAM Campus de Laval,Cours magistral,Non disponible
 TRS3150-hiver2025-A,030,Mercredi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Jorge Flores-Aranda
+TRS320B-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Nathalie Plante
 TRS3250-automne2024-A,030,Mercredi,Du 3 septembre 2024 au 16 décembre 2024,14h00,17h00,PK-R310  | Campus de Montréal,Cours magistral,Hayette Boubnan
 TRS3300-ete2025-A,060,Dimanche,Du 28 avril 2025 au 18 juin 2025,09h00,17h30,,Cours magistral,Non disponible
 TRS3300-ete2025-A,060,Samedi,Du 28 avril 2025 au 18 juin 2025,09h00,17h30,,Cours magistral,Non disponible
@@ -9926,6 +10758,7 @@ TRS8435-hiver2025-A,020,Mardi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Co
 TRS8445-hiver2025-A,030,Samedi,15 mars  2025 18 janv. 2025 15 févr. 2025,09h30,16h30,,Cours magistral,Myriam Dubé
 TRS8445-hiver2025-A,030,Vendredi,17 janv. 2025 14 mars  2025 11 avr.  2025 14 févr. 2025,09h30,16h30,,Cours magistral,Myriam Dubé
 TRS8455-automne2024-A,040,Jeudi,Du 3 septembre 2024 au 16 décembre 2024,09h30,12h30,V-1445   | Campus de Montréal,Cours magistral,Isabelle Dumont
+TRS849E-hiver2025-A,050,Mardi,Du 6 janvier 2025 au 18 avril 2025,09h30,12h30,,Cours magistral,Lilyane Rachedi
 TRS8515-hiver2025-A,010,Lundi,Du 6 janvier 2025 au 18 avril 2025,14h00,17h00,,Cours magistral,Sylvie Jochems
 TRS8610-automne2024-A,002,-,-,,,-,-,Non disponible
 TRS8610-ete2025-A,010,-,-,,,-,-,Non disponible

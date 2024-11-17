@@ -8,6 +8,7 @@ RAW_COURS=static/data/raw_liste_cours.txt
 CLEAN_COURS=static/data/liste_cours.txt
 RAW_DATA=static/data/raw_data_uqam.csv
 CLEAN_DATA=static/data/data_uqam.csv
+VAR_CONTENT=static/data/contenu_variable.html 
 DB_FILE=static/data/database.db
 APP=app.py
 
@@ -20,6 +21,8 @@ all: scrape_all run
 scrape_programmes:
 	@echo "Scraping program data..."
 	$(PYTHON) $(SCRIPT_SCRAPE_PROGRAMMES)
+	@echo "Scraping contenu variable"
+	curl https://etudier.uqam.ca/cours-contenu-variable > $(VAR_CONTENT) && grep -oE "id='[A-Z]{3}[0-9]{3}[A-Z]?'" $(VAR_CONTENT) | sed "s/id='\(.*\)'/\1/" >> $(CLEAN_COURS)
 	@echo "Removing old cleaned course list..."
 	rm -f $(CLEAN_COURS)
 	@echo "Generating unique course list..."
@@ -55,5 +58,5 @@ run:
 # Rule to clean up generated files
 clean:
 	@echo "Cleaning up raw data files..."
-	rm -f $(RAW_COURS) $(RAW_DATA) 
+	rm -f $(RAW_COURS) $(RAW_DATA) $(VAR_CONTENT)
 	@echo "Cleanup completed."
