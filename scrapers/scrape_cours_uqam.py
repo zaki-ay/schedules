@@ -16,10 +16,11 @@ def scrape_class_info(sigle):
     soup = BeautifulSoup(response.content, 'html.parser')
 
     data = []
-    data.extend(extract_semester_info(soup, 'groupes_wrapper20241', sigle, 'hiver2024'))
-    data.extend(extract_semester_info(soup, 'groupes_wrapper20242', sigle, 'ete2024'))
+    #data.extend(extract_semester_info(soup, 'groupes_wrapper20241', sigle, 'hiver2024'))
+    #data.extend(extract_semester_info(soup, 'groupes_wrapper20242', sigle, 'ete2024'))
     data.extend(extract_semester_info(soup, 'groupes_wrapper20243', sigle, 'automne2024'))
     data.extend(extract_semester_info(soup, 'groupes_wrapper20251', sigle, 'hiver2025'))
+    data.extend(extract_semester_info(soup, 'groupes_wrapper20252', sigle, 'ete2025'))
     
     return data
 
@@ -84,9 +85,9 @@ def parse_time_range(time_range):
 
 # Main function to read sigles, scrape data, and save to CSV
 def main():
-    input_file = 'cours.txt'
-    output_file = 'data_uqam.csv'
-    save_every_n = 3  # Number of iterations after which data is saved to CSV
+    input_file = '../static/liste_cours.txt'
+    output_file = '../static/data_uqam.csv'
+    save_every_n = 10  # Number of iterations after which data is saved to CSV
     
     sigles = read_class_sigles(input_file)
     all_data = []

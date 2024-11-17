@@ -1,10 +1,21 @@
 from flask import Flask, request, jsonify, render_template
-import csv, getpass
+import sqlite3
+import getpass
 from functools import lru_cache
 
 app = Flask(__name__)
 
 BASE_USER = getpass.getuser()
+
+# Database helper functions
+def get_db_connection():
+    conn = sqlite3.connect(f'/home/{BASE_USER}/sched/static/database_unique.db')
+    conn.row_factory = sqlite3.Row
+    return conn
+
+def close_db_connection(conn):
+    if conn:
+        conn.close()
 
 class Task:
     def __init__(self, name, day_times):
@@ -12,7 +23,6 @@ class Task:
         self.day_times = day_times  # day_times is a list of (day, start_time, end_time) tuples
 
     def overlaps_with(self, other_task):
-        # Check for overlap in timeslots
         for day1, start1, end1 in self.day_times:
             for day2, start2, end2 in other_task.day_times:
                 if day1 == day2 and not (end1 <= start2 or start1 >= end2):
@@ -33,20 +43,30 @@ def _convert_to_minutes(time_str):
         return -1
 
 @lru_cache(maxsize=None)
-def read_tasks_from_file(season):
-    file_path = f'/home/{BASE_USER}/sched/data_uqam.csv'
+def read_tasks_from_db(season):
     tasks = {}
-    with open(file_path, 'r') as file:
-        reader = csv.DictReader(file)
-        for line in reader:
-            key = line['Name']
-            class_split = key.split('-')
-            if len(class_split) == 3 and class_split[1].lower() == season:
-                day_time = (line['Day'], _convert_to_minutes(line['Start Time']), _convert_to_minutes(line['End Time']))
-                if key in tasks:
-                    tasks[key].append(day_time)
-                else:
-                    tasks[key] = [day_time]
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    # Use a LIKE clause to filter tasks by season (case-insensitive)
+    query = """
+        SELECT Name, Day, Start_Time, End_Time
+        FROM tasks_table
+        WHERE LOWER(Name) LIKE ?
+    """
+    # Format the season with wildcards
+    cursor.execute(query, (f"%{season.lower()}%",))
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        key = row['Name']
+        day_time = (row['Day'], _convert_to_minutes(row['Start_Time']), _convert_to_minutes(row['End_Time']))
+        if key in tasks:
+            tasks[key].append(day_time)
+        else:
+            tasks[key] = [day_time]
+
+    close_db_connection(conn)
     return [Task(name, day_times) for name, day_times in tasks.items()]
 
 def find_possible_schedules(tasks):
@@ -56,7 +76,6 @@ def find_possible_schedules(tasks):
     included_sigles = set()  # Set to track included sigles in the current schedule
 
     def backtrack(index):
-        # Check the current schedule for overlaps and unique sigles
         if all(not schedule[i].overlaps_with(schedule[j]) for i in range(len(schedule)) for j in range(i + 1, len(schedule))):
             results.add(tuple(sorted(task.name for task in schedule)))
 
@@ -64,10 +83,10 @@ def find_possible_schedules(tasks):
             sigle = tasks[i].name.split('-')[0]  # Extract the sigle part of the task name
             if all(not task.overlaps_with(tasks[i]) for task in schedule) and sigle not in included_sigles:
                 schedule.append(tasks[i])
-                included_sigles.add(sigle)  # Add this sigle to the set of included sigles
+                included_sigles.add(sigle)
                 backtrack(i + 1)
                 schedule.pop()
-                included_sigles.remove(sigle)  # Remove the sigle when backtracking
+                included_sigles.remove(sigle)
 
     backtrack(0)
     return [list(sch) for sch in results]  # Convert set of tuples to list of lists
@@ -81,11 +100,9 @@ def create_schedule():
     if request.method == 'POST':
         sigles = request.form['sigles'].split(',')
         season = request.form['season']
-        min_length = len(sigles) #int(request.form['min_length']) #len(sigles)
-        #file_path = f'{season}.csv'
-        #file_path = f'/home/{BASE_USER}/sched/data_uqam.csv'
+        min_length = len(sigles)
 
-        tasks = read_tasks_from_file(season)
+        tasks = read_tasks_from_db(season)
         tasks = [task for task in tasks if any(sigle.upper() in task.name for sigle in sigles)]        
         possible_schedules = find_possible_schedules(tasks)
 
@@ -104,31 +121,38 @@ def get_class_details():
     if not class_name:
         return jsonify({'error': 'Class name is required'}), 400
 
-    #season = class_name.split('-')[1].lower()
-    #file_path = f'{season}.csv'
-    file_path = f'/home/{BASE_USER}/sched/data_uqam.csv'
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    # Query the database for the specific class name
+    query = """
+        SELECT Name, Day, Group_Number, Dates, Start_Time, End_Time, Location, Type, Teacher
+        FROM tasks_table
+        WHERE Name = ?
+    """
+    cursor.execute(query, (class_name,))
+    rows = cursor.fetchall()
 
-    class_details = []
+    close_db_connection(conn)
 
-    with open(file_path, 'r') as file:
-        reader = csv.DictReader(file)
-        for line in reader:
-            if line['Name'] == class_name:
-                details = {
-                    'name': line['Name'],
-                    'day': line['Day'],
-                    'group': line['Group Number'],
-                    'dates': line['Dates'],
-                    'start_time': line['Start Time'],
-                    'end_time': line['End Time'],
-                    'location': line['Location'],
-                    'type': line['Type'],
-                    'teacher': line['Teacher']
-                }
-                class_details.append(details)
-
-    if not class_details:
+    # Check if the class was found
+    if not rows:
         return jsonify({'error': 'Class not found'}), 404
+
+    # Format the class details
+    class_details = []
+    for row in rows:
+        class_details.append({
+            'name': row['Name'],
+            'day': row['Day'],
+            'group': row['Group_Number'],
+            'dates': row['Dates'],
+            'start_time': row['Start_Time'],
+            'end_time': row['End_Time'],
+            'location': row['Location'],
+            'type': row['Type'],
+            'teacher': row['Teacher']
+        })
 
     return jsonify({'class_details': class_details})
 
