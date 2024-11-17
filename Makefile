@@ -4,11 +4,11 @@ SCRIPT_SCRAPE_PROGRAMMES=scrapers/scrape_programmes_uqam.py
 SCRIPT_SCRAPE_COURS=scrapers/scrape_cours_uqam.py
 SCRIPT_CSV_TO_SQL=scripts/convert_csv_to_sql.py
 SCRIPT_SIGLES_TO_JSON=scripts/sigles_to_json.py
-RAW_COURS=static/raw_liste_cours.txt
-CLEAN_COURS=static/liste_cours.txt
-RAW_DATA=static/raw_data_uqam.csv
-CLEAN_DATA=static/data_uqam.csv
-DB_FILE=static/database.db
+RAW_COURS=static/data/raw_liste_cours.txt
+CLEAN_COURS=static/data/liste_cours.txt
+RAW_DATA=static/data/raw_data_uqam.csv
+CLEAN_DATA=static/data/data_uqam.csv
+DB_FILE=static/data/database.db
 APP=app.py
 
 # Define rules

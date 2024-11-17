@@ -13,8 +13,8 @@ def text_to_json(input_file, output_file):
         json.dump(data, json_file, indent=4)
 
 # Specify the input and output file paths
-input_file = './static/liste_cours.txt'
-output_file = './static/cours_uqam.json'
+input_file = './static/data/liste_cours.txt'
+output_file = './static/data/cours_uqam.json'
 
 # Convert text to JSON
 text_to_json(input_file, output_file)

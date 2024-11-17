@@ -2,8 +2,8 @@ import pandas as pd
 import sqlite3
 
 # File paths
-csv_file_path = './static/data_uqam.csv'
-db_file_path = './static/database.db'
+csv_file_path = './static/data/data_uqam.csv'
+db_file_path = './static/data/database.db'
 
 # Define table schema (if needed, use sqlite3 for creating tables explicitly)
 columns = ['Name', 'Group_Number', 'Day', 'Dates', 'Start_Time', 'End_Time', 'Location', 'Type', 'Teacher']

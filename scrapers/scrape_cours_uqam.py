@@ -85,8 +85,8 @@ def parse_time_range(time_range):
 
 # Main function to read sigles, scrape data, and save to CSV
 def main():
-    input_file = './static/liste_cours.txt'
-    output_file = './static/raw_data_uqam.csv'
+    input_file = './static/data/liste_cours.txt'
+    output_file = './static/data/raw_data_uqam.csv'
     save_every_n = 10  # Number of iterations after which data is saved to CSV
     
     sigles = read_class_sigles(input_file)
