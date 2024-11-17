@@ -1,4 +1,4 @@
 sched_env/
 __pycache__/
-static/raw_data_uqam.csv
-static/raw_liste_cours.csv
+static/data/raw_data_uqam.csv
+static/data/raw_liste_cours.csv
