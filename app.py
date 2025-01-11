@@ -10,6 +10,7 @@ BASE_USER = getpass.getuser()
 # Database helper functions
 def get_db_connection():
     conn = sqlite3.connect(f'/home/{BASE_USER}/sched/static/data/database.db')
+#    conn = sqlite3.connect(f'/Users/zico/schedules/static/data/database.db')
     conn.row_factory = sqlite3.Row
     return conn
 
