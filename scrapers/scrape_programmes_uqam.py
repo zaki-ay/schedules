@@ -1,54 +1,117 @@
-import requests
+#!/usr/bin/env python
+# scrape_programmes_async.py
+#
+# Reads programme-page URLs from liste_programmes.txt, extracts every
+# data-sigle attribute, and appends them to raw_liste_cours.txt.
+# Data are flushed to disk every BATCH_SIZE URLs so a crash only loses ≤ N URLs.
+# The script is resumable: already-scraped URLs are skipped.
+
+import asyncio, aiohttp, os, re, sys
+from pathlib import Path
+from typing import Dict, List
 from bs4 import BeautifulSoup
 
-def scrape_data_sigle(url):
+# ─────────────────────────────────────────  configuration ────────────────── #
+URLS_FILE        = Path("static/data/liste_programmes.txt")
+OUTPUT_FILE      = Path("static/data/raw_liste_cours.txt")
+BATCH_SIZE       = 256                # flush/commit every N URLs
+CONCURRENCY      = 256                # simultaneous HTTP requests
+TIMEOUT_SECONDS  = 20
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; async-programme-scraper/1.0)"}
+
+# ────────────────────────────────────  helpers / resume logic ────────────── #
+def parsed_output() -> Dict[str, List[str]]:
+    """
+    Return dict {url: [sigle, …]} by reading the existing OUTPUT_FILE,
+    or an empty dict if the file doesn't exist.
+    """
+    if not OUTPUT_FILE.exists():
+        return {}
+    data: Dict[str, List[str]] = {}
+    with OUTPUT_FILE.open(encoding="utf-8") as f:
+        for line in f:
+            try:
+                url, sigles_txt = line.rstrip("\n").split(":", 1)
+                data[url.strip()] = eval(sigles_txt.strip())  # stored as Python list
+            except ValueError:
+                continue   # skip malformed lines
+    return data
+
+def flush(fh):
+    fh.flush()
+    os.fsync(fh.fileno())
+
+# ──────────────────────────────────────────  network ─────────────────────── #
+async def fetch(session: aiohttp.ClientSession, url: str) -> tuple[str, str]:
     try:
-        # Sending HTTP request to the URL
-        response = requests.get(url)
-        response.raise_for_status()  # Raise an exception for HTTP errors
+        async with session.get(url, timeout=TIMEOUT_SECONDS) as resp:
+            resp.raise_for_status()
+            return url, await resp.text()
+    except Exception as e:
+        print(f"[WARN] {url}: {e}", file=sys.stderr)
+        return url, ""                     # empty html → no sigles
 
-        # Parsing the HTML content
-        soup = BeautifulSoup(response.text, 'html.parser')
+# ─────────────────────────────────────────  parser ───────────────────────── #
+SIGLE_RE = re.compile(r"^[A-Z]{3}[0-9]{4}$")
 
-        # Finding the element with ID 'bloc-cours'        
-        if soup:
-            # Extracting all elements with data-sigle attribute within 'bloc-cours'
-            courses = soup.find_all(attrs={"data-sigle": True})
-            print(courses)
-            return [course['data-sigle'] for course in courses]
-        else:
-            print(f"No 'bloc-cours' found in {url}")
-            return []
-
-    except requests.RequestException as e:
-        print(f"Request failed: {e}")
+def extract_sigles(html: str) -> List[str]:
+    if not html:
         return []
+    soup = BeautifulSoup(html, "lxml")
+    sigles = [tag["data-sigle"] for tag in soup.find_all(attrs={"data-sigle": True})
+              if SIGLE_RE.fullmatch(tag["data-sigle"])]
+    return sorted(set(sigles))            # unique & deterministic order
 
-def read_urls_and_scrape(file_path, output_file_path, n):
-    with open(file_path, 'r') as file:
-        urls = file.readlines()
+# ─────────────────────────────────────────  main ─────────────────────────── #
+async def main() -> None:
+    already_done = parsed_output()        # {url: [sigle, …]}
+    done_urls = set(already_done)
+    print(f"[INFO] Resuming – {len(done_urls)} URL(s) already scraped")
 
-    all_data = {}
-    for index, url in enumerate(urls):
-        url = url.strip()
-        if url:  # ensuring the URL is not empty
-            data_sigles = scrape_data_sigle(url)
-            all_data[url] = data_sigles
-            # Write to file every N iterations
-            if (index + 1) % n == 0:
-                write_to_file(output_file_path, all_data)
-                all_data = {}  # Resetting dictionary after writing
+    urls = [u.strip() for u in URLS_FILE.read_text().splitlines() if u.strip()]
+    pending_urls = [u for u in urls if u not in done_urls]
+    if not pending_urls:
+        print("Everything already scraped.")
+        return
 
-    # Writing any remaining data if the total count is not perfectly divisible by N
-    if all_data:
-        write_to_file(output_file_path, all_data)
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    # open in append-binary+utf8 so we can fsync on Windows too
+    fh = open(OUTPUT_FILE, "a", encoding="utf-8")
 
-def write_to_file(output_file_path, data):
-    with open(output_file_path, 'a') as file:  # 'a' mode for appending to the file
-        for url, sigles in data.items():
-            file.write(f"{url}: {sigles}\n")
+    connector = aiohttp.TCPConnector(limit=CONCURRENCY, ssl=False)
+    sem = asyncio.Semaphore(CONCURRENCY)
 
-file_path = './static/data/liste_programmes.txt'  # Update with the path to your file
-output_file_path = './static/data/raw_liste_cours.txt'  # Path to output file
-N = 10  # Number of iterations after which to write to the file
-read_urls_and_scrape(file_path, output_file_path, N)
+    async with aiohttp.ClientSession(connector=connector, headers=HEADERS) as session:
+
+        async def worker(u: str):
+            async with sem:
+                url, html = await fetch(session, u)
+                return url, extract_sigles(html)
+
+        tasks = [worker(u) for u in pending_urls]
+        buffer: Dict[str, List[str]] = {}
+        processed = 0
+
+        for fut in asyncio.as_completed(tasks):
+            url, sigles = await fut
+            buffer[url] = sigles
+            processed += 1
+            print(f"\rProcessed URLs: {processed}/{len(pending_urls)}", end="")
+
+            if len(buffer) >= BATCH_SIZE:
+                for k, v in buffer.items():
+                    fh.write(f"{k}: {v}\n")
+                flush(fh)
+                buffer.clear()
+
+        # leftovers
+        for k, v in buffer.items():
+            fh.write(f"{k}: {v}\n")
+        flush(fh)
+        fh.close()
+
+    print(f"\nDone. Data written to {OUTPUT_FILE.resolve()}")
+
+# ─────────────────────────────────────────────────────────────────────────── #
+if __name__ == "__main__":
+    asyncio.run(main())

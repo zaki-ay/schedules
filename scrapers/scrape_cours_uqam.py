@@ -1,111 +1,157 @@
-import requests
+#!/usr/bin/env python
+# scrape_uqam_async.py
+import asyncio, aiohttp, csv, os, re, string, sys
+from pathlib import Path
 from bs4 import BeautifulSoup
-import pandas as pd
-import csv
 
-# Function to read the class sigles from a CSV file
-def read_class_sigles(file_path):
-    with open(file_path, 'r') as file:
-        sigles = [line.strip() for line in file.readlines()]
-    return sigles
+# --------------------------------------------------------------------------- #
+# Configuration
+# --------------------------------------------------------------------------- #
+SIGLES_FILE       = Path("static/data/liste_cours.txt")
+OUTPUT_CSV        = Path("static/data/raw_data_uqam.csv")
+FLUSH_EVERY_ROWS  = 500               # write to disk every N parsed rows
+CONCURRENCY       = 256                # simultaneous HTTP requests
+TIMEOUT_SECONDS   = 15
+SEMESTERS = [("groupes_wrapper20253", "automne2025"),
+             ("groupes_wrapper20252", "ete2025")]
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; async-scraper/1.0)"}
+ASCII = string.ascii_uppercase
 
-# Function to scrape class information for a given sigle
-def scrape_class_info(sigle):
-    url = f'https://etudier.uqam.ca/cours?sigle={sigle}'
-    response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
+RE_HORAIRE_DEBUT_FIN = re.compile(r"De (?P<debut>.*?)\s+à\s+(?P<fin>.*)")
 
-    data = []
-    #data.extend(extract_semester_info(soup, 'groupes_wrapper20241', sigle, 'hiver2024'))
-    #data.extend(extract_semester_info(soup, 'groupes_wrapper20242', sigle, 'ete2024'))
-    data.extend(extract_semester_info(soup, 'groupes_wrapper20243', sigle, 'automne2024'))
-    data.extend(extract_semester_info(soup, 'groupes_wrapper20251', sigle, 'hiver2025'))
-    data.extend(extract_semester_info(soup, 'groupes_wrapper20252', sigle, 'ete2025'))
-    
-    return data
+FIELDNAMES = ["Name", "Group Number", "Day", "Dates", "Start Time",
+              "End Time", "Location", "Type", "Teacher"]
 
-# Function to extract semester information
-def extract_semester_info(soup, div_id, sigle, semester):
-    div = soup.find(id=div_id)
-    if not div or "Ce cours n'est pas offert lors de ce trimestre." in div.text:
+# --------------------------------------------------------------------------- #
+# Networking
+# --------------------------------------------------------------------------- #
+async def fetch(session: aiohttp.ClientSession, sigle: str) -> tuple[str, str]:
+    url = f"https://etudier.uqam.ca/cours?sigle={sigle}"
+    try:
+        async with session.get(url, timeout=TIMEOUT_SECONDS) as resp:
+            resp.raise_for_status()
+            return sigle, await resp.text()
+    except Exception as exc:
+        print(f"[WARN] {sigle}: {exc}", file=sys.stderr)
+        return sigle, ""
+
+# --------------------------------------------------------------------------- #
+# Parsing
+# --------------------------------------------------------------------------- #
+def parse(html: str, sigle: str) -> list[dict]:
+    if not html:
         return []
+    soup = BeautifulSoup(html, "lxml")
+    rows: list[dict] = []
 
-    classes = div.find_all('div', class_='groupe')
-    extracted_data = []
+    for div_id, semester in SEMESTERS:
+        div = soup.find(id=div_id)
+        if not div or "Ce cours n'est pas offert" in div.text:
+            continue
 
-    for i, class_div in enumerate(classes):
-        name = f"{sigle}-{semester}-{'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[i]}"
+        classes = div.find_all("div", class_="groupe")
+        for idx, class_div in enumerate(classes):
+            grp_letter = ASCII[idx] if idx < len(ASCII) else str(idx)
+            name = f"{sigle}-{semester}-{grp_letter}"
 
-        # Extract group number
-        no_groupe = class_div.find('h3', class_='no_groupe')
-        if no_groupe:
-            group_number = no_groupe.text.strip().split(' ')[1]
-        else:
-            no_groupe = class_div.find('h3', text=lambda t: 'Groupe' in t)
-            group_number = no_groupe.text.strip().split(' ')[1]
+            # Group number
+            h3_grp = class_div.find("h3", class_="no_groupe") \
+                     or class_div.find("h3", string=lambda t: "Groupe" in t)
+            grp_no = h3_grp.text.split()[-1] if h3_grp else ""
 
-        # Extract schedule details
-        schedule_table = class_div.find('h3', text='Horaire et lieu').find_next('table')
-        rows = schedule_table.find_all('tr')[1:]  # Skip the header row
+            # Teacher
+            h3_teacher = class_div.find("h3", string="Enseignant")
+            teacher = h3_teacher.find_next("li").text.strip() if h3_teacher else ""
 
-        # Extract teacher's name
-        teacher = class_div.find('h3', text='Enseignant').find_next('li').text.strip()
+            # Schedule table
+            h3_sched = class_div.find("h3", string="Horaire et lieu")
+            table = h3_sched.find_next("table") if h3_sched else None
+            if not table:
+                continue
 
-        for row in rows:
-            day = row.find_all('td')[0].text.strip()
-            dates = row.find_all('td')[1].text.strip().replace('\n', ' ')
-            time_range = row.find_all('td')[2].text.strip().replace('\n', ' ')
-            start_time, end_time = parse_time_range(time_range)
-            location = row.find_all('td')[3].text.strip()
-            class_type = row.find_all('td')[4].text.strip()
+            for tr in table.select("tr")[1:]:
+                tds = [td.get_text(strip=True).replace("\xa0", " ")
+                       for td in tr.select("td")]
+                if len(tds) < 5:
+                    continue
+                day, dates, time_range, location, _type = tds
+                m = RE_HORAIRE_DEBUT_FIN.search(time_range)
+                start, end = (m["debut"], m["fin"]) if m else ("", "")
+                rows.append(
+                    dict(Name=name, **{
+                        "Group Number": grp_no, "Day": day, "Dates": dates,
+                        "Start Time": start,   "End Time": end,
+                        "Location": location,  "Type": _type,
+                        "Teacher": teacher
+                    })
+                )
+    return rows
 
-            extracted_data.append({
-                'Name': name,
-                'Group Number': group_number,
-                'Day': day,
-                'Dates': dates,
-                'Start Time': start_time,
-                'End Time': end_time,
-                'Location': location,
-                'Type': class_type,
-                'Teacher': teacher
-            })
+# --------------------------------------------------------------------------- #
+# CSV helpers
+# --------------------------------------------------------------------------- #
+def open_writer(path: Path, resume: bool):
+    """Return (file_handle, csv_writer, already_written_rows)."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if resume and path.exists():
+        fh = path.open("r+", newline="", encoding="utf-8")
+        existing = sum(1 for _ in fh) - 1  # header not counted
+        fh.seek(0, os.SEEK_END)            # append mode
+        writer = csv.DictWriter(fh, FIELDNAMES)
+        return fh, writer, existing
+    fh = path.open("w", newline="", encoding="utf-8")
+    writer = csv.DictWriter(fh, FIELDNAMES)
+    writer.writeheader()
+    return fh, writer, 0
 
-    return extracted_data
+def flush_to_disk(fh):
+    fh.flush()
+    os.fsync(fh.fileno())
 
-# Function to parse the time range
-def parse_time_range(time_range):
-    time_range = time_range.replace('\xa0', ' ')
-    time_parts = time_range.split(' à ')
-    if len(time_parts) == 2:
-        start_time = time_parts[0].replace('De ', '').strip()
-        end_time = time_parts[1].strip()
-        return start_time, end_time
-    return '', ''  # Return empty strings if the format is unexpected
+# --------------------------------------------------------------------------- #
+# Main driver
+# --------------------------------------------------------------------------- #
+async def main(resume: bool = True) -> None:
+    sigles = [s.strip() for s in SIGLES_FILE.read_text().splitlines() if s.strip()]
+    csv_file, writer, already_done = open_writer(OUTPUT_CSV, resume)
+    processed = already_done
+    if processed:
+        print(f"[INFO] Resuming – {processed} rows already in {OUTPUT_CSV.name}")
 
-# Main function to read sigles, scrape data, and save to CSV
-def main():
-    input_file = './static/data/liste_cours.txt'
-    output_file = './static/data/raw_data_uqam.csv'
-    save_every_n = 10  # Number of iterations after which data is saved to CSV
-    
-    sigles = read_class_sigles(input_file)
-    all_data = []
+    connector = aiohttp.TCPConnector(limit=CONCURRENCY, ssl=False)
+    sem = asyncio.Semaphore(CONCURRENCY)
 
-    for index, sigle in enumerate(sigles):
-        class_info = scrape_class_info(sigle)
-        all_data.extend(class_info)
-        print(sigle)
+    async with aiohttp.ClientSession(connector=connector, headers=HEADERS) as session:
 
-        # Save to file every N iterations
-        if (index + 1) % save_every_n == 0:
-            df = pd.DataFrame(all_data)
-            df.to_csv(output_file, index=False, mode='a', header=not index)  # Append mode, write header only for the first batch
+        async def worker(sigle: str):
+            async with sem:
+                s, html = await fetch(session, sigle)
+                return parse(html, s)
 
-    # Save any remaining data not yet written to file
-    if all_data:
-        df = pd.DataFrame(all_data)
-        df.to_csv(output_file, index=False, mode='a', header=False)  # Append mode, no header
+        tasks = [worker(s) for s in sigles]
+        buffer: list[dict] = []
+
+        for fut in asyncio.as_completed(tasks):
+            try:
+                rows = await fut
+            except Exception as e:
+                print(f"[ERROR] task failed: {e}", file=sys.stderr)
+                continue
+            buffer.extend(rows)
+            processed += len(rows)
+            print(f"\rProcessed rows: {processed}", end="")
+
+            if len(buffer) >= FLUSH_EVERY_ROWS:
+                writer.writerows(buffer)
+                flush_to_disk(csv_file)
+                buffer.clear()
+
+        if buffer:
+            writer.writerows(buffer)
+            flush_to_disk(csv_file)
+
+    csv_file.close()
+    print(f"\nDone. CSV written to {OUTPUT_CSV.resolve()}")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
