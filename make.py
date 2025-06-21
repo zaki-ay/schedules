@@ -2,6 +2,8 @@ import sys, os
 import subprocess
 from pathlib import Path
 from shutil import which
+import requests, re
+from datetime import datetime
 
 # --------------------------------------------------------------------------- #
 #  Configuration – portable (works on Windows, macOS, Linux)
@@ -119,7 +121,7 @@ def scrape_programmes():
     #  contenu-variable  (this part already used pure Python = unchanged)
     # ------------------------------------------------------------------ #
     print("Scraping contenu variable…")
-    import requests, re
+
     url = "https://etudier.uqam.ca/cours-contenu-variable"
     r = requests.get(url)
     r.raise_for_status()
@@ -184,12 +186,36 @@ def clean():
             pass
     print("Cleanup completed.\n")
 
+def update_last_update_date():
+    """
+    Update the <span id="last_update_date"> in templates/index.html with today's date (yyyy-MM-dd).
+    """
+    index_file = Path("templates", "index.html")
+    if not index_file.exists():
+        print(f"File not found: {index_file}")
+        return
+
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    pattern = r'(<span\s+id=["\']last_update_date["\'][^>]*>)(.*?)(</span>)'
+
+    with open(index_file, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    new_content, count = re.subn(pattern, r'\1' + date_str + r'\3', content, flags=re.IGNORECASE)
+    if count == 0:
+        print("No <span id=\"last_update_date\"> found in index.html.")
+        return
+
+    with open(index_file, "w", encoding="utf-8") as f:
+        f.write(new_content)
+    print(f"Updated last_update_date to {date_str} in {index_file}")
 # --------------------------------------------------------------------------- #
 #  main
 # --------------------------------------------------------------------------- #
 def main():
     scrape_programmes()
     scrape_cours()
+    update_last_update_date()
     run_app()
     # clean()     
 

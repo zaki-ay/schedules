@@ -341,6 +341,7 @@ ASS2063-automne2025-C,020,Jeudi,Du 2 septembre 2025au 22 octobre 2025,09h30,12h3
 ASS2063-automne2025-C,020,Mardi,Du 2 septembre 2025au 22 octobre 2025,09h30,12h30,,Cours magistral,Non disponible
 ASS2063-ete2025-A,030,Mercredi,Du 28 avril 2025au 8 août 2025,18h00,21h00,,Cours magistral,Catherine Dion
 ASS2225-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,19h00,22h00,,Cours magistral,Non disponible
+ASS2515-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,19h00,22h00,,Cours magistral,Non disponible
 ASS2860-automne2025-A,031,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 ASS2860-automne2025-B,032,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 ASS3070-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
@@ -500,8 +501,6 @@ AVM2315-ete2025-A,010,Lundi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus d
 AVM2315-ete2025-A,010,Lundi,Du 28 avril 2025au 18 juin 2025,14h00,17h00,Campus de Montréal,Atelier,Alexandre Castonguay
 AVM2315-ete2025-A,010,Mercredi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Atelier,Alexandre Castonguay
 AVM2315-ete2025-A,010,Mercredi,Du 28 avril 2025au 18 juin 2025,14h00,17h00,Campus de Montréal,Atelier,Alexandre Castonguay
-AVM2340-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,17h30,20h30,Campus de Montréal,Cours magistral,Bahar Majdzadeh
-AVM2340-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,20h30,23h30,Campus de Montréal,Cours magistral,Bahar Majdzadeh
 AVM2341-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Denis Farley
 AVM2341-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,14h00,17h00,Campus de Montréal,Atelier,Denis Farley
 AVM2341-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Denis Farley
@@ -564,6 +563,10 @@ AVM5965-automne2025-A,020,Jeudi,04 sept. 202518 sept. 202530 oct.  202502 oct.  
 AVM5965-automne2025-A,020,Mardi,23 sept. 202530 sept. 202514 oct.  202509 sept. 202507 oct.  202504 nov.  202502 sept. 202516 sept. 202521 oct.  202528 oct.  2025,09h30,12h30,Campus de Montréal,Cours magistral,Non disponible
 AVM8101-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,Campus de Montréal,Cours magistral,Bahar Majdzadeh
 AVM8101-automne2025-B,041,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,Gisèle Trudel
+AVM8111-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Atelier,Julie Trudel
+AVM8111-automne2025-B,011,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Atelier,Julie Trudel
+AVM8115-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Anne-Marie Ninacs
+AVM8115-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Anne-Marie Ninacs
 AVM8120-automne2025-A,001,-,-,,,-,-,Non disponible
 AVM8120-ete2025-A,001,-,-,,,-,-,Non disponible
 AVM8220-automne2025-A,001,-,-,,,-,-,Non disponible
@@ -574,12 +577,46 @@ AVM8222-automne2025-A,001,-,-,,,-,-,Non disponible
 AVM8222-ete2025-A,001,-,-,,,-,-,Non disponible
 AVM8617-automne2025-A,001,-,-,,,-,-,Non disponible
 AVM8617-ete2025-A,001,-,-,,,-,-,Non disponible
+AVM8622-automne2025-A,001,-,-,,,-,-,Non disponible
+AVM8622-ete2025-A,001,-,-,,,-,-,Non disponible
 AVM8623-automne2025-A,001,-,-,,,-,-,Non disponible
 AVM8623-ete2025-A,001,-,-,,,-,-,Non disponible
 AVM8624-automne2025-A,001,-,-,,,-,-,Non disponible
 AVM8624-ete2025-A,001,-,-,,,-,-,Non disponible
+AVM8711-automne2025-A,010,Jeudi,14 août  202507 août  2025,09h30,12h30,,Atelier,Non disponible
+AVM8711-automne2025-A,010,Jeudi,14 août  202507 août  2025,13h30,16h30,,Atelier,Non disponible
+AVM8711-automne2025-A,010,Lundi,04 août  202511 août  2025,09h30,12h30,,Atelier,Non disponible
+AVM8711-automne2025-A,010,Lundi,11 août  202504 août  2025,13h30,16h30,,Atelier,Non disponible
+AVM8711-automne2025-A,010,Mardi,05 août  202512 août  2025,13h30,16h30,,Atelier,Non disponible
+AVM8711-automne2025-A,010,Mardi,12 août  202505 août  2025,09h30,12h30,,Atelier,Non disponible
+AVM8711-automne2025-A,010,Mercredi,06 août  2025,13h30,16h30,,Atelier,Non disponible
+AVM8711-automne2025-A,010,Mercredi,06 août  202513 août  2025,09h30,12h30,,Atelier,Non disponible
+AVM8711-automne2025-B,011,Jeudi,07 août  202514 août  2025,13h30,16h30,,Atelier,Non disponible
+AVM8711-automne2025-B,011,Jeudi,14 août  202507 août  2025,09h30,12h30,,Atelier,Non disponible
+AVM8711-automne2025-B,011,Lundi,11 août  202504 août  2025,09h30,12h30,,Atelier,Non disponible
+AVM8711-automne2025-B,011,Lundi,11 août  202504 août  2025,13h30,16h30,,Atelier,Non disponible
+AVM8711-automne2025-B,011,Mardi,12 août  202505 août  2025,09h30,12h30,,Atelier,Non disponible
+AVM8711-automne2025-B,011,Mardi,12 août  202505 août  2025,13h30,16h30,,Atelier,Non disponible
+AVM8711-automne2025-B,011,Mercredi,06 août  2025,13h30,16h30,,Atelier,Non disponible
+AVM8711-automne2025-B,011,Mercredi,13 août  202506 août  2025,09h30,12h30,,Atelier,Non disponible
 AVM8716-ete2025-A,021,Jeudi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,,Cours magistral,Marie-Pierre Labrie
 AVM8716-ete2025-A,021,Mardi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,,Cours magistral,Marie-Pierre Labrie
+AVM8721-ete2025-A,010,Jeudi,14 août  202507 août  2025,09h30,12h30,Campus de Montréal,Atelier,Anne Deslauriers
+AVM8721-ete2025-A,010,Jeudi,14 août  202507 août  2025,13h30,16h30,Campus de Montréal,Atelier,Anne Deslauriers
+AVM8721-ete2025-A,010,Lundi,04 août  202511 août  2025,09h30,12h30,Campus de Montréal,Atelier,Anne Deslauriers
+AVM8721-ete2025-A,010,Lundi,04 août  202511 août  2025,13h30,16h30,Campus de Montréal,Atelier,Anne Deslauriers
+AVM8721-ete2025-A,010,Mardi,05 août  202512 août  2025,09h30,12h30,Campus de Montréal,Atelier,Anne Deslauriers
+AVM8721-ete2025-A,010,Mardi,12 août  202505 août  2025,13h30,16h30,Campus de Montréal,Atelier,Anne Deslauriers
+AVM8721-ete2025-A,010,Mercredi,06 août  2025,13h30,16h30,Campus de Montréal,Atelier,Anne Deslauriers
+AVM8721-ete2025-A,010,Mercredi,13 août  202506 août  2025,09h30,12h30,Campus de Montréal,Atelier,Anne Deslauriers
+AVM8721-ete2025-B,011,Jeudi,07 août  202514 août  2025,09h30,12h30,Campus de Montréal,Atelier,Non disponible
+AVM8721-ete2025-B,011,Jeudi,07 août  202514 août  2025,13h30,16h30,Campus de Montréal,Atelier,Non disponible
+AVM8721-ete2025-B,011,Lundi,11 août  202504 août  2025,09h30,12h30,Campus de Montréal,Atelier,Non disponible
+AVM8721-ete2025-B,011,Lundi,11 août  202504 août  2025,13h30,16h30,Campus de Montréal,Atelier,Non disponible
+AVM8721-ete2025-B,011,Mardi,05 août  202512 août  2025,09h30,12h30,Campus de Montréal,Atelier,Non disponible
+AVM8721-ete2025-B,011,Mardi,05 août  202512 août  2025,13h30,16h30,Campus de Montréal,Atelier,Non disponible
+AVM8721-ete2025-B,011,Mercredi,06 août  2025,13h30,16h30,Campus de Montréal,Atelier,Non disponible
+AVM8721-ete2025-B,011,Mercredi,13 août  202506 août  2025,09h30,12h30,Campus de Montréal,Atelier,Non disponible
 AVM8726-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 AVM8726-automne2025-B,011,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 AVM8760-ete2025-A,010,-,-,,,-,-,Marie Syrine Daigneault
@@ -589,6 +626,8 @@ AVM8761-ete2025-B,011,-,-,,,-,-,Non disponible
 BCB1100-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,17h30,20h30,,Cours magistral,Steve Bourgault
 BCB2200-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Malika Oubaha
 BCB2220-automne2025-A,050,Vendredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+BCB2240-automne2025-A,020,Lundi,Du 2 septembre 2025au 17 décembre 2025,13h30,15h30,,Exercices,François Dragon
+BCB2240-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,13h30,16h30,,Cours magistral,François Dragon
 BCB3300-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h00,12h00,,Cours magistral,Non disponible
 BCB3360-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,09h00,12h00,,Cours magistral,Non disponible
 BCB3380-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,13h00,16h00,,Cours magistral,Denis Archambault
@@ -599,14 +638,20 @@ BCM1500-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h00,10
 BCM1500-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,10h00,16h00,Campus de Montréal,Laboratoire,Non disponible
 BCM2500-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,09h00,10h00,,Cours magistral,Marc Lussier
 BCM2500-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,10h00,16h00,Campus de Montréal,Laboratoire,Marc Lussier
+BCM3500-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,09h00,12h30,,Cours magistral,Non disponible
+BCM3500-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,12h30,16h00,Campus de Montréal,Laboratoire,Non disponible
 BCM3540-automne2025-A,080,-,-,,,-,-,Non disponible
 BCM3540-ete2025-A,080,-,-,,,-,-,Borhane Annabi
 BCM3550-automne2025-A,080,-,-,,,-,-,Non disponible
 BCM3560-automne2025-A,080,-,-,,,-,-,Non disponible
 BCM3560-ete2025-A,080,-,-,,,-,-,Borhane Annabi
 BCM3580-automne2025-A,080,-,-,,,-,-,Non disponible
+BCM4300-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,13h00,16h00,,Cours magistral,François Perreault
 BCM4500-automne2025-A,080,-,-,,,-,-,Non disponible
+BCM4520-automne2025-A,080,-,-,,,-,-,Non disponible
 BCM7015-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,09h00,12h00,,Cours magistral,Non disponible
+BCM8000-automne2025-A,080,-,-,,,-,-,Non disponible
+BCM8000-ete2025-A,010,-,-,,,-,-,Marc Lussier
 BCM9003-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,13h30,16h30,,Cours magistral,Karine Dufresne
 BCM9003-automne2025-B,050,Vendredi,Du 2 septembre 2025au 17 décembre 2025,13h30,16h30,,Cours magistral,Laurent Cappadocia
 BCM9004-automne2025-A,011,Lundi,Du 2 septembre 2025au 17 décembre 2025,13h30,16h30,,Cours magistral,Marc Lussier
@@ -636,6 +681,8 @@ BCM9011-ete2025-B,011,Mercredi,Du 26 mai 2025au 13 juin 2025,13h00,16h00,Campus 
 BCM9011-ete2025-B,011,Vendredi,Du 26 mai 2025au 13 juin 2025,13h00,16h00,Campus de Montréal,Cours magistral,Grégoire Bonnamour
 BCM9011-ete2025-B,011,Vendredi,Du 26 mai 2025au 13 juin 2025,13h00,16h00,Campus de Montréal,Laboratoire,Grégoire Bonnamour
 BGP3001-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+BGP5000-automne2025-A,080,-,-,,,-,-,Non disponible
+BGP5000-ete2025-A,080,-,-,,,-,-,Stéphanie Viola-Plante
 BGP5001-automne2025-A,080,-,-,,,-,-,Non disponible
 BGP5001-ete2025-A,080,-,-,,,-,-,Stéphanie Viola-Plante
 BGP5100-automne2025-A,080,-,-,,,-,-,Non disponible
@@ -643,6 +690,7 @@ BGP5100-ete2025-A,080,-,-,,,-,-,Stéphanie Viola-Plante
 BIA1000-automne2025-A,080,-,-,,,-,-,Karine Dufresne
 BIA1000-automne2025-B,081,-,-,,,-,-,Karine Dufresne
 BIA1302-automne2025-A,080,-,-,,,-,-,Alain Paquette
+BIA1601-automne2025-A,080,-,-,,,-,-,Clint Dale Kelly
 BIA2101-automne2025-A,080,-,-,,,-,-,Jean Danyluk
 BIA2201-automne2025-A,080,-,-,,,-,-,Said Kourrich
 BIA2501-automne2025-A,080,-,-,,,-,-,Denis Archambault
@@ -652,6 +700,8 @@ BIA3030-automne2025-A,080,-,-,,,-,-,Maikel Rosabal Rodriguez
 BIA3510-automne2025-A,080,-,-,,,-,-,Alison Margaret Derry
 BIA3523-automne2025-A,080,-,-,,,-,-,Benoît Barbeau
 BIA3530-automne2025-A,080,-,-,,,-,-,Said Kourrich
+BIF4100-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,Campus de Montréal,Cours magistral,Vladimir Reinharz
+BIF7003-ete2025-A,080,-,-,,,-,-,Vladimir Makarenkov
 BIF7100-automne2025-A,030,Jeudi,Du 2 septembre 2025au 17 décembre 2025,17h30,20h30,Campus de Montréal,Cours magistral,Roman Sarrazin Gendron
 BIF7105-automne2025-A,040,Mercredi,Du 2 septembre 2025au 17 décembre 2025,17h30,20h30,,Cours magistral,Vladimir Makarenkov
 BIO1016-automne2025-A,010,Lundi,08 sept. 202503 nov.  202501 déc.  202506 oct.  202517 nov.  202522 sept. 202520 oct.  2025,14h00,17h00,,Laboratoire,Non disponible
@@ -659,6 +709,7 @@ BIO1016-automne2025-A,010,Lundi,08 sept. 202517 nov.  202520 oct.  202515 sept. 
 BIO1050-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h00,12h00,Campus de Montréal,Laboratoire,Non disponible
 BIO1050-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 BIO1050-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,17h00,20h00,Campus de Montréal,Laboratoire,Non disponible
+BIO1700-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Pierre Drapeau
 BIO3003-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,13h00,16h00,,Cours magistral,Catherine Jumarie
 BIO3100-automne2025-A,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h00,12h00,,Cours magistral,Non disponible
 BIO3100-automne2025-A,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,13h00,16h00,Campus de Montréal,Laboratoire,Non disponible
@@ -1085,6 +1136,7 @@ DDD3651-automne2025-C,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21
 DDD3651-automne2025-D,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,Laury Bédard
 DDD3651-automne2025-E,041,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 DDD3891-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
+DDD4000-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 DDD5410-automne2025-A,010,Lundi,Du 2 septembre 2025au 24 octobre 2025,14h00,17h00,,Cours magistral,Non disponible
 DDD5410-automne2025-A,010,Mercredi,Du 2 septembre 2025au 24 octobre 2025,14h00,17h00,,Cours magistral,Non disponible
 DDD5410-automne2025-B,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
@@ -1173,10 +1225,6 @@ DDL8410-ete2025-A,050,Lundi,14 juil. 202507 juil. 202530 juin  202521 juil. 2025
 DDL8430-ete2025-A,010,Jeudi,Du 28 avril 2025au 12 juin 2025,17h00,21h00,Campus de Montréal,Cours magistral,Philippa Bell
 DDL8430-ete2025-A,010,Lundi,Du 28 avril 2025au 12 juin 2025,17h00,21h00,Campus de Montréal,Cours magistral,Philippa Bell
 DDL8460-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Kathleen Sénéchal
-DDL8541-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
-DDL8541-automne2025-B,011,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
-DDL8541-automne2025-C,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
-DDL8541-automne2025-D,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 DDL8543-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Marie-France Côté
 DDL8543-automne2025-B,021,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Marie-France Côté
 DDL8543-automne2025-C,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
@@ -1478,16 +1526,15 @@ DGX5171-automne2025-A,080,-,-,,,-,-,Non disponible
 DGX6133-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,13h30,16h30,Campus de Montréal,Cours magistral,Judith Poirier
 DGX6133-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,16h30,17h30,Campus de Montréal,Atelier,Judith Poirier
 DGX6162-automne2025-A,080,-,-,,,-,-,Non disponible
-DGX6172-automne2025-A,080,-,-,,,-,-,Non disponible
 DIC9001-automne2025-A,040,Mercredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,Campus de Montréal,Cours magistral,Serge Robert
 DIC9150-automne2025-A,010,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,Campus de Montréal,Cours magistral,Serge Robert
+DIC9270-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,10h30,12h00,Campus de Montréal,Cours magistral,Stevan Harnad
 DIC9271-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,10h30,12h00,Campus de Montréal,Cours magistral,Stevan Harnad
 DIC9315-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,A. Mounir Boukadoum
 DIC9401-automne2025-A,001,-,-,,,-,-,Non disponible
 DIC9401-ete2025-A,001,-,-,,,-,-,Non disponible
-DIC9500-automne2025-A,001,-,-,,,-,-,Non disponible
-DIC9500-ete2025-A,001,-,-,,,-,-,Non disponible
-DLS1001-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Tanja Vaillancourt
+DIC9411-automne2025-A,001,-,-,,,-,-,Non disponible
+DIC9411-ete2025-A,001,-,-,,,-,-,Non disponible
 DLS1201-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Sonia Robitaille
 DLS2003-automne2025-A,030,Mercredi,15 oct.  202522 oct.  202510 sept. 202501 oct.  202508 oct.  202503 sept. 2025,09h30,13h00,,Cours magistral,Non disponible
 DLS2003-automne2025-A,030,Mercredi,29 oct.  202524 sept. 202517 sept. 2025,09h30,12h30,,Cours magistral,Non disponible
@@ -1529,6 +1576,9 @@ DLS4701-ete2025-A,050,-,-,,,-,-,Sylvie Campeau
 DLS7864-automne2025-A,050,Samedi,06 déc.  2025,09h30,12h30,,Cours magistral,Non disponible
 DLS7864-automne2025-A,050,Samedi,06 déc.  2025,14h00,17h00,,Cours magistral,Non disponible
 DLS7864-automne2025-A,050,Vendredi,17 oct.  2025,18h00,21h00,,Cours magistral,Non disponible
+DLS7865-automne2025-A,050,Samedi,06 déc.  2025,09h30,12h30,,Cours magistral,Non disponible
+DLS7865-automne2025-A,050,Samedi,06 déc.  2025,14h00,17h00,,Cours magistral,Non disponible
+DLS7865-automne2025-A,050,Vendredi,17 oct.  2025,18h00,21h00,,Cours magistral,Non disponible
 DLS7882-automne2025-A,050,Vendredi,26 sept. 202519 sept. 202505 déc.  202507 nov.  202512 sept. 2025,18h00,21h00,,Cours magistral,Non disponible
 DLS7964-automne2025-A,050,Samedi,06 déc.  2025,09h30,12h30,,Cours magistral,Non disponible
 DLS7964-automne2025-A,050,Samedi,06 déc.  2025,14h00,17h00,,Cours magistral,Non disponible
@@ -1543,6 +1593,9 @@ DME9001-automne2025-A,010,Jeudi,04 déc.  202511 sept. 202527 nov.  202511 déc.
 DME9001-automne2025-A,010,Vendredi,12 sept. 202505 déc.  202512 déc.  202528 nov.  2025,09h00,17h00,,Cours magistral,Non disponible
 DME9001-automne2025-B,011,Jeudi,27 nov.  202511 sept. 202511 déc.  202504 déc.  2025,09h00,17h00,,Cours magistral,Non disponible
 DME9001-automne2025-B,011,Vendredi,05 déc.  202528 nov.  202512 déc.  202512 sept. 2025,09h00,17h00,,Cours magistral,Non disponible
+DME9006-automne2025-A,010,Jeudi,02 oct.  202504 sept. 2025,09h00,16h30,,Cours magistral,Non disponible
+DME9006-automne2025-A,010,Jeudi,18 sept. 202513 nov.  202525 sept. 202530 oct.  202516 oct.  202523 oct.  202509 oct.  202506 nov.  2025,09h00,12h00,,Cours magistral,Non disponible
+DME9006-automne2025-A,010,Vendredi,12 déc.  202505 sept. 202503 oct.  2025,09h00,12h00,,Cours magistral,Non disponible
 DME9010-automne2025-A,010,-,-,,,-,-,Non disponible
 DME9010-ete2025-A,010,-,-,,,-,-,Line Laplante
 DME9011-automne2025-A,010,-,-,,,-,-,Sylvie Viola
@@ -1562,6 +1615,7 @@ DSR2011-automne2025-D,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,14h00,17
 DSR2011-automne2025-E,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 DSR2011-automne2025-F,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Nicolas Merveille
 DSR2011-automne2025-G,065,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Mark Purdon
+DSR3010-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Cécile Bulle
 DSR3011-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 DSR3012-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 DSR3103-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Unsal Ozdilek
@@ -1569,8 +1623,6 @@ DSR3121-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h30,12
 DSR3121-automne2025-B,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 DSR3121-automne2025-C,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 DSR3121-automne2025-D,050,Vendredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
-DSR4701-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Soumaya Ben Letaifa
-DSR4701-automne2025-B,065,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Vincent Sabourin
 DSR4980-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 DSR5100-automne2025-A,003,Mercredi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,UQAM Campus de Laval,Cours magistral,Non disponible
 DSR5100-automne2025-B,005,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h30,21h30,UQAM Campus de Laval,Cours magistral,Non disponible
@@ -1598,12 +1650,14 @@ DSR5560-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,,Cours m
 DSR5970-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 DSR6102-ete2025-A,060,Dimanche,25 mai   202501 juin  202518 mai   2025,09h00,17h00,Campus de Montréal,Cours magistral,Gokhan Turgut
 DSR6102-ete2025-A,060,Samedi,31 mai   202524 mai   202517 mai   2025,09h00,17h00,Campus de Montréal,Cours magistral,Gokhan Turgut
+DSR6191-automne2025-A,080,-,-,,,-,-,Amélie Cloutier
+DSR6191-ete2025-A,080,-,-,,,-,-,Amélie Cloutier
 DSR6193-automne2025-A,080,-,-,,,-,-,Amélie Cloutier
 DSR6193-ete2025-A,080,-,-,,,-,-,Amélie Cloutier
 DSR6200-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Andrée De Serres
 DSR6309-automne2025-A,030,Mardi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
+DSR6310-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 DSR6720-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
-DSR7610-automne2025-A,060,Samedi,20 sept. 202518 oct.  202508 nov.  202506 déc.  202522 nov.  202506 sept. 202504 oct.  2025,09h00,16h30,,Cours magistral,Jean Pasquero
 DSR8200-automne2025-A,020,Jeudi,04 sept. 2025,09h00,17h00,,Cours magistral,Hela Chebbi
 DSR8200-automne2025-A,020,Mardi,02 sept. 2025,13h00,17h00,,Cours magistral,Hela Chebbi
 DSR8200-automne2025-A,020,Mercredi,03 sept. 2025,09h00,17h00,,Cours magistral,Hela Chebbi
@@ -1620,6 +1674,7 @@ DSR8403-automne2025-A,040,Jeudi,04 sept. 202502 oct.  202509 oct.  202516 oct.  
 DSR8403-automne2025-A,040,Jeudi,18 sept. 2025,09h30,16h31,,Cours magistral,Jean Pasquero
 DSR8405-automne2025-A,011,Lundi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Vincent Sabourin
 DSR8407-ete2025-A,010,Lundi,19 mai   202502 juin  202512 mai   202528 avr.  202505 mai   202509 juin  202526 mai   2025,09h00,16h00,Campus de Montréal,Cours magistral,Soumaya Ben Letaifa
+DSR8408-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Gokhan Turgut
 DSR8410-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Michel Librowicz
 DSR8412-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Michel Librowicz
 DSR8413-automne2025-A,050,Vendredi,Du 2 septembre 2025au 17 décembre 2025,09h00,16h30,,Cours magistral,Majdi Ben Selma
@@ -1633,6 +1688,7 @@ DSR8416-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus d
 DSR8416-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Asmaa Nasseh
 DSR8418-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,14h00,17h00,Campus de Montréal,Cours magistral,Sylvain A. Lefèvre
 DSR8418-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Sylvain A. Lefèvre
+DSR8419-automne2025-A,011,Lundi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Andrée De Serres
 DSR8439-ete2025-A,060,Dimanche,18 mai   202504 mai   202501 juin  2025,09h00,17h00,,Cours magistral,Majdi Ben Selma
 DSR8439-ete2025-A,060,Samedi,03 mai   202517 mai   202531 mai   2025,09h00,17h00,,Cours magistral,Majdi Ben Selma
 DSR8439-ete2025-A,060,Vendredi,06 juin  2025,14h00,17h00,,Cours magistral,Majdi Ben Selma
@@ -1642,11 +1698,6 @@ DSR8439-ete2025-B,061,Samedi,24 mai   202507 juin  2025,09h00,17h01,,Cours magis
 DSR8439-ete2025-B,061,Vendredi,13 juin  2025,14h00,17h01,,Cours magistral,Andrew Papadopoulos
 DSR8491-automne2025-A,080,-,-,,,-,-,Non disponible
 DSR8491-ete2025-A,010,-,-,,,-,-,Non disponible
-ECO1004-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Charles Séguin
-ECO1013-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Marie-Louise Leroux
-ECO1013-automne2025-A,040,Mercredi,Du 2 septembre 2025au 17 décembre 2025,13h00,15h00,,Exercices,Marie-Louise Leroux
-ECO1013-automne2025-B,050,Mercredi,Du 2 septembre 2025au 17 décembre 2025,14h00,16h00,,Exercices,Robert Leonard
-ECO1013-automne2025-B,050,Vendredi,Du 2 septembre 2025au 17 décembre 2025,09h00,12h00,,Cours magistral,Robert Leonard
 ECO1023-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Florian Jean Mayneris
 ECO1023-automne2025-A,020,Mercredi,Du 2 septembre 2025au 17 décembre 2025,15h00,17h00,,Exercices,Florian Jean Mayneris
 ECO1055-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
@@ -1841,6 +1892,7 @@ EDM2825-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,18h00
 EDM2850-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 EDM2856-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 EDM2861-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+EDM2873-automne2025-A,020,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 EDM2881-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 EDM3110-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,Campus de Montréal,Cours magistral,Non disponible
 EDM3110-automne2025-B,021,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,Campus de Montréal,Cours magistral,Non disponible
@@ -1943,6 +1995,7 @@ EFS7378-ete2025-A,050,-,-,,,-,-,Valérie Amireault
 EFS8010-automne2025-A,050,Samedi,20 sept. 202506 sept. 2025,09h00,16h00,,Cours magistral,Sophie Grossmann
 EFS8010-automne2025-A,050,Vendredi,12 sept. 2025,18h00,21h00,,Cours magistral,Sophie Grossmann
 EFS8020-automne2025-A,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Sophie Grossmann
+EFS8110-ete2025-A,050,-,-,,,-,-,Marina Schwimmer
 EFS8130-automne2025-A,050,-,-,,,-,-,Non disponible
 ENV1105-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h00,12h00,,Cours magistral,David Dewez
 ENV1105-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,13h00,16h00,,Atelier,David Dewez
@@ -2249,16 +2302,26 @@ EUT6791-ete2025-A,080,-,-,,,-,-,Sophie Paquin
 EUT6791-ete2025-B,081,-,-,,,-,-,Alexandre Labelle
 EUT6792-automne2025-A,080,-,-,,,-,-,Sylvie Paré
 EUT6792-ete2025-A,080,-,-,,,-,-,Sylvie Paré
+FAM1100-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Yves Jubinville
 FAM1201-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+FAM1500-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,17h30,20h30,,Cours magistral,Non disponible
+FAM1500-automne2025-B,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 FAM4006-automne2025-A,030,Mercredi,Du 3 septembre 2025au 5 novembre 2025,09h30,12h30,,Cours magistral,Non disponible
 FAM4006-automne2025-A,030,Mercredi,Du 3 septembre 2025au 5 novembre 2025,14h00,15h30,,Cours magistral,Non disponible
 FAM4006-automne2025-A,030,Mercredi,Du 3 septembre 2025au 5 novembre 2025,15h30,17h00,,Laboratoire,Non disponible
+FAM8616-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,17h30,20h30,Campus de Montréal,Cours magistral,Adriana Oliveira
+FCM1015-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 FCM1514-automne2025-A,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 FCM7000-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Éric George
 FCM7000-automne2025-B,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Mélanie Millette
 FCM7516-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Anouk Bélanger
 FCM7601-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Maxime Ouellet
+FCM7650-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Gabrielle Trépanier Jobin
+FCM7701-automne2025-A,060,Dimanche,12 oct.  202516 nov.  202514 sept. 2025,10h00,16h00,,Cours magistral,Véronique Leduc
+FCM7701-automne2025-A,060,Mercredi,22 oct.  202524 sept. 202503 sept. 202526 nov.  2025,19h00,20h30,,Cours magistral,Véronique Leduc
+FCM7701-automne2025-A,060,Samedi,13 sept. 202511 oct.  202515 nov.  2025,10h00,16h00,,Cours magistral,Véronique Leduc
 FCM7909-ete2025-A,080,-,-,,,-,-,Non disponible
+FCM7911-ete2025-A,080,-,-,,,-,-,Non disponible
 FCM7920-automne2025-A,001,-,-,,,-,-,Non disponible
 FCM7920-ete2025-A,001,-,-,,,-,-,Non disponible
 FCM8000-ete2025-A,060,Jeudi,15 mai   2025,09h30,17h00,Campus de Montréal,Cours magistral,Marieke Hassell-Crépeau
@@ -2267,6 +2330,7 @@ FCM8000-ete2025-A,060,Mardi,20 mai   2025,09h30,17h00,Campus de Montréal,Cours 
 FCM8000-ete2025-A,060,Mercredi,14 mai   202521 mai   2025,09h30,17h00,Campus de Montréal,Cours magistral,Marieke Hassell-Crépeau
 FCM8000-ete2025-A,060,Vendredi,16 mai   2025,09h30,17h00,Campus de Montréal,Cours magistral,Marieke Hassell-Crépeau
 FCM8000-ete2025-A,060,Vendredi,23 mai   2025,09h00,12h00,,Cours magistral,Marieke Hassell-Crépeau
+FCM9000-automne2025-A,010,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Anouk Bélanger
 FCM9120-automne2025-A,001,-,-,,,-,-,Non disponible
 FCM9120-ete2025-A,001,-,-,,,-,-,Non disponible
 FCM9221-automne2025-A,060,-,-,,,-,-,Non disponible
@@ -2312,6 +2376,9 @@ FIN3500-ete2025-D,020,Jeudi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus d
 FIN3500-ete2025-D,020,Mardi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Mohamed Ben Bader
 FIN3530-automne2025-A,001,Lundi,Du 2 septembre 2025au 17 décembre 2025,18h30,21h30,UQAM Campus de Laval,Cours magistral,Non disponible
 FIN3530-automne2025-B,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
+FIN5401-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
+FIN5401-ete2025-A,001,Dimanche,01 juin  202508 juin  202511 mai   2025,09h00,17h30,,Cours magistral,Marc Binette
+FIN5401-ete2025-A,001,Samedi,10 mai   202507 juin  202531 mai   2025,09h00,17h30,UQAM Campus de Laval,Cours magistral,Marc Binette
 FIN5451-automne2025-A,001,Samedi,13 sept. 202527 sept. 202511 oct.  202504 oct.  202506 sept. 202520 sept. 2025,09h00,17h30,UQAM Campus de Laval,Cours magistral,Non disponible
 FIN5451-automne2025-B,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FIN5510-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
@@ -2328,6 +2395,8 @@ FIN5523-automne2025-A,002,Jeudi,Du 2 septembre 2025au 17 décembre 2025,14h00,17
 FIN5523-automne2025-B,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 FIN5523-automne2025-C,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FIN5523-automne2025-D,041,Jeudi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+FIN5525-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Kodjovi Assoe
+FIN5530-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Alain René Coën
 FIN5531-automne2025-A,050,Vendredi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 FIN5550-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Ahmad Al-Haji
 FIN5550-automne2025-B,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Ahmad Al-Haji
@@ -2341,27 +2410,36 @@ FIN5570-ete2025-A,001,Mardi,Du 28 avril 2025au 18 juin 2025,18h30,21h30,UQAM Cam
 FIN5580-automne2025-A,001,Mercredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,UQAM Campus de Laval,Cours magistral,Inès Gargouri
 FIN5580-automne2025-B,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 FIN5580-automne2025-C,021,Mardi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
-FIN5590-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FIN6191-automne2025-A,080,-,-,,,-,-,Marie Hélène Noiseux
 FIN6191-ete2025-A,080,-,-,,,-,-,Marie Hélène Noiseux
 FIN6193-automne2025-A,080,-,-,,,-,-,Marie Hélène Noiseux
 FIN6193-ete2025-A,080,-,-,,,-,-,Marie Hélène Noiseux
 FIN6520-automne2025-A,060,Dimanche,16 nov.  202528 sept. 202526 oct.  2025,09h00,17h30,,Cours magistral,Non disponible
 FIN6520-automne2025-A,060,Samedi,27 sept. 202515 nov.  202525 oct.  2025,09h00,17h30,,Cours magistral,Non disponible
+FIN8311-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
+FIN8311-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Hugo Inzirillo
+FIN8311-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Hugo Inzirillo
 FIN8415-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FIN8415-automne2025-B,060,Dimanche,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+FIN8506-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FIN8507-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Alain René Coën
 FIN8510-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Maher Kooli
 FIN8511-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 FIN8512-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FIN8513-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Charles Langford
 FIN8513-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Charles Langford
+FIN8515-ete2025-A,010,Samedi,03 mai   202514 juin  202510 mai   202531 mai   202524 mai   202507 juin  202517 mai   2025,09h00,12h00,Campus de Montréal,Cours magistral,Jean-Pierre Gueyie
+FIN8515-ete2025-A,010,Samedi,07 juin  202524 mai   202531 mai   202503 mai   202510 mai   202517 mai   202514 juin  2025,13h00,16h00,Campus de Montréal,Cours magistral,Jean-Pierre Gueyie
 FIN8518-automne2025-A,050,Vendredi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FIN8521-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
+FIN8522-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Maya Cachecho
+FIN8522-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Maya Cachecho
 FIN8525-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FIN8530-automne2025-A,050,Vendredi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FIN8530-ete2025-A,010,Lundi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Mohamed Mnasri
 FIN8530-ete2025-A,010,Mercredi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Mohamed Mnasri
+FIN8535-ete2025-A,010,Lundi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Kodjovi Assoe
+FIN8535-ete2025-A,010,Mercredi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Kodjovi Assoe
 FIN8611-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Maher Kooli
 FIN8611-automne2025-B,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 FIN8612-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Saurabh Roy
@@ -2387,6 +2465,9 @@ FIN8641-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,18h00,21
 FIN8641-automne2025-A,010,Vendredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Laboratoire,Ramzi Ben Abdallah
 FIN8650-automne2025-A,002,-,-,,,-,-,Non disponible
 FIN8650-ete2025-A,002,-,-,,,-,-,Non disponible
+FIN8660-automne2025-A,002,-,-,,,-,-,Non disponible
+FIN8660-ete2025-A,002,-,-,,,-,-,Non disponible
+FIN8660-ete2025-B,098,-,-,,,-,-,Non disponible
 FLS1180-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Agnès Baron
 FLS1220-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 FLS1230-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Juliane Bertrand
@@ -2492,6 +2573,7 @@ FPE7805-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,,Cours m
 FPE7805-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,,Cours magistral,Marthe Hurteau
 FPE7901-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Marthe Hurteau
 FPE7901-automne2025-B,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Marthe Hurteau
+FPT1402-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FPT1521-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 FPT1521-automne2025-B,060,Samedi,22 nov.  202529 nov.  202506 déc.  202508 nov.  202515 nov.  202513 déc.  2025,09h00,17h30,,Cours magistral,Non disponible
 FPT1530-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
@@ -2648,7 +2730,6 @@ HAR4550-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12
 HAR4590-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Caroline Hotte
 HAR4600-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Thérèse St-Gelais
 HAR4640-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Monia Abdallah
-HAR4705-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 HAR4710-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 HAR4740-automne2025-A,030,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 HAR8040-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,Louis Martin
@@ -2672,7 +2753,6 @@ HIS1500-automne2025-B,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21
 HIS2115-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Jean Revez
 HIS2250-automne2025-A,030,Lundi,Du 2 septembre 2025au 22 octobre 2025,14h00,17h00,,Cours magistral,Non disponible
 HIS2250-automne2025-A,030,Mercredi,Du 2 septembre 2025au 22 octobre 2025,14h00,17h00,,Cours magistral,Non disponible
-HIS2260-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Benjamin Deruelle
 HIS2320-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 HIS2515-automne2025-A,020,Jeudi,Du 26 août 2025au 16 octobre 2025,14h00,17h00,,Cours magistral,Non disponible
 HIS2515-automne2025-A,020,Mardi,Du 26 août 2025au 16 octobre 2025,14h00,17h00,,Cours magistral,Non disponible
@@ -2917,6 +2997,7 @@ INT1030-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00
 INT1176-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 INT1530-automne2025-A,030,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 INT1540-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
+INT1581-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 INT3800-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,14h00,17h00,Campus de Montréal,Cours magistral,Lina Ouellet
 INT3800-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,14h00,17h00,Campus de Montréal,Cours magistral,Lina Ouellet
 ISC8001-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Janie Brisson
@@ -3309,6 +3390,7 @@ LIN1109-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21
 LIN1130-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Elizabeth Allyn Smith
 LIN1132-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Lefteris Paparounas
 LIN1400-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Marine Le Mene Guigoures
+LIN1520-automne2025-A,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Elizabeth Allyn Smith
 LIN1601-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Richard Compton
 LIN1602-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 LIN1611-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
@@ -3393,15 +3475,12 @@ LIT3990-ete2025-B,041,Jeudi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,,Cours m
 LIT3990-ete2025-C,042,Jeudi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Stéphane Leclerc
 LIT3990-ete2025-D,043,Jeudi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Sébastien Rose
 LIT4165-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
-LIT4190-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 LIT4930-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Isaac Bazié
-LIT6270-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 LIT6275-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Véronique Hébert
 LIT6280-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Jean-François Hamel
 LIT8820-automne2025-A,010,-,-,,,-,-,Luc Bonenfant
 LIT8820-automne2025-B,011,-,-,,,-,-,Karine Rosso
 LIT8830-automne2025-A,010,-,-,,,-,-,Cassie Bérard
-LIT8950-automne2025-A,001,-,-,,,-,-,Non disponible
 LIT9001-automne2025-A,010,-,-,,,-,-,Isaac Bazié
 LIT9002-automne2025-A,001,-,-,,,-,-,Non disponible
 LIT9002-ete2025-A,001,-,-,,,-,-,Non disponible
@@ -3628,9 +3707,8 @@ MAT8511-automne2025-B,030,Vendredi,Du 2 septembre 2025au 15 décembre 2025,12h00
 MAT8511-ete2025-A,010,Lundi,Du 28 avril 2025au 18 juin 2025,14h00,17h00,Campus de Montréal,Exercices,Frédéric Ouimet
 MAT8511-ete2025-A,010,Lundi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Frédéric Ouimet
 MAT8511-ete2025-A,010,Mercredi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,Campus de Montréal,Cours magistral,Frédéric Ouimet
+MAT8600-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h00,12h00,,Cours magistral,Mathieu Boudreault
 MAT8780-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,13h30,16h30,,Cours magistral,Simon Guillotte
-MAT8886-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,13h30,16h30,Campus de Montréal,Cours magistral,Simon Guillotte
-MAT8886-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,13h30,16h30,Campus de Montréal,Cours magistral,Simon Guillotte
 MAT9012-automne2025-A,001,-,-,,,-,-,Non disponible
 MAT9013-automne2025-A,001,-,-,,,-,-,Non disponible
 MBA7100-automne2025-A,019,Dimanche,26 oct.  202514 déc.  202521 sept. 202523 nov.  2025,09h00,16h00,,Cours magistral,Non disponible
@@ -3669,6 +3747,9 @@ MBA8445-ete2025-A,010,Samedi,14 juin  2025,09h00,17h00,Campus de Montréal,Cours
 MBA8445-ete2025-A,010,Samedi,26 avr.  2025,09h01,17h00,Campus de Montréal,Cours magistral,Pierre Hadaya
 MBA8445-ete2025-A,010,Vendredi,18 avr.  2025,09h01,17h00,Campus de Montréal,Cours magistral,Pierre Hadaya
 MBA8445-ete2025-A,010,Vendredi,30 mai   2025,09h00,17h00,Campus de Montréal,Cours magistral,Pierre Hadaya
+MBA8448-automne2025-A,002,-,-,,,-,-,Non disponible
+MBA8448-automne2025-B,076,-,-,,,-,-,Non disponible
+MBA8448-ete2025-A,002,-,-,,,-,-,Non disponible
 MBA8450-ete2025-A,010,Jeudi,14 août  2025,09h00,18h00,,Cours magistral,Kamal Bouzinab
 MBA8450-ete2025-A,010,Lundi,11 août  2025,09h00,18h00,,Cours magistral,Kamal Bouzinab
 MBA8450-ete2025-A,010,Mardi,12 août  2025,09h00,18h00,,Cours magistral,Kamal Bouzinab
@@ -3908,6 +3989,8 @@ MGL8705-automne2025-A,080,-,-,,,-,-,Non disponible
 MGL8705-ete2025-A,080,-,-,,,-,-,Non disponible
 MGL8706-automne2025-A,080,-,-,,,-,-,Non disponible
 MGL8706-ete2025-A,080,-,-,,,-,-,Non disponible
+MGL8707-automne2025-A,080,-,-,,,-,-,Non disponible
+MGL8707-ete2025-A,080,-,-,,,-,-,Non disponible
 MGL8710-automne2025-A,002,-,-,,,-,-,Non disponible
 MGL8710-ete2025-A,002,-,-,,,-,-,Non disponible
 MGP700E-automne2025-A,050,Vendredi,26 sept. 202512 sept. 202505 sept. 202519 sept. 2025,09h30,12h30,,Laboratoire,Michel Plaisent
@@ -3964,6 +4047,7 @@ MGP7209-automne2025-A,060,Samedi,20 sept. 202529 nov.  202506 déc.  202513 déc
 MGP7210-automne2025-A,040,Jeudi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 MGP7213-ete2025-A,063,-,-,,,-,-,Non disponible
 MGP7217-automne2025-A,010,Lundi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
+MGP7221-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,18h00,21h00,,Cours magistral,Caroline Coulombe
 MGP7222-ete2025-A,030,Dimanche,08 juin  2025,08h30,12h00,Campus de Montréal,Cours magistral,Valérie Lehmann
 MGP7222-ete2025-A,030,Dimanche,25 mai   202501 juin  2025,08h30,17h00,Campus de Montréal,Cours magistral,Valérie Lehmann
 MGP7222-ete2025-A,030,Mardi,27 mai   202520 mai   202503 juin  2025,18h00,21h00,,Cours magistral,Valérie Lehmann
@@ -4071,6 +4155,8 @@ MGT5123-ete2025-A,030,Lundi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus d
 MGT5123-ete2025-A,030,Mercredi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Mélina Dorval
 MGT5124-automne2025-A,020,Mardi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 MGT5700-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,09h30,12h30,,Cours magistral,Christina Constantinidis
+MGT6191-automne2025-A,080,-,-,,,-,-,Viviane Sergi
+MGT6191-ete2025-A,080,-,-,,,-,-,Viviane Sergi
 MGT6193-automne2025-A,080,-,-,,,-,-,Viviane Sergi
 MGT6193-ete2025-A,080,-,-,,,-,-,Viviane Sergi
 MGT6251-ete2025-A,020,Mardi,05 août  202506 mai   202529 avr.  202513 mai   2025,09h30,12h30,Campus de Montréal,Cours magistral,Tobi Rodrigue
@@ -4475,7 +4561,6 @@ MUS3710-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17
 MUS380A-automne2025-A,080,-,-,,,-,-,Non disponible
 MUS380B-automne2025-A,080,-,-,,,-,-,Non disponible
 MUS380C-automne2025-A,080,-,-,,,-,-,Non disponible
-MUS380D-automne2025-A,080,-,-,,,-,-,Non disponible
 MUS380F-automne2025-A,080,-,-,,,-,-,Non disponible
 MUS380G-automne2025-A,080,-,-,,,-,-,Non disponible
 MUS380H-automne2025-A,080,-,-,,,-,-,Non disponible
@@ -4582,6 +4667,8 @@ MUS580V-automne2025-A,080,-,-,,,-,-,Non disponible
 MUS580W-automne2025-A,080,-,-,,,-,-,Non disponible
 MUS580Z-automne2025-A,080,-,-,,,-,-,Non disponible
 MUS5815-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h00,12h00,Campus de Montréal,Cours magistral,Vanessa Blais-Tremblay
+MUS605A-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,Stéphane Aubin
+MUS6332-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,Non disponible
 MUS660E-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,Non disponible
 MUS660F-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,Non disponible
 MUS660T-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,Campus de Montréal,Cours magistral,Non disponible
@@ -4684,10 +4771,6 @@ MUS8711-automne2025-B,011,Mardi,05 août  202512 août  2025,09h30,12h30,Campus 
 MUS8711-automne2025-B,011,Mardi,12 août  202505 août  2025,13h30,16h30,Campus de Montréal,Atelier,Non disponible
 MUS8711-automne2025-B,011,Mercredi,06 août  2025,13h30,16h30,Campus de Montréal,Atelier,Non disponible
 MUS8711-automne2025-B,011,Mercredi,06 août  202513 août  2025,09h30,12h30,Campus de Montréal,Atelier,Non disponible
-MUS8716-ete2025-A,010,Lundi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,,Cours magistral,Isabelle Héroux
-MUS8716-ete2025-A,010,Mercredi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,,Cours magistral,Isabelle Héroux
-MUS8716-ete2025-B,020,Jeudi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,,Cours magistral,Isabelle Héroux
-MUS8716-ete2025-B,020,Mardi,Du 28 avril 2025au 18 juin 2025,18h00,21h00,,Cours magistral,Isabelle Héroux
 MUS8721-ete2025-A,010,Jeudi,14 août  202507 août  2025,09h30,12h30,Campus de Montréal,Atelier,Audrey Kristel Barbeau
 MUS8721-ete2025-A,010,Jeudi,14 août  202507 août  2025,13h30,16h30,Campus de Montréal,Atelier,Audrey Kristel Barbeau
 MUS8721-ete2025-A,010,Lundi,04 août  202511 août  2025,09h30,12h30,Campus de Montréal,Atelier,Audrey Kristel Barbeau
@@ -4859,9 +4942,16 @@ ORH6407-ete2025-A,080,-,-,,,-,-,Denis Morin
 ORH6603-automne2025-A,080,-,-,,,-,-,Sarah Bourdeau
 ORH6603-ete2025-A,080,-,-,,,-,-,Sarah Bourdeau
 ORH6950-automne2025-A,030,Mercredi,Du 2 septembre 2025au 17 décembre 2025,14h00,17h00,,Cours magistral,Pascale Denis
+ORH7300-automne2025-A,060,Dimanche,19 oct.  202523 nov.  202521 sept. 2025,09h00,17h00,,Cours magistral,Maude Léonard
+ORH7300-automne2025-A,060,Samedi,06 déc.  2025,09h00,12h00,,Cours magistral,Maude Léonard
+ORH7300-automne2025-A,060,Samedi,06 sept. 202504 oct.  202508 nov.  2025,09h00,17h00,,Cours magistral,Maude Léonard
+ORH7300-automne2025-A,060,Vendredi,05 sept. 2025,18h00,21h00,,Cours magistral,Maude Léonard
 ORH7330-ete2025-A,060,Dimanche,25 mai   202511 mai   202508 juin  2025,09h00,17h00,Campus de Montréal,Cours magistral,Sonia Tello Rozas
 ORH7330-ete2025-A,060,Samedi,07 juin  202510 mai   202524 mai   2025,09h00,17h00,Campus de Montréal,Cours magistral,Sonia Tello Rozas
 ORH7330-ete2025-A,060,Vendredi,20 juin  2025,18h00,21h00,Campus de Montréal,Cours magistral,Sonia Tello Rozas
+ORH7910-automne2025-A,060,Mercredi,03 sept. 2025,18h00,21h00,,Cours magistral,Non disponible
+ORH7910-automne2025-A,060,Samedi,04 oct.  202501 nov.  2025,09h00,16h00,,Cours magistral,Non disponible
+ORH7910-automne2025-A,060,Samedi,06 déc.  2025,09h00,12h00,,Cours magistral,Non disponible
 ORH7940-automne2025-A,060,Mercredi,03 sept. 2025,18h00,21h00,,Cours magistral,Non disponible
 ORH7940-automne2025-A,060,Samedi,13 déc.  2025,09h00,12h00,,Cours magistral,Non disponible
 ORH7940-automne2025-A,060,Samedi,18 oct.  202515 nov.  2025,09h00,16h00,,Cours magistral,Non disponible
@@ -4919,13 +5009,16 @@ OST7332-automne2025-A,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h00
 OST7333-automne2025-A,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,13h00,16h00,Campus de Montréal,Cours magistral,François Lalonde
 OST7334-ete2025-A,050,Vendredi,Du 28 avril 2025au 18 juin 2025,09h00,12h00,Campus de Montréal,Cours magistral,François Lalonde
 OST7334-ete2025-A,050,Vendredi,Du 28 avril 2025au 18 juin 2025,13h30,16h30,Campus de Montréal,Cours magistral,François Lalonde
+PHI1000-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 PHI1007-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Serge Robert
 PHI1009-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 PHI1012-automne2025-A,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 PHI1014-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Dario Perinetti
 PHI1102-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+PHI2006-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Pierre Poirier
 PHI2007-automne2025-A,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 PHI2030-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+PHI3526-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 PHI4049-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 PHI4211-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 PHI4260-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
@@ -4935,6 +5028,8 @@ PHI6101-automne2025-A,080,-,-,,,-,-,Non disponible
 PHI6101-ete2025-A,080,-,-,,,-,-,Non disponible
 PHI7060-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,Campus de Montréal,Cours magistral,Serge Robert
 PHI8121-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,Marc Djaballah
+PHI8216-automne2025-A,001,-,-,,,-,-,Non disponible
+PHI8216-ete2025-A,001,-,-,,,-,-,Non disponible
 PHI8226-automne2025-A,001,-,-,,,-,-,Non disponible
 PHI8226-ete2025-A,001,-,-,,,-,-,Non disponible
 PHI8270-automne2025-A,030,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,Campus de Montréal,Cours magistral,Amandine M R Catala
@@ -5193,6 +5288,7 @@ PSY4909-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12
 PSY4920-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Ghayda Hassan
 PSY4950-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Marc Bigras
 PSY5015-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
+PSY5222-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,François Poulin
 PSY5335-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 PSY5541-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Marie Julie Potvin
 PSY5802-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Atelier,Nadia Abouzeid
@@ -5362,8 +5458,6 @@ RRC7005-automne2025-B,020,Mardi,Du 25 novembre 2025au 10 décembre 2025,16h00,19
 RRC7005-automne2025-B,020,Mercredi,Du 25 novembre 2025au 10 décembre 2025,15h00,17h00,,Cours magistral,Simon Bourdeau
 RRC7110-automne2025-A,001,-,-,,,-,-,Non disponible
 RRC7110-ete2025-A,001,-,-,,,-,-,Non disponible
-RRC7111-automne2025-A,002,-,-,,,-,-,Non disponible
-RRC7111-ete2025-A,002,-,-,,,-,-,Non disponible
 SAC1200-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Martin Lussier
 SAC1200-automne2025-B,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Martin Lussier
 SAC1500-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
@@ -5865,6 +5959,7 @@ SCT8890-ete2025-A,080,-,-,,,-,-,Non disponible
 SCT8891-automne2025-A,080,-,-,,,-,-,Non disponible
 SCT8891-ete2025-A,080,-,-,,,-,-,Non disponible
 SEM9110-automne2025-A,010,-,-,,,-,-,Benoît Cordelier
+SEM9500-automne2025-A,010,-,-,,,-,-,Katharina Niemeyer
 SEM9600-automne2025-A,010,-,-,,,-,-,Antonio Dominguez Leiva
 SEM9750-automne2025-A,001,-,-,,,-,-,Non disponible
 SEM9750-ete2025-A,001,-,-,,,-,-,Non disponible
@@ -5884,24 +5979,31 @@ SEX1160-automne2025-C,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h30
 SEX1183-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Dominic Beaulieu-Prévost
 SEX1183-automne2025-B,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 SEX1183-automne2025-C,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Dominic Beaulieu-Prévost
-SEX1260-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Marina Gérard
-SEX1260-automne2025-B,031,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Marina Gérard
-SEX1260-automne2025-C,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
-SEX1810-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 SEX1920-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 SEX2150-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Julie Descheneaux
 SEX2150-automne2025-B,021,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 SEX2150-automne2025-C,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 SEX2150-automne2025-D,041,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 SEX2150-automne2025-E,042,Jeudi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
+SEX2155-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+SEX2155-automne2025-B,021,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
+SEX2155-automne2025-C,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+SEX2155-automne2025-D,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Mathieu Goyette
+SEX2155-automne2025-E,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 SEX2190-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 SEX2190-automne2025-B,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 SEX2190-automne2025-C,031,Mercredi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
+SEX2209-automne2025-A,020,Jeudi,28 août  202509 oct.  202504 sept. 202525 sept. 202511 sept. 202502 oct.  202518 sept. 2025,13h30,17h00,,Cours magistral,Non disponible
+SEX2209-automne2025-A,020,Mardi,09 sept. 202523 sept. 202507 oct.  202502 sept. 202516 sept. 2025,13h30,17h00,,Cours magistral,Non disponible
+SEX2209-automne2025-A,020,Mardi,26 août  2025,14h00,17h00,,Cours magistral,Non disponible
 SEX2244-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 SEX2246-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 SEX2250-ete2025-A,010,Lundi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,,Cours magistral,Carole Thabet
 SEX2250-ete2025-A,010,Mercredi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,,Cours magistral,Carole Thabet
+SEX2255-ete2025-A,020,Jeudi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Geneviève Parent
+SEX2255-ete2025-A,020,Mardi,Du 28 avril 2025au 18 juin 2025,09h30,12h30,Campus de Montréal,Cours magistral,Geneviève Parent
 SEX2283-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Nesrine Bessaih
+SEX3119-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Natacha Godbout
 SEX3126-automne2025-A,020,Mardi,Du 2 septembre 2025au 5 octobre 2025,09h30,12h30,,Cours magistral,Denise Medico
 SEX3126-automne2025-B,040,Jeudi,Du 2 septembre 2025au 5 octobre 2025,09h30,12h30,,Cours magistral,Denise Medico
 SEX3126-automne2025-C,050,Vendredi,Du 2 septembre 2025au 5 octobre 2025,09h30,12h30,,Cours magistral,Denise Medico
@@ -5931,10 +6033,9 @@ SEX8201-automne2025-B,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h30
 SEX8206-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 SEX8211-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 SEX8211-automne2025-B,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
-SEX8216-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
-SEX8216-automne2025-B,050,Vendredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
 SEX8221-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Sophie Boucher
 SEX8221-automne2025-B,021,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Sophie Boucher
+SEX8226-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Sophie Boucher
 SEX8231-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Stella Gurreri
 SEX8231-automne2025-B,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Stella Gurreri
 SEX8236-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
@@ -5953,10 +6054,8 @@ SEX9000-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12
 SEX9100-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Dominic Beaulieu-Prévost
 SEX9600-automne2025-A,001,-,-,,,-,-,Non disponible
 SEX9600-ete2025-A,001,-,-,,,-,-,Non disponible
-SEX9601-automne2025-A,080,-,-,,,-,-,Non disponible
-SEX9601-ete2025-A,080,-,-,,,-,-,Non disponible
+SHM1001-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 SHM4000-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
-SHM5011-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,18h00,21h00,,Cours magistral,Non disponible
 SOC1007-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,10h30,12h30,,Cours magistral,Louis Jacob
 SOC1007-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,12h30,13h30,,Atelier,Louis Jacob
 SOC1008-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,10h30,12h30,,Cours magistral,Jean-François Filion
@@ -5977,6 +6076,7 @@ SOC2007-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,15h00,17
 SOC2007-automne2025-A,010,Lundi,Du 2 septembre 2025au 15 décembre 2025,17h00,18h00,,Atelier,Non disponible
 SOC2014-automne2025-A,020,Mardi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Janik Bastien-Charlebois
 SOC2018-automne2025-A,040,Jeudi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
+SOC2071-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 SOC2128-automne2025-A,040,Lundi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Leila Iliana Celis
 SOC2202-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,14h00,17h00,,Cours magistral,Non disponible
 SOC2264-automne2025-A,030,Mercredi,Du 2 septembre 2025au 15 décembre 2025,09h30,12h30,,Cours magistral,Non disponible
