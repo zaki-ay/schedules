@@ -57,6 +57,9 @@
                     <label for="sigles" class="form-label">Sigles (séparés par virgule):</label>
                     <input type="text" id="sigles" name="sigles" class="form-control" placeholder="ex.: INF1120,INF1132" style="text-transform:uppercase">
                 </div>
+                <div class="mb-3">
+                    <label class="form-label"><strong>Dernière mise à jour:</strong> 2025-06-21</label>
+                </div>
                 <div class="mb-3 d-none">
                     <label for="min_length" class="form-label">Nombre de cours minimum sur l'horaire:</label>
                     <input type="number" id="min_length" name="min_length" class="form-control" min=0>
@@ -64,13 +67,13 @@
                 <fieldset class="mb-3">
                     <legend>Session:</legend>
                     <div class="form-check">
-                        <input type="radio" id="automne2024" name="season" value="automne2024" class="form-check-input">
-                        <label for="automne2024" class="form-check-label">Automne 2024</label>
+                        <input type="radio" id="automne2025" name="season" value="automne2025" class="form-check-input" checked>
+                        <label for="automne2025" class="form-check-label">Automne 2025</label>
                     </div>
-                    <div class="form-check">
+                    <!-- <div class="form-check">
                         <input type="radio" id="hiver2025" name="season" value="hiver2025" class="form-check-input" checked>
                         <label for="hiver2025" class="form-check-label">Hiver 2025</label>
-                    </div>
+                    </div> -->
                     <div class="form-check">
                         <input type="radio" id="ete2025" name="season" value="ete2025" class="form-check-input">
                         <label for="ete2025" class="form-check-label">Été 2025</label>
@@ -87,6 +90,18 @@
         <div class="spinner"></div>
     </div>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <footer class="footer mt-5 py-4 bg-white border-top shadow-sm">
+        <div class="container d-flex flex-column align-items-center">
+            <span class="mb-2">
+                <a href="https://www.linkedin.com/in/zaki-yahia/" target="_blank" rel="noopener noreferrer" class="fw-bold text-decoration-none text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0a66c2" class="bi bi-linkedin me-1 mb-1" viewBox="0 0 16 16"></svg>
+                        <path d="M0 1.146C0 .513.324 0 .725 0h14.55c.401 0 .725.513.725 1.146v13.708c0 .633-.324 1.146-.725 1.146H.725A.723.723 0 0 1 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.521-1.248-1.342-1.248-.822 0-1.358.54-1.358 1.248 0 .694.521 1.248 1.327 1.248h.015zm4.908 8.212h2.4v-4.025c0-.215.016-.43.08-.584.176-.43.577-.877 1.25-.877.882 0 1.235.662 1.235 1.634v3.852h2.4V9.359c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.4 5.4 0 0 1 .016-.025V6.169h-2.4c.03.7 0 7.225 0 7.225z"/>
+                    </svg>
+                    Zaki Yahia &copy; 2025
+                </a>
+            </span>
+        </div>
+    </footer>
 </body>
 
 </html>

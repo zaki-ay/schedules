@@ -8,6 +8,8 @@ body {
     width: 125%;
     height: 125%;
     transform-origin: top left;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-bar {
@@ -23,6 +25,7 @@ body {
     justify-content: space-around;
     padding: 20px;
     margin-top: 10px;
+    flex: 1;
 }
 
 .calendar {
@@ -156,4 +159,12 @@ th:last-child {
         order: 1;
         margin-left: 0;
     }
+}
+
+html, body {
+    height: 100%;
+}
+
+.footer {
+    margin-top: auto !important;
 }
