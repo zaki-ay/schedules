@@ -1,117 +1,151 @@
-#!/usr/bin/env python
-# scrape_programmes_async.py
-#
-# Reads programme-page URLs from liste_programmes.txt, extracts every
-# data-sigle attribute, and appends them to raw_liste_cours.txt.
-# Data are flushed to disk every BATCH_SIZE URLs so a crash only loses ≤ N URLs.
-# The script is resumable: already-scraped URLs are skipped.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+scrapers/scrape_programmes_uqam.py   – parallel edition
+-------------------------------------------------------
 
-import asyncio, aiohttp, os, re, sys
+1. Collects every “programme” URL listed on
+       https://etudier.uqam.ca/programmes
+2. Downloads those pages in parallel (thread pool).
+3. Extracts every course sigle ABC1234 it can find.
+4. Writes exactly ONE line per sigle to
+       static/data/raw_liste_cours.txt
+
+       https://etudier.uqam.ca/programme/1234  =>  ABC1234
+
+The format is the one expected by the rest of your pipeline – no more
+Python lists on the right-hand side.
+"""
+from __future__ import annotations
+
+import concurrent.futures as cf
+import os
+import re
+import sys
+import time
 from pathlib import Path
-from typing import Dict, List
-from bs4 import BeautifulSoup
+from typing import Iterable, Set, Tuple
+from urllib.parse import urljoin
 
-# ─────────────────────────────────────────  configuration ────────────────── #
-URLS_FILE        = Path("static/data/liste_programmes.txt")
-OUTPUT_FILE      = Path("static/data/raw_liste_cours.txt")
-BATCH_SIZE       = 256                # flush/commit every N URLs
-CONCURRENCY      = 256                # simultaneous HTTP requests
-TIMEOUT_SECONDS  = 20
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; async-programme-scraper/1.0)"}
+import requests
+from bs4 import BeautifulSoup                # pip install beautifulsoup4
+try:
+    from tqdm import tqdm                    # pip install tqdm (optional)
+except ImportError:                          # tiny stub if tqdm is absent
+    def tqdm(it, **kw):                      # noqa: D401
+        return it
 
-# ────────────────────────────────────  helpers / resume logic ────────────── #
-def parsed_output() -> Dict[str, List[str]]:
+# --------------------------------------------------------------------------- #
+#  Configuration                                                              #
+# --------------------------------------------------------------------------- #
+BASE_DIR       = Path("static", "data")
+RAW_COURS_FILE = BASE_DIR / "raw_liste_cours.txt"
+
+ROOT_URL   = "https://etudier.uqam.ca"
+INDEX_URL  = urljoin(ROOT_URL, "/programmes")
+
+HEADERS    = {"User-Agent": "Mozilla/5.0 (compatible; uqam-scraper/2.0)"}
+TIMEOUT    = 30                    # seconds
+COURSE_RE  = re.compile(r"[A-Z]{3}[0-9]{4}")
+
+# parallelism --------------------------------------------------------------- #
+MAX_WORKERS = int(os.getenv("UQAM_SCRAPER_WORKERS", "8"))   # tweak as desired
+SLEEP_BETWEEN = 0.1     # seconds – stay polite, even when in parallel
+# --------------------------------------------------------------------------- #
+
+# requests session shared by all threads
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+
+
+# --------------------------------------------------------------------------- #
+#  Helper functions                                                           #
+# --------------------------------------------------------------------------- #
+def get_html(url: str) -> str:
+    """Download *url* and return its HTML text, raising for HTTP errors."""
+    rsp = SESSION.get(url, timeout=TIMEOUT)
+    rsp.raise_for_status()
+    return rsp.text
+
+
+def find_programme_urls() -> Set[str]:
     """
-    Return dict {url: [sigle, …]} by reading the existing OUTPUT_FILE,
-    or an empty dict if the file doesn't exist.
+    Scrape the main “all programmes” page and return the set
+    of absolute URLs to individual programme pages.
     """
-    if not OUTPUT_FILE.exists():
-        return {}
-    data: Dict[str, List[str]] = {}
-    with OUTPUT_FILE.open(encoding="utf-8") as f:
-        for line in f:
-            try:
-                url, sigles_txt = line.rstrip("\n").split(":", 1)
-                data[url.strip()] = eval(sigles_txt.strip())  # stored as Python list
-            except ValueError:
-                continue   # skip malformed lines
-    return data
+    html = get_html(INDEX_URL)
+    soup = BeautifulSoup(html, "html.parser")
+    urls: set[str] = set()
 
-def flush(fh):
-    fh.flush()
-    os.fsync(fh.fileno())
+    for a in soup.select("a[href*='/programme']"):
+        href = a.get("href")
+        if not href:
+            continue
+        urls.add(urljoin(ROOT_URL, href))
 
-# ──────────────────────────────────────────  network ─────────────────────── #
-async def fetch(session: aiohttp.ClientSession, url: str) -> tuple[str, str]:
+    print(f"Found {len(urls)} programme URLs on {INDEX_URL}")
+    return urls
+
+
+def extract_sigles(html: str) -> Set[str]:
+    """Return every course code ABC1234 that appears in *html*."""
+    return set(COURSE_RE.findall(html))
+
+
+def scrape_single_programme(url: str) -> Tuple[str, Set[str]] | None:
+    """
+    Download *url*, extract sigles and return (url, sigle_set).
+    Returns None on any exception (already logged).
+    """
     try:
-        async with session.get(url, timeout=TIMEOUT_SECONDS) as resp:
-            resp.raise_for_status()
-            return url, await resp.text()
-    except Exception as e:
-        print(f"[WARN] {url}: {e}", file=sys.stderr)
-        return url, ""                     # empty html → no sigles
+        html = get_html(url)
+    except Exception as exc:
+        print(f"[WARN] {url} … {exc}", file=sys.stderr)
+        return None
 
-# ─────────────────────────────────────────  parser ───────────────────────── #
-SIGLE_RE = re.compile(r"^[A-Z]{3}[0-9]{4}$")
+    sigles = extract_sigles(html)
+    if not sigles:
+        print(f"[INFO] No course code found on {url}", file=sys.stderr)
+    return (url, sigles)
 
-def extract_sigles(html: str) -> List[str]:
-    if not html:
-        return []
-    soup = BeautifulSoup(html, "lxml")
-    sigles = [tag["data-sigle"] for tag in soup.find_all(attrs={"data-sigle": True})
-              if SIGLE_RE.fullmatch(tag["data-sigle"])]
-    return sorted(set(sigles))            # unique & deterministic order
 
-# ─────────────────────────────────────────  main ─────────────────────────── #
-async def main() -> None:
-    already_done = parsed_output()        # {url: [sigle, …]}
-    done_urls = set(already_done)
-    print(f"[INFO] Resuming – {len(done_urls)} URL(s) already scraped")
+# --------------------------------------------------------------------------- #
+#  Main logic                                                                 #
+# --------------------------------------------------------------------------- #
+def main() -> None:
+    BASE_DIR.mkdir(parents=True, exist_ok=True)
+    if RAW_COURS_FILE.exists():
+        RAW_COURS_FILE.unlink()           # fresh start
 
-    urls = [u.strip() for u in URLS_FILE.read_text().splitlines() if u.strip()]
-    pending_urls = [u for u in urls if u not in done_urls]
-    if not pending_urls:
-        print("Everything already scraped.")
-        return
+    programme_urls = find_programme_urls()
 
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    # open in append-binary+utf8 so we can fsync on Windows too
-    fh = open(OUTPUT_FILE, "a", encoding="utf-8")
+    written = 0
+    with RAW_COURS_FILE.open("w", encoding="utf-8") as fh:
+        with cf.ThreadPoolExecutor(max_workers=MAX_WORKERS) as exe:
+            futures = [exe.submit(scrape_single_programme, url)
+                       for url in programme_urls]
 
-    connector = aiohttp.TCPConnector(limit=CONCURRENCY, ssl=False)
-    sem = asyncio.Semaphore(CONCURRENCY)
+            for fut in tqdm(cf.as_completed(futures),
+                            total=len(futures),
+                            desc="Scraping programmes",
+                            ncols=80):
+                res = fut.result()
+                if not res:
+                    continue
+                url, sigles = res
+                for sigle in sorted(sigles):
+                    fh.write(f"{url}  =>  {sigle}\n")
+                    written += 1
+                # even though we are parallel, throttle a tiny bit
+                time.sleep(SLEEP_BETWEEN)
 
-    async with aiohttp.ClientSession(connector=connector, headers=HEADERS) as session:
+    print(f"\nWrote {written} lines to {RAW_COURS_FILE}")
 
-        async def worker(u: str):
-            async with sem:
-                url, html = await fetch(session, u)
-                return url, extract_sigles(html)
 
-        tasks = [worker(u) for u in pending_urls]
-        buffer: Dict[str, List[str]] = {}
-        processed = 0
-
-        for fut in asyncio.as_completed(tasks):
-            url, sigles = await fut
-            buffer[url] = sigles
-            processed += 1
-            print(f"\rProcessed URLs: {processed}/{len(pending_urls)}", end="")
-
-            if len(buffer) >= BATCH_SIZE:
-                for k, v in buffer.items():
-                    fh.write(f"{k}: {v}\n")
-                flush(fh)
-                buffer.clear()
-
-        # leftovers
-        for k, v in buffer.items():
-            fh.write(f"{k}: {v}\n")
-        flush(fh)
-        fh.close()
-
-    print(f"\nDone. Data written to {OUTPUT_FILE.resolve()}")
-
-# ─────────────────────────────────────────────────────────────────────────── #
+# --------------------------------------------------------------------------- #
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nInterrupted by user", file=sys.stderr)
+        sys.exit(130)

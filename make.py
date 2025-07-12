@@ -201,23 +201,28 @@ def update_last_update_date():
     with open(index_file, "r", encoding="utf-8") as f:
         content = f.read()
 
-    new_content, count = re.subn(pattern, r'\1' + date_str + r'\3', content, flags=re.IGNORECASE)
+    # Use a replacement function to preserve tags and only replace inner content
+    def repl(m):
+        return m.group(1) + date_str + m.group(3)
+
+    new_content, count = re.subn(pattern, repl, content, flags=re.IGNORECASE)
     if count == 0:
-        print("No <span id=\"last_update_date\"> found in index.html.")
+        print('No <span id="last_update_date"> found in index.html.')
         return
 
     with open(index_file, "w", encoding="utf-8") as f:
         f.write(new_content)
     print(f"Updated last_update_date to {date_str} in {index_file}")
+
 # --------------------------------------------------------------------------- #
 #  main
 # --------------------------------------------------------------------------- #
 def main():
-    scrape_programmes()
-    scrape_cours()
+    #scrape_programmes()
+    #scrape_cours()
     update_last_update_date()
     run_app()
-    # clean()     
+    clean()     
 
 if __name__ == "__main__":
     main()
