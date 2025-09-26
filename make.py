@@ -218,10 +218,10 @@ def update_last_update_date():
 #  main
 # --------------------------------------------------------------------------- #
 def main():
-    #scrape_programmes()
-    #scrape_cours()
+    scrape_programmes()
+    scrape_cours()
     update_last_update_date()
-    run_app()
+    # run_app()
     clean()     
 
 if __name__ == "__main__":
