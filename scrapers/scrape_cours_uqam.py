@@ -51,7 +51,8 @@ TIMEOUT_SECONDS   = 15
 CONCURRENCY       = int(os.getenv("UQAM_ASYNC_WORKERS", DEFAULT_WORKERS))
 
 SEMESTERS = [("groupes_wrapper20253", "automne2025"),
-             ("groupes_wrapper20252", "ete2025")]
+             ("groupes_wrapper20252", "ete2025"),
+             ("groupes_wrapper20261", "hiver2026")]
 
 HEADERS  = {"User-Agent": "Mozilla/5.0 (compatible; uqam-async-scraper/2.0)"}
 
